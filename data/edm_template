@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:oai="http://www.openarchives.org/OAI/2.0/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <edm:ProvidedCHO rdf:about="${about}">
+    <dc:date>
+    ${date}
+    </dc:date>
+    <dc:description>
+      ${description}
+    </dc:description>
+    <dc:identifier>
+      ${identifier}
+    </dc:identifier>
+    <dcterms:spatial rdf:resource="${geonames_spatial"/>
+    <dc:title>{$title}</dc:title>
+    <dc:type rdf:resource="${resource1}"/>
+    <dc:type rdf:resource="${image_uri}"/> <edm:type>IMAGE</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="${webresource_about}">
+  <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/> </edm:WebResource>
+  <edm:WebResource rdf:about="${webresource_about_2"> <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <!-- image uris -->
+  <edm:WebResource rdf:about="${webresource_about_3}"">
+  <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/> </edm:WebResource>
+  <edm:Place rdf:about="${geonames_about_uri}">
+    <skos:prefLabel xml:lang="en">
+      ${location_placename_1}
+    </skos:prefLabel>
+  </edm:Place>
+  
+<skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/4378">
+
+<skos:prefLabel xml:lang="en">Buccin</skos:prefLabel> </skos:Concept>
+<skos:Concept rdf:about="http://www.mimo-db.eu/HornbostelAndSachs/356">
+<skos:prefLabel xml:lang="en">423.22 Labrosones with slides</skos:prefLabel> </skos:Concept>
+<ore:Aggregation rdf:about="http://www.mimo-db.eu/UEDIN/214">
+  <edm:aggregatedCHO rdf:resource="#UEDIN:214"/>
+  <edm:dataProvider>University of Edinburgh</edm:dataProvider>
+  <edm:hasView rdf:resource="http://www.mimo-db.eu/media/UEDIN/VIDEO/0032195v.mpg"/> <edm:hasView rdf:resource="http://www.mimo-db.eu/media/UEDIN/AUDIO/0032195s.mp3"/> <edm:isShownAt rdf:resource=" http://www.mimo-
+  db.eu/MIMO/infodoc/ged/view.aspx?eid=OAI_IMAGE_PROJECTS_LIB_ED_AC_UK_10683_17533"/> <edm:isShownBy rdf:resource="http://www.mimo-db.eu/media/UEDIN/IMAGE/0032195c.jpg"/> <edm:object rdf:resource="http://www.mimo-db.eu/media/UEDIN/IMAGE/0032195c.jpg"/>
+  <edm:provider>MIMO - Musical Instrument Museums Online</edm:provider> <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+</ore:Aggregation> </rdf:RDF>
