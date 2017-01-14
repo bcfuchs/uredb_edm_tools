@@ -1,3 +1,12 @@
+@Grab('mysql:mysql-connector-java:5.1.6')
+@GrabConfig(systemClassLoader=true)
+import groovy.sql.Sql
+
+def configFile = "config.groovy";
+def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+def sql = Sql.newInstance(cf.db.url, cf.db.user, cf.db.password, cf.db.driver)
+
+
 def edm = new Edm();
 def out = [];
 
