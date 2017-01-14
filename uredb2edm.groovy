@@ -10,22 +10,18 @@ def ure() {
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
     def edm = new Edm();
-
-    // get the media for each entry
-    // [accnum:[media1,media1]
-    def media = {
-
-
-    }
+    def ure_uri = "http://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=";
     // get the edm
     uredb.uremeta.each {rec ->
        
 
 	def accession_number = rec.accession_number;
-	
+	def uri = ure_uri + accession_number;
+	//	println uredb.accnum2media[rec.id];
+
 	//not always a date   
 	def cho = edm.get_cho([date:rec.date,
-			       about:'about',
+			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
 			       geonames_spatial:'geo1',
@@ -120,7 +116,7 @@ class Edm {
 	// multiple rdf resources...
 	// need separate method to get these. 
 	def text = '''
-  <edm:ProvidedCHO  
+  <edm:ProvidedCHO  rdf:about="$about">
     <dc:date>
     ${date}
     </dc:date>
@@ -160,7 +156,7 @@ class Uredb {
     Map cf; 
     List  uremeta;
     Map accnum2media = [:];
-    List media;
+    List uremeta_media;
     Sql  sql;
 
     
@@ -168,7 +164,7 @@ class Uredb {
 	  this.cf = cf;
 
 	  _load();
-	   _make_media_dict();
+	  _make_media_dict();
 	      
       }
     def _make_media_dict() {
@@ -176,13 +172,16 @@ class Uredb {
 	 uremeta_media_id: 22
         media_id: 20609
 	     */
-	media.each {
-	    if ( ! accnum2media[it.uremeta_media_id] ) {
-		accnum2media[it.uremeta_media_id] = []
-		}
-	     accnum2media[it.uremeta_media_id] << it.media_id
-
-	    
+	
+	uremeta_media.each {
+	    if ( ! accnum2media[it.uremeta_media_id] ) 
+		accnum2media[it.uremeta_media_id] = [];
+		
+	    def uri = sql.firstRow('select uri from media where id="' + it.media_id+'"')[0];
+	    def uri_local = sql.firstRow('select uri_local from media where id="' + it.media_id+'"')[0];
+	    def url = uri_local + "/" + uri;		    
+	    accnum2media[it.uremeta_media_id] << url;
+		
 	}
 
     }
@@ -190,7 +189,7 @@ class Uredb {
 
 	  sql = Sql.newInstance(cf.db.url,cf.db.user, cf.db.password, cf.db.driver);		
 	  this.uremeta = sql.rows('select * from uremeta');
-	  this.media = sql.rows('select * from uremeta_media');  
+	  this.uremeta_media = sql.rows('select * from uremeta_media');  
 	      
 
       }
