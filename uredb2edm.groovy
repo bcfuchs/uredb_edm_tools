@@ -4,13 +4,29 @@ import groovy.sql.Sql
 
 def configFile = "config.groovy";
 def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
-def sql = Sql.newInstance(cf.db.url, cf.db.user, cf.db.password, cf.db.driver)
-
-
+def uredb = new Uredb(cf);
 def edm = new Edm();
+uredb.uremeta.each {rec ->
+
+    def description = rec.description;
+    def accession_number = rec.accession_number;
+
+    //not always a date   
+    def cho = edm.get_cho([date:rec.date,
+			   about:'about',
+			   description:rec.description,
+			   identifier:rec.accession_number,
+			   geonames_spatial:'geo1',
+			   title:rec.short_title,
+			   resource1:'resource1',
+			   image_uri:'image_url']);
+    println cho;
+}
+
+
 def out = [];
 
-def cho = edm.get_cho([date:'date',about:'about',description:'descrition',identifier:"id",geonames_spatial:'geo1',
+def cho = edm.get_cho([date:'date',about:'about',description:'description',identifier:"id",geonames_spatial:'geo1',
 		       title:'title',resource1:'resource1',image_uri:'image_url']);
 out << cho;
 def web_resources = ['http://www.mimo-db.eu/media/UEDIN/VIDEO/0032195v.mpg',
@@ -23,7 +39,7 @@ web_resources.each {
 }
 
 def concepts = [ [about:'http://www.mimo-db.eu/InstrumentsKeywords/4378',
-		  label: 'Buccin'],
+		  label: 'Buccion'],
 		 [about:'http://www.mimo-db.eu/HornbostelAndSachs/356',
 		  label: '423.22 Labrosones with slides']
 		 ];
@@ -82,7 +98,7 @@ class Edm {
     }
     
     def get_cho(binding){
-
+	// multiple rdf resources...
 	def text = '''
   <edm:ProvidedCHO  
     <dc:date>
@@ -95,9 +111,10 @@ class Edm {
       ${identifier}
     </dc:identifier>
     <dcterms:spatial rdf:resource="${geonames_spatial}"/>
-    <dc:title>{$title}</dc:title>
+    <dc:title>$title</dc:title>
     <dc:type rdf:resource="${resource1}"/>
-    <dc:type rdf:resource="${image_uri}"/> <edm:type>IMAGE</edm:type>
+    <dc:type rdf:resource="${resource2}"/> 
+<edm:type>IMAGE</edm:type>
   </edm:ProvidedCHO>
 '''
 
@@ -117,4 +134,26 @@ return '''
 
 
     }
+}
+
+class Uredb {
+    Map cf; 
+    List  uremeta;
+    Sql  sql;
+
+    
+    Uredb(cf) {
+	  this.cf = cf;
+
+	  _load()
+      }
+	
+      def _load() {
+
+	  sql = Sql.newInstance(cf.db.url,cf.db.user, cf.db.password, cf.db.driver);		
+	  this.uremeta = sql.rows('select * from uremeta');  
+	      
+
+      }
+
 }
