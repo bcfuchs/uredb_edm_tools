@@ -10,10 +10,17 @@ def ure() {
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
     def edm = new Edm();
-    
+
+    // get the media for each entry
+    // [accnum:[media1,media1]
+    def media = {
+
+
+    }
+    // get the edm
     uredb.uremeta.each {rec ->
        
-	    def description = rec.description;
+
 	def accession_number = rec.accession_number;
 	
 	//not always a date   
@@ -152,19 +159,38 @@ return '''
 class Uredb {
     Map cf; 
     List  uremeta;
+    Map accnum2media = [:];
+    List media;
     Sql  sql;
 
     
     Uredb(cf) {
 	  this.cf = cf;
 
-	  _load()
+	  _load();
+	   _make_media_dict();
+	      
       }
-	
-      def _load() {
+    def _make_media_dict() {
+	    /**
+	 uremeta_media_id: 22
+        media_id: 20609
+	     */
+	media.each {
+	    if ( ! accnum2media[it.uremeta_media_id] ) {
+		accnum2media[it.uremeta_media_id] = []
+		}
+	     accnum2media[it.uremeta_media_id] << it.media_id
+
+	    
+	}
+
+    }
+    def _load() {
 
 	  sql = Sql.newInstance(cf.db.url,cf.db.user, cf.db.password, cf.db.driver);		
-	  this.uremeta = sql.rows('select * from uremeta');  
+	  this.uremeta = sql.rows('select * from uremeta');
+	  this.media = sql.rows('select * from uremeta_media');  
 	      
 
       }
