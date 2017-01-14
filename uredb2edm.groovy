@@ -1,68 +1,80 @@
 @Grab('mysql:mysql-connector-java:5.1.6')
 @GrabConfig(systemClassLoader=true)
-import groovy.sql.Sql
+import groovy.sql.Sql;
 
-def configFile = "config.groovy";
-def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
-def uredb = new Uredb(cf);
-def edm = new Edm();
-uredb.uremeta.each {rec ->
+ure();
+//test();
 
-    def description = rec.description;
-    def accession_number = rec.accession_number;
-
-    //not always a date   
-    def cho = edm.get_cho([date:rec.date,
-			   about:'about',
-			   description:rec.description,
-			   identifier:rec.accession_number,
-			   geonames_spatial:'geo1',
-			   title:rec.short_title,
-			   resource1:'resource1',
-			   image_uri:'image_url']);
-    println cho;
-}
-
-
-def out = [];
-
-def cho = edm.get_cho([date:'date',about:'about',description:'description',identifier:"id",geonames_spatial:'geo1',
-		       title:'title',resource1:'resource1',image_uri:'image_url']);
-out << cho;
-def web_resources = ['http://www.mimo-db.eu/media/UEDIN/VIDEO/0032195v.mpg',
-		     'http://www.mimo-db.eu/media/UEDIN/AUDIO/0032195s.mp3',
-		     'http://www.mimo-db.eu/media/UEDIN/IMAGE/0032195c.jpg'];
-		     
-web_resources.each {
-    out <<  edm.rights([wr_about:it]);
-
-}
-
-def concepts = [ [about:'http://www.mimo-db.eu/InstrumentsKeywords/4378',
-		  label: 'Buccion'],
-		 [about:'http://www.mimo-db.eu/HornbostelAndSachs/356',
-		  label: '423.22 Labrosones with slides']
-		 ];
-// need to get this from csv file in uredb_rdf_tools
-
-out << edm.place([uri:'http://www.geonames.org/390903',location:'Greece']);
-
-concepts.each {
-
-   out <<  edm.skos_concept([uri:it.about,label:it.label]);
-}
+def ure() {
+    def configFile = "config.groovy";
+    def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+    def uredb = new Uredb(cf);
+    def edm = new Edm();
     
-out = edm.prefix()+out.join("")+'</rdf:RDF>'
-println out
+    uredb.uremeta.each {rec ->
+       
+	    def description = rec.description;
+	def accession_number = rec.accession_number;
+	
+	//not always a date   
+	def cho = edm.get_cho([date:rec.date,
+			       about:'about',
+			       description:rec.description,
+			       identifier:rec.accession_number,
+			       geonames_spatial:'geo1',
+			       title:rec.short_title,
+			       resource1:'resource1',
+			       resource2:'resource2']);
+	println cho;
+    }
+    
+}
+       
+       
+       // construct the example
+def test() {
+    def edm = new Edm();
+    def out = [];
+    def cho = edm.get_cho([date:'date',about:'about',description:'description',identifier:"id",geonames_spatial:'geo1',
+			   title:'title',resource1:'resource1',resource2:'resource2']);
+    out << cho;
+    def web_resources = ['http://www.mimo-db.eu/media/UEDIN/VIDEO/0032195v.mpg',
+			 'http://www.mimo-db.eu/media/UEDIN/AUDIO/0032195s.mp3',
+			 'http://www.mimo-db.eu/media/UEDIN/IMAGE/0032195c.jpg'];
+		     
+    web_resources.each {
+	out <<  edm.rights([wr_about:it]);
+	
+    }
+    
+    def concepts = [ [about:'http://www.mimo-db.eu/InstrumentsKeywords/4378',
+		      label: 'Buccion'],
+		     [about:'http://www.mimo-db.eu/HornbostelAndSachs/356',
+		      label: '423.22 Labrosones with slides']
+		     ];
+    // need to get this from csv file in uredb_rdf_tools
+    
+    out << edm.place([uri:'http://www.geonames.org/390903',location:'Greece']);
+    
+    concepts.each {
+	
+	out <<  edm.skos_concept([uri:it.about,label:it.label]);
+    }
+    
+    out = edm.prefix()+out.join("")+'</rdf:RDF>';
+    println out;
+}	
 
-    def t = 1;
 
 
+/** 
+ * static template methods for creating edm xml
+ */
 class Edm {
     //    def engine = new groovy.text.XmlTemplateEngine();
     def engine = new groovy.text.GStringTemplateEngine();
     def license = "http://creativecommons.org/licenses/by-nc-sa/3.0/";
-
+    
     def place(data) {
 	def text = '''
   <edm:Place rdf:about="${uri}">
@@ -90,7 +102,7 @@ class Edm {
    def rights(data) {
 	def text = '''
    <edm:WebResource rdf:about="${wr_about}">
-      <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+      <edm:rights rdf:resource="'''+license+'''"/>
   </edm:WebResource>
         '''
 	return _doTemplate(text,data);
@@ -99,6 +111,7 @@ class Edm {
     
     def get_cho(binding){
 	// multiple rdf resources...
+	// need separate method to get these. 
 	def text = '''
   <edm:ProvidedCHO  
     <dc:date>
