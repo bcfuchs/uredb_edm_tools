@@ -1,9 +1,12 @@
 @Grab('mysql:mysql-connector-java:5.1.6')
 @GrabConfig(systemClassLoader=true)
 import groovy.sql.Sql;
+import groovy.json.JsonSlurper;
 
 ure();
 //test();
+
+
 
 def ure() {
     def configFile = "config.groovy";
@@ -153,7 +156,8 @@ return '''
 }
 
 class Uredb {
-    Map cf; 
+    Map cf;
+    Map places;
     List  uremeta;
     Map accnum2media = [:];
     List uremeta_media;
@@ -162,7 +166,7 @@ class Uredb {
     
     Uredb(cf) {
 	  this.cf = cf;
-
+	  
 	  _load();
 	  _make_media_dict();
 	      
@@ -189,8 +193,12 @@ class Uredb {
 
 	  sql = Sql.newInstance(cf.db.url,cf.db.user, cf.db.password, cf.db.driver);		
 	  this.uremeta = sql.rows('select * from uremeta');
-	  this.uremeta_media = sql.rows('select * from uremeta_media');  
-	      
+	  this.uremeta_media = sql.rows('select * from uremeta_media');
+	  
+	  // load places
+	  def slurper = new groovy.json.JsonSlurper();
+	  print cf.places.file
+	  places = slurper.parse(new File(cf.places.file));    
 
       }
 
