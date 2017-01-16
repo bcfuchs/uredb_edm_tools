@@ -1,0 +1,9902 @@
+{
+  "REDMG:1964.1705.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1705.1"
+    }
+  ],
+  "60.1.4A-B": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "60.1.4A-B"
+    }
+  ],
+  "45.6.38": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "45.6.38"
+    }
+  ],
+  "87.2.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "87.2.1"
+    }
+  ],
+  "2005.8.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.8.10"
+    }
+  ],
+  "45.6.37": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.37"
+    }
+  ],
+  "2005.8.14": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "2005.8.14"
+    }
+  ],
+  "45.6.31": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.31"
+    }
+  ],
+  "45.6.32": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.32"
+    }
+  ],
+  "45.6.33": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.33"
+    }
+  ],
+  "TEMP.2003.7.62A-C": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.62A-C"
+    }
+  ],
+  "REDMG:1964.1707.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1707.1"
+    }
+  ],
+  "23.11.31C2": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31C2"
+    }
+  ],
+  "35.5.34": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.34"
+    }
+  ],
+  "74.7.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "74.7.5"
+    }
+  ],
+  "23.11.31HH": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31HH"
+    }
+  ],
+  "REDMG:1951.133.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1951.133.1"
+    }
+  ],
+  "22.3.24": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.24"
+    }
+  ],
+  "REDMG:1935.87.23": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.23"
+    }
+  ],
+  "REDMG:1935.87.22": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.22"
+    }
+  ],
+  "REDMG:1935.87.21": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Protocorinthian",
+      "record": "REDMG:1935.87.21"
+    }
+  ],
+  "REDMG:1935.87.20": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.20"
+    }
+  ],
+  "REDMG:1935.87.27": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.27"
+    }
+  ],
+  "REDMG:1935.87.26": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.26"
+    }
+  ],
+  "78.7.1": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "78.7.1"
+    }
+  ],
+  "REDMG:1935.87.24": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.24"
+    }
+  ],
+  "REDMG:1953.25.89": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1953.25.89"
+    }
+  ],
+  "26.4.3A-B": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "26.4.3A-B"
+    }
+  ],
+  "49.4.2": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "49.4.2"
+    }
+  ],
+  "REDMG:1935.87.28": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.28"
+    }
+  ],
+  "46.5.1A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "46.5.1A-B"
+    }
+  ],
+  "48.5.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "48.5.1"
+    }
+  ],
+  "48.5.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "48.5.2"
+    }
+  ],
+  "REDMG:1964.1624": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1624"
+    }
+  ],
+  "13.10.39": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.39"
+    }
+  ],
+  "13.10.38": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.38"
+    }
+  ],
+  "45.6.34": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.34"
+    }
+  ],
+  "REDMG:1964.1625": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1625"
+    }
+  ],
+  "13.10.33": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.33"
+    }
+  ],
+  "13.10.32": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.32"
+    }
+  ],
+  "13.10.31": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.31"
+    }
+  ],
+  "13.10.30": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.30"
+    }
+  ],
+  "13.10.37": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.37"
+    }
+  ],
+  "13.10.36": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.36"
+    }
+  ],
+  "13.10.35": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.35"
+    }
+  ],
+  "13.10.34": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.34"
+    }
+  ],
+  "REDMG:1964.1648": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1648"
+    }
+  ],
+  "TEMP.2003.7.68": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.68"
+    }
+  ],
+  "REDMG:1951.1715": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1951.1715"
+    }
+  ],
+  "43.11.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "43.11.2"
+    }
+  ],
+  "REDMG:1951.139.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.139.1"
+    }
+  ],
+  "78.12.5": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.5"
+    }
+  ],
+  "45.6.30": [
+    {
+      "surrogate": "Metapontum",
+      "guid": "442658",
+      "token": "Metapontine",
+      "record": "45.6.30"
+    }
+  ],
+  "REDMG:1953.25.28": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.28"
+    }
+  ],
+  "61.6.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "61.6.3"
+    }
+  ],
+  "TEMP.2007.2.58": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.58"
+    }
+  ],
+  "83.9.33": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.33"
+    }
+  ],
+  "47.2.34": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.34"
+    }
+  ],
+  "47.2.35": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.35"
+    }
+  ],
+  "47.2.32": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.32"
+    }
+  ],
+  "47.2.33": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.33"
+    }
+  ],
+  "47.2.30": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.30"
+    }
+  ],
+  "47.2.31": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.31"
+    }
+  ],
+  "26.7.14": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.14"
+    }
+  ],
+  "29.5.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "29.5.3"
+    }
+  ],
+  "45.10.29": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.29"
+    }
+  ],
+  "2007.1.2A": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2007.1.2A"
+    }
+  ],
+  "47.8.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "47.8.1"
+    }
+  ],
+  "TEMP.2003.6.25": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.6.25"
+    }
+  ],
+  "79.1.1": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "79.1.1"
+    }
+  ],
+  "REDMG:1953.25.23": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.23"
+    }
+  ],
+  "REDMG:1951.131.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.131.1"
+    }
+  ],
+  "79.1.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "79.1.2"
+    }
+  ],
+  "REDMG:1961.150.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1961.150.3"
+    }
+  ],
+  "REDMG:1961.150.2": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1961.150.2"
+    }
+  ],
+  "REDMG:1961.150.4": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1961.150.4"
+    }
+  ],
+  "26.7.15": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.15"
+    }
+  ],
+  "REDMG:1953.25.21": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.21"
+    }
+  ],
+  "REDMG:1964.1630": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1630"
+    }
+  ],
+  "26.2.64": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.64"
+    }
+  ],
+  "26.2.65": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.65"
+    }
+  ],
+  "26.2.66": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.66"
+    }
+  ],
+  "26.2.67": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.67"
+    }
+  ],
+  "26.2.60": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.60"
+    }
+  ],
+  "26.2.61": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.61"
+    }
+  ],
+  "26.2.62": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.62"
+    }
+  ],
+  "26.2.63": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.63"
+    }
+  ],
+  "26.2.68": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.68"
+    }
+  ],
+  "26.2.69": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.69"
+    }
+  ],
+  "79.1.7": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "79.1.7"
+    },
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "79.1.7"
+    }
+  ],
+  "14.10.103": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.10.103"
+    }
+  ],
+  "35.5.6-7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.6-7"
+    }
+  ],
+  "2005.3.11": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.11"
+    }
+  ],
+  "2005.3.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.10"
+    }
+  ],
+  "2005.3.12": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.12"
+    }
+  ],
+  "REDMG:1964.1621": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1621"
+    }
+  ],
+  "12.10.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "12.10.1"
+    }
+  ],
+  "35.5.12-14": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.12-14"
+    }
+  ],
+  "REDMG:1947.13.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1947.13.1"
+    }
+  ],
+  "TEMP.2007.2.41": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.41"
+    }
+  ],
+  "TEMP.2007.2.27": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.27"
+    }
+  ],
+  "2006.8.4.87": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.87"
+    }
+  ],
+  "2006.8.4.84": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.84"
+    }
+  ],
+  "2006.8.4.85": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.85"
+    }
+  ],
+  "30.11.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "30.11.1"
+    }
+  ],
+  "TEMP.2007.2.37": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.37"
+    }
+  ],
+  "30.11.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "30.11.3"
+    }
+  ],
+  "30.11.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "30.11.2"
+    }
+  ],
+  "70.3.3": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "70.3.3"
+    },
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "70.3.3"
+    }
+  ],
+  "REDMG:1942.5.6.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1942.5.6.2"
+    }
+  ],
+  "REDMG:1942.5.6.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1942.5.6.1"
+    }
+  ],
+  "25.8.6": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "25.8.6"
+    }
+  ],
+  "2006.8.4.89": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.89"
+    }
+  ],
+  "29.11.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.11.7"
+    }
+  ],
+  "29.11.6": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.11.6"
+    }
+  ],
+  "2005.2.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.2.4"
+    }
+  ],
+  "2005.2.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.2.5"
+    }
+  ],
+  "29.11.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.3"
+    }
+  ],
+  "2005.2.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.2.3"
+    }
+  ],
+  "29.11.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.1"
+    }
+  ],
+  "78.12.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.1"
+    }
+  ],
+  "26.4.1A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.4.1A-B"
+    }
+  ],
+  "78.12.8": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.8"
+    }
+  ],
+  "29.11.8": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.11.8"
+    }
+  ],
+  "26.7.10": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.10"
+    }
+  ],
+  "TEMP.2007.2.53": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.53"
+    }
+  ],
+  "55.1.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "55.1.1"
+    }
+  ],
+  "73.10.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "73.10.1"
+    }
+  ],
+  "22.3.39": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "22.3.39"
+    }
+  ],
+  "2005.8.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.8.8"
+    }
+  ],
+  "22.3.30": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.30"
+    }
+  ],
+  "2005.8.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.8.5"
+    }
+  ],
+  "22.3.32": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.32"
+    }
+  ],
+  "26.2.92": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.92"
+    }
+  ],
+  "22.3.34": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.34"
+    }
+  ],
+  "26.2.94": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.94"
+    }
+  ],
+  "26.2.97": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.97"
+    }
+  ],
+  "2005.8.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.8.3"
+    }
+  ],
+  "TEMP.2007.2.56": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.56"
+    }
+  ],
+  "83.9.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.3"
+    }
+  ],
+  "45.10.14.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.14.1"
+    }
+  ],
+  "45.10.14.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.14.2"
+    }
+  ],
+  "26.12.24A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.24A-B"
+    }
+  ],
+  "49.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "49.4.1"
+    }
+  ],
+  "TEMP.2003.7.70": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.70"
+    }
+  ],
+  "2005.3.39": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.39"
+    }
+  ],
+  "39.8.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.8.3"
+    }
+  ],
+  "39.8.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.8.2"
+    }
+  ],
+  "39.8.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.8.5"
+    }
+  ],
+  "2006.12.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.12.6"
+    }
+  ],
+  "2005.3.38": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.38"
+    }
+  ],
+  "47.10.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "47.10.2"
+    }
+  ],
+  "L.2005.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "L.2005.8.1"
+    }
+  ],
+  "34.2.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.2.1"
+    }
+  ],
+  "45.6.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.6"
+    }
+  ],
+  "83.9.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.2"
+    }
+  ],
+  "35.5.27-29": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.27-29"
+    }
+  ],
+  "REDMG:1935.87.19": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.19"
+    }
+  ],
+  "45.6.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "45.6.2"
+    }
+  ],
+  "45.6.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "45.6.3"
+    }
+  ],
+  "48.12.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "48.12.11"
+    }
+  ],
+  "45.6.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "45.6.1"
+    }
+  ],
+  "REDMG:1935.87.12": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.12"
+    }
+  ],
+  "REDMG:1935.87.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.13"
+    }
+  ],
+  "REDMG:1935.87.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.10"
+    }
+  ],
+  "REDMG:1935.87.11": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.11"
+    }
+  ],
+  "REDMG:1935.87.16": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.16"
+    }
+  ],
+  "REDMG:1935.87.17": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.17"
+    }
+  ],
+  "45.6.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.8"
+    }
+  ],
+  "45.6.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.9"
+    }
+  ],
+  "50.5.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.5.6"
+    }
+  ],
+  "20.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "20.4.1"
+    }
+  ],
+  "50.5.3": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "50.5.3"
+    }
+  ],
+  "50.5.2": [
+    {
+      "surrogate": "Paestum",
+      "guid": "442733",
+      "token": "Paestan",
+      "record": "50.5.2"
+    }
+  ],
+  "11.10.21": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "11.10.21"
+    }
+  ],
+  "REDMG:1953.25.45": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.45"
+    }
+  ],
+  "REDMG:1953.25.44": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.44"
+    }
+  ],
+  "REDMG:1953.25.47": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.47"
+    }
+  ],
+  "REDMG:1953.25.46": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.46"
+    }
+  ],
+  "33.4.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "33.4.3"
+    }
+  ],
+  "33.4.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "33.4.2"
+    }
+  ],
+  "33.4.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "33.4.1"
+    }
+  ],
+  "83.9.26A-C": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.26A-C"
+    }
+  ],
+  "REDMG:1950.25.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1950.25.1"
+    }
+  ],
+  "TEMP.2007.2.64": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.64"
+    }
+  ],
+  "TEMP.2003.7.60": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.60"
+    }
+  ],
+  "REDMG:2004.98.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:2004.98.1"
+    }
+  ],
+  "TEMP.2007.2.66": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.66"
+    }
+  ],
+  "14.9.119": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.119"
+    }
+  ],
+  "14.9.118": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.118"
+    }
+  ],
+  "14.9.117": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.117"
+    }
+  ],
+  "45.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.8.1"
+    }
+  ],
+  "14.9.115": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "14.9.115"
+    }
+  ],
+  "14.9.114": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "14.9.114"
+    }
+  ],
+  "50.4.6": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.4.6"
+    }
+  ],
+  "50.4.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.7"
+    }
+  ],
+  "73.9.36": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.36"
+    }
+  ],
+  "50.4.5": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.4.5"
+    }
+  ],
+  "51.7.14": [
+    {
+      "surrogate": "Paestum",
+      "guid": "442733",
+      "token": "Paestan",
+      "record": "51.7.14"
+    }
+  ],
+  "51.7.15": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "51.7.15"
+    }
+  ],
+  "50.4.8": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "50.4.8"
+    }
+  ],
+  "50.4.9": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.4.9"
+    }
+  ],
+  "51.7.10": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "51.7.10"
+    }
+  ],
+  "27.6.75": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "27.6.75"
+    }
+  ],
+  "51.7.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.7.12"
+    }
+  ],
+  "51.7.13": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "51.7.13"
+    }
+  ],
+  "35.5.4-5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.4-5"
+    }
+  ],
+  "78.12.18": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.18"
+    }
+  ],
+  "78.12.19": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.19"
+    }
+  ],
+  "78.12.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.3"
+    }
+  ],
+  "REDMG:1934.53.5": [
+    {
+      "surrogate": "Falisci",
+      "guid": "413128",
+      "token": "Faliscan",
+      "record": "REDMG:1934.53.5"
+    }
+  ],
+  "REDMG:1951.158.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.158.1"
+    }
+  ],
+  "78.12.12": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.12"
+    }
+  ],
+  "78.12.10": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "78.12.10"
+    }
+  ],
+  "78.12.11": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "78.12.11"
+    }
+  ],
+  "78.12.16": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.16"
+    }
+  ],
+  "78.12.17": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.17"
+    }
+  ],
+  "78.12.14": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.14"
+    }
+  ],
+  "78.12.15": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.15"
+    }
+  ],
+  "23.11.31MMM": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31MMM"
+    }
+  ],
+  "TEMP.2003.6.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.8"
+    }
+  ],
+  "REDMG:1958.23.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.23.1"
+    }
+  ],
+  "TEMP.2007.2.51": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.51"
+    }
+  ],
+  "47.2.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.10"
+    }
+  ],
+  "47.2.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.11"
+    }
+  ],
+  "47.2.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.12"
+    }
+  ],
+  "REDMG:1953.25.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.1"
+    }
+  ],
+  "REDMG:1953.25.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.6"
+    }
+  ],
+  "47.2.15": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.15"
+    }
+  ],
+  "REDMG:1953.25.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.4"
+    }
+  ],
+  "47.2.17": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.17"
+    }
+  ],
+  "47.2.19": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.19"
+    }
+  ],
+  "REDMG:1953.25.8": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.8"
+    }
+  ],
+  "REDMG:1953.25.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.9"
+    }
+  ],
+  "29.4.2": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "29.4.2"
+    }
+  ],
+  "47.6.2A-B": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "47.6.2A-B"
+    }
+  ],
+  "29.4.1": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "29.4.1"
+    }
+  ],
+  "59.6.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "59.6.1"
+    }
+  ],
+  "REDMG:1997.209.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1997.209.4"
+    }
+  ],
+  "REDMG:1953.25.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.3"
+    }
+  ],
+  "45.6.56": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.56"
+    }
+  ],
+  "47.2.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.1"
+    }
+  ],
+  "REDMG:1962.184.33.21": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1962.184.33.21"
+    }
+  ],
+  "47.2.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.3"
+    }
+  ],
+  "28.6.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.6.1"
+    }
+  ],
+  "47.2.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.5"
+    }
+  ],
+  "47.2.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.6"
+    }
+  ],
+  "47.2.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.7"
+    }
+  ],
+  "47.2.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.8"
+    }
+  ],
+  "47.2.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.9"
+    }
+  ],
+  "83.5.2": [
+    {
+      "surrogate": "Africa",
+      "guid": "775",
+      "token": "North African",
+      "record": "83.5.2"
+    }
+  ],
+  "83.5.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.5.1"
+    }
+  ],
+  "REDMG:1953.25.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.7"
+    }
+  ],
+  "73.9.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.2"
+    }
+  ],
+  "73.9.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.3"
+    }
+  ],
+  "TEMP.2007.2.57": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.57"
+    }
+  ],
+  "REDMG:1935.87.25": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.25"
+    }
+  ],
+  "L.2005.7.1": [
+    {
+      "surrogate": "Paestum",
+      "guid": "442733",
+      "token": "Paestan",
+      "record": "L.2005.7.1"
+    }
+  ],
+  "47.2.24": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.24"
+    }
+  ],
+  "47.2.27": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.27"
+    }
+  ],
+  "REDMG:1951.113.3": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.113.3"
+    },
+    {
+      "surrogate": "Messapioi",
+      "guid": "543786",
+      "token": "Messapian",
+      "record": "REDMG:1951.113.3"
+    }
+  ],
+  "73.9.6": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.6"
+    }
+  ],
+  "60.8.3A-B": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "60.8.3A-B"
+    }
+  ],
+  "31.6.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "31.6.1"
+    }
+  ],
+  "51.1.2": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "51.1.2"
+    }
+  ],
+  "45.10.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.9"
+    }
+  ],
+  "73.9.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.7"
+    }
+  ],
+  "51.1.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "51.1.1"
+    }
+  ],
+  "51.1.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "51.1.4"
+    }
+  ],
+  "73.9.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.4"
+    }
+  ],
+  "45.10.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "45.10.1"
+    }
+  ],
+  "45.10.2": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "45.10.2"
+    }
+  ],
+  "45.10.3": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "45.10.3"
+    }
+  ],
+  "45.10.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.4"
+    }
+  ],
+  "45.10.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.5"
+    }
+  ],
+  "45.10.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.6"
+    }
+  ],
+  "TEMP.2003.7.40": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "TEMP.2003.7.40"
+    }
+  ],
+  "51.7.5": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "51.7.5"
+    }
+  ],
+  "51.7.7": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "51.7.7"
+    }
+  ],
+  "REDMG:1953.25.37": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.37"
+    }
+  ],
+  "51.7.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.7.1"
+    }
+  ],
+  "51.7.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.7.2"
+    }
+  ],
+  "51.7.3": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "51.7.3"
+    }
+  ],
+  "13.10.4A-B": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.4A-B"
+    }
+  ],
+  "REDMG:1964.1617.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1964.1617.1"
+    }
+  ],
+  "51.7.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.7.8"
+    }
+  ],
+  "51.7.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "51.7.9"
+    }
+  ],
+  "REDMG:1964.1649": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1649"
+    }
+  ],
+  "REDMG:1951.147.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.147.1"
+    }
+  ],
+  "2005.3.7": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.7"
+    }
+  ],
+  "83.11.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "83.11.3"
+    }
+  ],
+  "2005.3.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.9"
+    }
+  ],
+  "2005.3.8": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.8"
+    }
+  ],
+  "REDMG:1964.1601": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1601"
+    }
+  ],
+  "REDMG:1997.209.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1997.209.1"
+    }
+  ],
+  "38.12.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "38.12.1"
+    }
+  ],
+  "TEMP.2007.2.39": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.39"
+    }
+  ],
+  "TEMP.2006.8.4.97": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.97"
+    }
+  ],
+  "47.2.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.2.4"
+    }
+  ],
+  "REDMG:1964.1703.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1703.1"
+    }
+  ],
+  "2005.9.9": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2005.9.9"
+    }
+  ],
+  "2005.9.8": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2005.9.8"
+    }
+  ],
+  "14.9.59": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.59"
+    }
+  ],
+  "14.9.58": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.58"
+    }
+  ],
+  "2007.1.2B": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2007.1.2B"
+    }
+  ],
+  "14.9.57": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.57"
+    }
+  ],
+  "REDMG:1964.1704.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1704.1"
+    }
+  ],
+  "2005.9.7": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2005.9.7"
+    }
+  ],
+  "35.5.1-3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.1-3"
+    }
+  ],
+  "25.8.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.8.2"
+    }
+  ],
+  "25.8.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "25.8.3"
+    }
+  ],
+  "TEMP.2007.2.59": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.59"
+    }
+  ],
+  "25.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.8.1"
+    }
+  ],
+  "2005.8.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.8.4"
+    }
+  ],
+  "25.8.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.8.7"
+    }
+  ],
+  "25.8.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "25.8.4"
+    }
+  ],
+  "25.8.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.8.5"
+    }
+  ],
+  "TEMP.2002.9.26": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2002.9.26"
+    }
+  ],
+  "TEMP.2007.2.52": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.52"
+    }
+  ],
+  "26.2.90": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.90"
+    }
+  ],
+  "TEMP.2007.2.50": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.50"
+    }
+  ],
+  "34.8.7.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.7.3"
+    }
+  ],
+  "34.8.7.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.7.2"
+    }
+  ],
+  "TEMP.2007.2.55": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.55"
+    }
+  ],
+  "REDMG:1958.37.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.37.1"
+    }
+  ],
+  "2005.8.6": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.8.6"
+    }
+  ],
+  "50.4.22": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "50.4.22"
+    },
+    {
+      "surrogate": "Tarentum",
+      "guid": "442810",
+      "token": "Tarentine",
+      "record": "50.4.22"
+    }
+  ],
+  "50.4.25": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "50.4.25"
+    }
+  ],
+  "REDMG:2003.93.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:2003.93.1"
+    }
+  ],
+  "26.2.95": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.95"
+    }
+  ],
+  "11.10.13": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "11.10.13"
+    }
+  ],
+  "11.10.12": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.12"
+    }
+  ],
+  "11.10.11": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.11"
+    }
+  ],
+  "11.10.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.10"
+    }
+  ],
+  "69.7.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "69.7.1"
+    }
+  ],
+  "11.10.16": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "11.10.16"
+    }
+  ],
+  "11.10.15": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "11.10.15"
+    }
+  ],
+  "11.10.14": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "11.10.14"
+    }
+  ],
+  "22.3.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.2"
+    }
+  ],
+  "11.10.19": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "11.10.19"
+    }
+  ],
+  "22.3.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.1"
+    }
+  ],
+  "22.3.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.6"
+    }
+  ],
+  "22.3.4": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.4"
+    }
+  ],
+  "22.3.5": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.5"
+    }
+  ],
+  "23.11.31BB": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31BB"
+    }
+  ],
+  "2003.7.17": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.17"
+    }
+  ],
+  "2003.7.16": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.16"
+    }
+  ],
+  "2003.7.15": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.15"
+    }
+  ],
+  "22.3.5A-B": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.5A-B"
+    }
+  ],
+  "23.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "23.4.1"
+    }
+  ],
+  "2003.7.19": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.19"
+    }
+  ],
+  "2003.7.18": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.18"
+    }
+  ],
+  "REDMG:1964.1669": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1669"
+    }
+  ],
+  "79.3.37": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "79.3.37"
+    }
+  ],
+  "REDMG:1953.25.62": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.62"
+    }
+  ],
+  "REDMG:1953.25.61": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.61"
+    }
+  ],
+  "REDMG:1953.25.60": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.60"
+    }
+  ],
+  "58.2.3B": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "58.2.3B"
+    }
+  ],
+  "REDMG:1953.25.66": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.66"
+    },
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.66"
+    }
+  ],
+  "REDMG:1953.25.65": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1953.25.65"
+    }
+  ],
+  "REDMG:1953.25.64": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.64"
+    }
+  ],
+  "35.5.8-9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.8-9"
+    }
+  ],
+  "85.3.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "85.3.2"
+    }
+  ],
+  "85.3.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "85.3.1"
+    }
+  ],
+  "REDMG:1953.25.68": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.68"
+    }
+  ],
+  "45.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.9.1"
+    }
+  ],
+  "45.9.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.9.2"
+    },
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "45.9.2"
+    }
+  ],
+  "45.6.29": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.29"
+    }
+  ],
+  "48.11.8": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "48.11.8"
+    }
+  ],
+  "84.8.4": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "84.8.4"
+    }
+  ],
+  "45.6.25": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.25"
+    }
+  ],
+  "84.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "84.8.1"
+    }
+  ],
+  "45.6.22": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "45.6.22"
+    }
+  ],
+  "84.8.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "84.8.3"
+    }
+  ],
+  "45.6.20": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "45.6.20"
+    }
+  ],
+  "23.11.31B1": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31B1"
+    }
+  ],
+  "23.11.31B2": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31B2"
+    }
+  ],
+  "REDMG:1964.1668.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1668.1"
+    }
+  ],
+  "TEMP.2007.2.28": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.28"
+    }
+  ],
+  "REDMG:1935.87.30": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.30"
+    }
+  ],
+  "REDMG:1935.87.32": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.32"
+    }
+  ],
+  "REDMG:1935.87.33": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.33"
+    }
+  ],
+  "REDMG:1935.87.34": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.34"
+    }
+  ],
+  "79.1.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "79.1.3"
+    }
+  ],
+  "26.7.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.7.2"
+    }
+  ],
+  "TEMP.2007.2.38": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.38"
+    }
+  ],
+  "TEMP.2006.8.4.94": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.94"
+    }
+  ],
+  "44.1.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "44.1.1"
+    }
+  ],
+  "44.1.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "44.1.2"
+    }
+  ],
+  "13.10.28": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.28"
+    }
+  ],
+  "13.10.29": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.29"
+    }
+  ],
+  "13.10.20": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.20"
+    }
+  ],
+  "13.10.21": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.21"
+    }
+  ],
+  "13.10.22": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.22"
+    }
+  ],
+  "13.10.23": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.23"
+    }
+  ],
+  "23.11.31KK": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31KK"
+    }
+  ],
+  "13.10.25": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.25"
+    }
+  ],
+  "13.10.26": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.26"
+    }
+  ],
+  "13.10.27": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.27"
+    }
+  ],
+  "REDMG:1926.99.60": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1926.99.60"
+    },
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1926.99.60"
+    }
+  ],
+  "REDMG:1926.99.61": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1926.99.61"
+    }
+  ],
+  "REDMG:1958.33.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.33.1"
+    }
+  ],
+  "39.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.8.1"
+    }
+  ],
+  "REDMG:1951.1707": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1951.1707"
+    }
+  ],
+  "45.10.7A-B": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.7A-B"
+    }
+  ],
+  "45.3.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "45.3.1"
+    }
+  ],
+  "35.5.15-19": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.15-19"
+    }
+  ],
+  "REDMG:1953.25.69-70": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.69-70"
+    }
+  ],
+  "47.2.29": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.29"
+    }
+  ],
+  "47.2.28": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.28"
+    }
+  ],
+  "39.8.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.8.4"
+    }
+  ],
+  "34.10.26": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.26"
+    }
+  ],
+  "TEMP.2003.7.61": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.61"
+    }
+  ],
+  "47.2.21": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.21"
+    }
+  ],
+  "65.6.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "65.6.1"
+    }
+  ],
+  "47.2.23": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.23"
+    }
+  ],
+  "47.2.22": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.22"
+    }
+  ],
+  "23.11.31K2": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31K2"
+    }
+  ],
+  "23.11.31K1": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31K1"
+    }
+  ],
+  "47.2.26": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.2.26"
+    }
+  ],
+  "60.8.1": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "60.8.1"
+    }
+  ],
+  "22.9.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "22.9.1"
+    }
+  ],
+  "22.9.2": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "22.9.2"
+    }
+  ],
+  "22.9.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "22.9.3"
+    }
+  ],
+  "22.9.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "22.9.4"
+    }
+  ],
+  "22.9.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "22.9.5"
+    }
+  ],
+  "22.9.7": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "22.9.7"
+    }
+  ],
+  "22.9.8": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "22.9.8"
+    }
+  ],
+  "83.9.23": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.23"
+    }
+  ],
+  "34.10.21": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.21"
+    }
+  ],
+  "51.7.11": [
+    {
+      "surrogate": "Paestum",
+      "guid": "442733",
+      "token": "Paestan",
+      "record": "51.7.11"
+    }
+  ],
+  "26.2.73": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.73"
+    }
+  ],
+  "26.2.72": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.72"
+    }
+  ],
+  "26.2.71": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.71"
+    }
+  ],
+  "26.2.70": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.70"
+    }
+  ],
+  "39.1.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.1.2"
+    }
+  ],
+  "REDMG:1958.13.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.13.1"
+    }
+  ],
+  "58.2.3A": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "58.2.3A"
+    }
+  ],
+  "TEMP.2003.2.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.2.1"
+    }
+  ],
+  "26.2.79": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "26.2.79"
+    }
+  ],
+  "TEMP.2003.2.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.2.2"
+    }
+  ],
+  "REDMG:1964.1159.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "REDMG:1964.1159.1"
+    }
+  ],
+  "26.5.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.5.1"
+    }
+  ],
+  "26.5.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.5.2"
+    }
+  ],
+  "25.6.8": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.8"
+    }
+  ],
+  "25.6.9": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.9"
+    }
+  ],
+  "26.7.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.7.1"
+    }
+  ],
+  "REDMG:1958.39.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriot",
+      "record": "REDMG:1958.39.1"
+    }
+  ],
+  "83.11.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "83.11.2"
+    }
+  ],
+  "25.6.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.7"
+    }
+  ],
+  "REDMG:1964.1671": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1671"
+    }
+  ],
+  "REDMG:1964.1670": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1670"
+    }
+  ],
+  "REDMG:1964.1673": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1673"
+    }
+  ],
+  "REDMG:1964.1672": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1672"
+    }
+  ],
+  "49.8.2": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "49.8.2"
+    }
+  ],
+  "48.12.3": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "48.12.3"
+    }
+  ],
+  "48.12.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "48.12.5"
+    }
+  ],
+  "48.12.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "48.12.4"
+    }
+  ],
+  "48.12.7": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "48.12.7"
+    }
+  ],
+  "48.12.6": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "48.12.6"
+    }
+  ],
+  "REDMG:1953.25.40": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.40"
+    }
+  ],
+  "TEMP.2002.2.54": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2002.2.54"
+    }
+  ],
+  "REDMG:1958.52.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.52.1"
+    }
+  ],
+  "REDMG:1951.152": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1951.152"
+    },
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1951.152"
+    }
+  ],
+  "REDMG:1951.149.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1951.149.1"
+    }
+  ],
+  "REDMG:1935.87.31B": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.31B"
+    }
+  ],
+  "TEMP.2007.2.45": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.45"
+    }
+  ],
+  "23.11.31Q": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31Q"
+    }
+  ],
+  "23.11.31V": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31V"
+    }
+  ],
+  "23.11.31T": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31T"
+    }
+  ],
+  "23.11.31Z": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31Z"
+    }
+  ],
+  "23.11.31Y": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31Y"
+    }
+  ],
+  "35.4.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "35.4.5"
+    }
+  ],
+  "67.7.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "67.7.1"
+    }
+  ],
+  "23.11.31C": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31C"
+    }
+  ],
+  "23.11.31B": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31B"
+    }
+  ],
+  "23.11.31A": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31A"
+    }
+  ],
+  "45.10.22": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.22"
+    }
+  ],
+  "23.11.31G": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31G"
+    }
+  ],
+  "23.11.31F": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31F"
+    }
+  ],
+  "23.11.31E": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31E"
+    }
+  ],
+  "23.11.31D": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31D"
+    }
+  ],
+  "23.11.31K": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31K"
+    }
+  ],
+  "23.11.31J": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31J"
+    }
+  ],
+  "23.11.31I": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31I"
+    }
+  ],
+  "23.11.31H": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31H"
+    }
+  ],
+  "23.11.31N": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31N"
+    }
+  ],
+  "23.11.31M": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31M"
+    }
+  ],
+  "23.11.31L": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31L"
+    }
+  ],
+  "TEMP.2003.7.6": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.6"
+    }
+  ],
+  "REDMG:1953.25.43": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.43"
+    }
+  ],
+  "71.12.1": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "71.12.1"
+    }
+  ],
+  "REDMG:1951.132.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.132.1"
+    }
+  ],
+  "REDMG:1964.1667.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1964.1667.1"
+    },
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1964.1667.1"
+    }
+  ],
+  "REDMG:1935.87.18B": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.18B"
+    }
+  ],
+  "83.9.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.12"
+    }
+  ],
+  "27.4.14": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.14"
+    }
+  ],
+  "27.4.15": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "27.4.15"
+    }
+  ],
+  "27.4.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.4.10"
+    }
+  ],
+  "27.4.11": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.11"
+    }
+  ],
+  "27.4.12": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.12"
+    }
+  ],
+  "27.4.13": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.13"
+    }
+  ],
+  "TEMP.2003.7.2": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.2"
+    }
+  ],
+  "TEMP.2007.2.47": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.47"
+    }
+  ],
+  "REDMG:1964.1677.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1677.1"
+    }
+  ],
+  "TEMP.2007.2.70": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.70"
+    }
+  ],
+  "45.8.2": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "45.8.2"
+    }
+  ],
+  "REDMG:1951.148": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.148"
+    }
+  ],
+  "23.11.31OO": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31OO"
+    }
+  ],
+  "42.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "42.9.1"
+    }
+  ],
+  "TEMP.2003.7.72": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.72"
+    }
+  ],
+  "TEMP.2003.7.73": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.73"
+    }
+  ],
+  "REDMG:1951.141": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.141"
+    }
+  ],
+  "TEMP.2003.7.71": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.71"
+    }
+  ],
+  "47.7.3": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "47.7.3"
+    }
+  ],
+  "L.2011.1.37": [
+    {
+      "surrogate": "Africa",
+      "guid": "775",
+      "token": "African",
+      "record": "L.2011.1.37"
+    }
+  ],
+  "73.9.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.5"
+    }
+  ],
+  "REDMG:1951.153.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.153.1"
+    }
+  ],
+  "REDMG:1953.25.41": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.41"
+    }
+  ],
+  "REDMG:1964.1626": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1626"
+    }
+  ],
+  "49.12.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "49.12.1"
+    }
+  ],
+  "14.9.84": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.84"
+    }
+  ],
+  "49.8.5": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "49.8.5"
+    }
+  ],
+  "34.8.11": [
+    {
+      "surrogate": "Cyrene",
+      "guid": "981517",
+      "token": "Cyrenaic",
+      "record": "34.8.11"
+    }
+  ],
+  "49.8.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "49.8.7"
+    }
+  ],
+  "49.8.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "49.8.1"
+    }
+  ],
+  "14.9.85": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.85"
+    }
+  ],
+  "49.8.3": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "49.8.3"
+    }
+  ],
+  "35.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.4.1"
+    }
+  ],
+  "35.4.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "35.4.3"
+    }
+  ],
+  "REDMG:1951.154": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1951.154"
+    }
+  ],
+  "23.11.31ZZ": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31ZZ"
+    }
+  ],
+  "REDMG:1953.25.15": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.15"
+    }
+  ],
+  "61.6.4": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "61.6.4"
+    }
+  ],
+  "REDMG:1953.25.13": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.13"
+    }
+  ],
+  "61.6.5": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "61.6.5"
+    }
+  ],
+  "REDMG:1953.25.18": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.18"
+    }
+  ],
+  "16.2.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "16.2.1"
+    }
+  ],
+  "REDMG:1953.25.16": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "REDMG:1953.25.16"
+    }
+  ],
+  "REDMG:1951.161.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.161.1"
+    }
+  ],
+  "REDMG:1951.1716": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1951.1716"
+    }
+  ],
+  "73.6.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.6.4"
+    }
+  ],
+  "35.4.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.4.6"
+    }
+  ],
+  "35.4.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.4.4"
+    }
+  ],
+  "14.9.82": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.82"
+    }
+  ],
+  "35.4.2": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "35.4.2"
+    }
+  ],
+  "TEMP.2007.2.68": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.68"
+    }
+  ],
+  "REDMG:1953.25.12": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.12"
+    }
+  ],
+  "REDMG:1964.1632.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1632.1"
+    }
+  ],
+  "TEMP.2007.2.60": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.60"
+    }
+  ],
+  "TEMP.2007.2.42": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.42"
+    }
+  ],
+  "TEMP.2007.2.62": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.62"
+    }
+  ],
+  "TEMP.2007.2.65": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.65"
+    }
+  ],
+  "78.12.4": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.4"
+    }
+  ],
+  "TEMP.2007.2.67": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.67"
+    }
+  ],
+  "REDMG:1953.25.14": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.14"
+    }
+  ],
+  "TEMP.2003.6.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.10"
+    }
+  ],
+  "TEMP.2003.6.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.11"
+    }
+  ],
+  "TEMP.2003.6.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.12"
+    }
+  ],
+  "TEMP.2003.6.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.13"
+    }
+  ],
+  "TEMP.2003.6.14": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.14"
+    }
+  ],
+  "REDMG:1953.25.17": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.17"
+    }
+  ],
+  "REDMG:1951.159.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.159.1"
+    }
+  ],
+  "14.9.92": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.92"
+    }
+  ],
+  "54.2.3": [
+    {
+      "surrogate": "Carthage",
+      "guid": "314921",
+      "token": "Carthaginian",
+      "record": "54.2.3"
+    }
+  ],
+  "REDMG:1953.25.2": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.2"
+    },
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.2"
+    }
+  ],
+  "REDMG:1964.1622": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1622"
+    }
+  ],
+  "2007.7.1A-S": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2007.7.1A-S"
+    }
+  ],
+  "45.10.20": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.20"
+    }
+  ],
+  "81.9.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "81.9.1"
+    }
+  ],
+  "60.1.1": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "60.1.1"
+    }
+  ],
+  "60.1.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "60.1.3"
+    }
+  ],
+  "60.1.2": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "60.1.2"
+    }
+  ],
+  "60.1.5": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "60.1.5"
+    }
+  ],
+  "47.10.3A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "47.10.3A-B"
+    }
+  ],
+  "REDMG:1951.145": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1951.145"
+    }
+  ],
+  "REDMG:1951.146": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1951.146"
+    }
+  ],
+  "14.9.113": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.113"
+    }
+  ],
+  "REDMG:1964.1676": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1676"
+    }
+  ],
+  "51.4.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.10"
+    }
+  ],
+  "51.4.11": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "51.4.11"
+    },
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "51.4.11"
+    }
+  ],
+  "14.9.103": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.103"
+    }
+  ],
+  "29.11.11": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.11.11"
+    }
+  ],
+  "14.9.107": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.107"
+    }
+  ],
+  "14.9.106": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.106"
+    }
+  ],
+  "14.9.105": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.105"
+    }
+  ],
+  "29.11.15": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.15"
+    }
+  ],
+  "REDMG:1953.25.48": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.48"
+    }
+  ],
+  "14.9.109": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.109"
+    }
+  ],
+  "14.9.108": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.108"
+    }
+  ],
+  "26.7.11": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.11"
+    }
+  ],
+  "49.8.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "49.8.6"
+    }
+  ],
+  "REDMG:1953.25.55": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.55"
+    }
+  ],
+  "REDMG:1953.25.54": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1953.25.54"
+    }
+  ],
+  "11.10.8": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.8"
+    }
+  ],
+  "11.10.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.9"
+    }
+  ],
+  "REDMG:1953.25.51": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.51"
+    }
+  ],
+  "REDMG:1953.25.50": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.50"
+    }
+  ],
+  "REDMG:1953.25.53": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.53"
+    }
+  ],
+  "50.5.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.5.1"
+    }
+  ],
+  "11.10.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "11.10.2"
+    }
+  ],
+  "REDMG:1958.112.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1958.112.1"
+    }
+  ],
+  "11.10.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.1"
+    }
+  ],
+  "11.10.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.6"
+    }
+  ],
+  "11.10.7": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.7"
+    }
+  ],
+  "11.10.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.4"
+    }
+  ],
+  "11.10.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.5"
+    }
+  ],
+  "REDMG:1951.151.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.151.1"
+    }
+  ],
+  "2004.8.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.3"
+    }
+  ],
+  "2004.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.1"
+    }
+  ],
+  "2004.8.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.6"
+    }
+  ],
+  "11.10.20": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "11.10.20"
+    }
+  ],
+  "2004.8.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.4"
+    }
+  ],
+  "2004.8.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.5"
+    }
+  ],
+  "83.9.28": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.28"
+    }
+  ],
+  "REDMG:1958.16.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.16.1"
+    }
+  ],
+  "50.5.5": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "50.5.5"
+    }
+  ],
+  "27.4.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.3"
+    }
+  ],
+  "27.4.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.2"
+    }
+  ],
+  "27.4.1": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "27.4.1"
+    }
+  ],
+  "27.4.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "27.4.7"
+    }
+  ],
+  "27.4.6": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.6"
+    }
+  ],
+  "27.4.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.5"
+    }
+  ],
+  "27.4.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "27.4.4"
+    }
+  ],
+  "REDMG:1951.138.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.138.1"
+    }
+  ],
+  "27.4.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.4.9"
+    }
+  ],
+  "27.4.8": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "27.4.8"
+    }
+  ],
+  "REDMG:1953.25.20": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.20"
+    }
+  ],
+  "REDMG:1951.157.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.157.1"
+    }
+  ],
+  "REDMG:1953.25.22": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.22"
+    }
+  ],
+  "83.9.20": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.20"
+    }
+  ],
+  "28.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.9.1"
+    }
+  ],
+  "REDMG:1953.25.25": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.25"
+    }
+  ],
+  "REDMG:1953.25.26": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.26"
+    }
+  ],
+  "REDMG:1935.87.14": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.14"
+    }
+  ],
+  "26.12.32": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.32"
+    }
+  ],
+  "26.12.33": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.33"
+    }
+  ],
+  "26.12.30": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.30"
+    }
+  ],
+  "26.12.31": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.31"
+    }
+  ],
+  "26.12.34": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.34"
+    }
+  ],
+  "14.9.89": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.89"
+    }
+  ],
+  "22.3.25": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.25"
+    }
+  ],
+  "22.3.26": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.26"
+    }
+  ],
+  "22.3.27": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.27"
+    }
+  ],
+  "22.3.20": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.20"
+    },
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "22.3.20"
+    }
+  ],
+  "22.3.21": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.21"
+    },
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.21"
+    }
+  ],
+  "22.3.22": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.22"
+    }
+  ],
+  "22.3.23": [
+    {
+      "surrogate": "Paestum",
+      "guid": "442733",
+      "token": "Paestan",
+      "record": "22.3.23"
+    }
+  ],
+  "TEMP.2007.2.49": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.49"
+    }
+  ],
+  "14.9.83": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.83"
+    }
+  ],
+  "26.12.2A-B": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.2A-B"
+    }
+  ],
+  "22.3.28": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.28"
+    }
+  ],
+  "22.3.29": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.29"
+    }
+  ],
+  "14.9.87": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.87"
+    }
+  ],
+  "14.9.86": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.86"
+    }
+  ],
+  "34.10.19": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.19"
+    }
+  ],
+  "34.10.18": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.18"
+    }
+  ],
+  "34.10.17": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.17"
+    }
+  ],
+  "34.10.16": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.16"
+    }
+  ],
+  "34.10.15": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.15"
+    }
+  ],
+  "34.10.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.10.13"
+    }
+  ],
+  "34.10.12": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.12"
+    }
+  ],
+  "34.10.11": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.11"
+    },
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.11"
+    }
+  ],
+  "34.10.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.10.10"
+    }
+  ],
+  "48.12.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "48.12.10"
+    }
+  ],
+  "68.12.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "68.12.2"
+    }
+  ],
+  "68.12.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "68.12.3"
+    }
+  ],
+  "TEMP.2007.2.48": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.48"
+    }
+  ],
+  "TEMP.2003.7.42": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.7.42"
+    }
+  ],
+  "83.9.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.4"
+    }
+  ],
+  "35.5.34A-Q": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.34A-Q"
+    }
+  ],
+  "48.12.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "48.12.12"
+    }
+  ],
+  "83.9.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.5"
+    }
+  ],
+  "56.8.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "56.8.7"
+    }
+  ],
+  "56.8.6": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "56.8.6"
+    }
+  ],
+  "56.8.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "56.8.5"
+    }
+  ],
+  "48.12.13": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "48.12.13"
+    }
+  ],
+  "56.8.3": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "56.8.3"
+    }
+  ],
+  "56.8.2": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "56.8.2"
+    }
+  ],
+  "2006.8.4.98": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.98"
+    }
+  ],
+  "83.11.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "83.11.5"
+    }
+  ],
+  "2006.8.4.96": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.96"
+    }
+  ],
+  "TEMP.2003.7.30": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "TEMP.2003.7.30"
+    }
+  ],
+  "2006.8.4.95": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2006.8.4.95"
+    }
+  ],
+  "83.9.27": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.27"
+    }
+  ],
+  "REDMG:1951.143.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.143.1"
+    }
+  ],
+  "56.8.8": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "56.8.8"
+    },
+    {
+      "surrogate": "Eretria",
+      "guid": "579925",
+      "token": "Eretrian",
+      "record": "56.8.8"
+    }
+  ],
+  "83.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.1"
+    }
+  ],
+  "2005.3.29": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.29"
+    }
+  ],
+  "25.4.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.4.2"
+    }
+  ],
+  "26.7.9": [
+    {
+      "surrogate": "Tanagra",
+      "guid": "930250",
+      "token": "Tanagra",
+      "record": "26.7.9"
+    }
+  ],
+  "26.7.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.7.8"
+    }
+  ],
+  "83.9.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.6"
+    }
+  ],
+  "83.9.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.7"
+    }
+  ],
+  "26.7.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.7.5"
+    }
+  ],
+  "26.7.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.7.4"
+    }
+  ],
+  "26.7.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.7"
+    }
+  ],
+  "26.7.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.7.6"
+    }
+  ],
+  "2005.3.27": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.3.27"
+    }
+  ],
+  "2005.3.26": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.3.26"
+    }
+  ],
+  "26.7.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.3"
+    }
+  ],
+  "2005.3.24": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "2005.3.24"
+    }
+  ],
+  "25.6.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.6.3"
+    }
+  ],
+  "25.6.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.2"
+    }
+  ],
+  "25.6.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "25.6.1"
+    }
+  ],
+  "TEMP.2007.2.46": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.46"
+    }
+  ],
+  "73.9.33": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.33"
+    }
+  ],
+  "29.11.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.2"
+    }
+  ],
+  "50.4.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "50.4.3"
+    }
+  ],
+  "48.4.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "48.4.1"
+    }
+  ],
+  "50.10.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.10.5"
+    }
+  ],
+  "48.2.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "48.2.1"
+    }
+  ],
+  "35.5.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.11"
+    }
+  ],
+  "35.5.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.10"
+    }
+  ],
+  "50.10.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.10.1"
+    }
+  ],
+  "50.10.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.10.3"
+    }
+  ],
+  "50.10.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "50.10.2"
+    }
+  ],
+  "TEMP.2007.2.35": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.35"
+    }
+  ],
+  "29.11.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.4"
+    }
+  ],
+  "47.6.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "47.6.1"
+    },
+    {
+      "surrogate": "Pontus",
+      "guid": "857287",
+      "token": "Pontic",
+      "record": "47.6.1"
+    }
+  ],
+  "29.11.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.11.5"
+    }
+  ],
+  "39.9.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.9.3"
+    }
+  ],
+  "39.9.2": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "39.9.2"
+    }
+  ],
+  "23.11.31A2": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31A2"
+    }
+  ],
+  "39.9.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "39.9.6"
+    }
+  ],
+  "39.9.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "39.9.5"
+    }
+  ],
+  "39.9.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "39.9.4"
+    }
+  ],
+  "64.7.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "64.7.1"
+    }
+  ],
+  "78.12.6": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.6"
+    }
+  ],
+  "71.6.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "71.6.3"
+    }
+  ],
+  "REDMG:1953.25.33": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.33"
+    }
+  ],
+  "REDMG:1953.25.32": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1953.25.32"
+    }
+  ],
+  "REDMG:1953.25.30": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.30"
+    }
+  ],
+  "26.12.29": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.29"
+    },
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "26.12.29"
+    }
+  ],
+  "26.12.28": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.28"
+    }
+  ],
+  "REDMG:1953.25.35": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1953.25.35"
+    }
+  ],
+  "14.9.91": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.91"
+    }
+  ],
+  "26.12.25": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.25"
+    }
+  ],
+  "REDMG:1953.25.39": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.39"
+    }
+  ],
+  "26.12.26": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.26"
+    }
+  ],
+  "26.12.21": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.21"
+    }
+  ],
+  "26.12.20": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.20"
+    }
+  ],
+  "26.12.23": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.23"
+    }
+  ],
+  "22.3.11": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.11"
+    }
+  ],
+  "22.3.13": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.13"
+    }
+  ],
+  "22.3.12": [
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "22.3.12"
+    }
+  ],
+  "22.3.15": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.15"
+    }
+  ],
+  "22.3.14": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.14"
+    }
+  ],
+  "22.3.17": [
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "22.3.17"
+    }
+  ],
+  "22.3.16": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.16"
+    }
+  ],
+  "22.3.19": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "22.3.19"
+    }
+  ],
+  "22.3.18": [
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "22.3.18"
+    }
+  ],
+  "30.4.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "30.4.1"
+    }
+  ],
+  "26.2.96": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.96"
+    }
+  ],
+  "E.47.1": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "E.47.1"
+    }
+  ],
+  "2003.7.25": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.25"
+    }
+  ],
+  "2003.7.24": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.24"
+    }
+  ],
+  "2003.7.27": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.27"
+    }
+  ],
+  "2003.7.26": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.26"
+    }
+  ],
+  "2003.7.21": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.21"
+    }
+  ],
+  "2003.7.20": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.20"
+    }
+  ],
+  "2003.7.23": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.23"
+    }
+  ],
+  "2003.7.22": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.22"
+    }
+  ],
+  "2003.7.28": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.7.28"
+    }
+  ],
+  "REDMG:1964.1633.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1633.1"
+    }
+  ],
+  "49.8.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "49.8.12"
+    }
+  ],
+  "49.8.11": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "49.8.11"
+    }
+  ],
+  "TEMP.2006.8.4.82": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.82"
+    }
+  ],
+  "TEMP.2006.8.4.83": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.83"
+    }
+  ],
+  "REDMG:1951.137.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.137.1"
+    }
+  ],
+  "E.62.56": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "E.62.56"
+    }
+  ],
+  "78.12.7": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.7"
+    }
+  ],
+  "83.9.30": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.30"
+    }
+  ],
+  "83.9.31": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.31"
+    }
+  ],
+  "83.9.32": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.32"
+    }
+  ],
+  "23.11.31NNNN": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31NNNN"
+    }
+  ],
+  "83.9.34": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.34"
+    }
+  ],
+  "83.9.35": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.35"
+    }
+  ],
+  "83.9.36": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.9.36"
+    }
+  ],
+  "47.10.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "47.10.1"
+    }
+  ],
+  "23.11.20": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.20"
+    }
+  ],
+  "23.11.23": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.23"
+    }
+  ],
+  "23.11.22": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.22"
+    }
+  ],
+  "23.11.25": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.25"
+    }
+  ],
+  "23.11.24": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.24"
+    }
+  ],
+  "23.11.27": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.27"
+    }
+  ],
+  "23.11.26": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.26"
+    }
+  ],
+  "2005.3.34": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.34"
+    }
+  ],
+  "2005.3.35": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.35"
+    }
+  ],
+  "2005.3.36": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.36"
+    }
+  ],
+  "49.1.2": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "49.1.2"
+    }
+  ],
+  "2005.3.31": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.31"
+    }
+  ],
+  "2005.3.32": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.32"
+    }
+  ],
+  "2005.3.33": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.33"
+    }
+  ],
+  "14.9.69": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.69"
+    }
+  ],
+  "14.9.68": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.68"
+    }
+  ],
+  "57.3.11": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "57.3.11"
+    }
+  ],
+  "79.1.9": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "79.1.9"
+    }
+  ],
+  "14.9.63": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.63"
+    }
+  ],
+  "14.9.62": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.62"
+    }
+  ],
+  "14.9.61": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.61"
+    }
+  ],
+  "14.9.60": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.60"
+    }
+  ],
+  "23.11.31X1": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31X1"
+    }
+  ],
+  "14.9.66": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.66"
+    }
+  ],
+  "14.9.65": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.65"
+    }
+  ],
+  "14.9.64": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.64"
+    }
+  ],
+  "38.4.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "38.4.1"
+    }
+  ],
+  "38.4.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "38.4.7"
+    }
+  ],
+  "38.4.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "38.4.6"
+    }
+  ],
+  "80.7.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "80.7.1"
+    }
+  ],
+  "38.4.9": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "38.4.9"
+    }
+  ],
+  "38.4.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "38.4.8"
+    }
+  ],
+  "70.3.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "70.3.1"
+    }
+  ],
+  "51.7.16": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.7.16"
+    }
+  ],
+  "REDMG:1926.99.52": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1926.99.52"
+    }
+  ],
+  "REDMG:1926.99.50": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1926.99.50"
+    }
+  ],
+  "REDMG:1926.99.54": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1926.99.54"
+    }
+  ],
+  "51.4.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "51.4.5"
+    }
+  ],
+  "REDMG:1926.99.59": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "REDMG:1926.99.59"
+    }
+  ],
+  "2005.3.28A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.28A-B"
+    }
+  ],
+  "76.6.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "76.6.1"
+    }
+  ],
+  "51.4.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.7"
+    }
+  ],
+  "REDMG:1964.1710.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1710.1"
+    }
+  ],
+  "REDMG:1964.1697.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1697.1"
+    }
+  ],
+  "REDMG:1953.25.105": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "REDMG:1953.25.105"
+    }
+  ],
+  "73.9.35": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.35"
+    }
+  ],
+  "51.4.8": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "51.4.8"
+    }
+  ],
+  "REDMG:1964.1699.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1699.1"
+    }
+  ],
+  "58.2.2": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "58.2.2"
+    }
+  ],
+  "58.2.1": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "58.2.1"
+    }
+  ],
+  "73.9.34": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.34"
+    }
+  ],
+  "58.2.6": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "58.2.6"
+    }
+  ],
+  "58.2.5": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "58.2.5"
+    }
+  ],
+  "58.2.4": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "58.2.4"
+    }
+  ],
+  "2005.3.41": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.41"
+    }
+  ],
+  "2005.3.40": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2005.3.40"
+    }
+  ],
+  "2005.3.25A-C": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2005.3.25A-C"
+    }
+  ],
+  "REDMG:1953.25.59": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.59"
+    }
+  ],
+  "73.9.32": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.32"
+    }
+  ],
+  "26.2.93": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.93"
+    }
+  ],
+  "73.9.31": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.31"
+    }
+  ],
+  "REDMG:1964.1666.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1666.1"
+    }
+  ],
+  "73.9.30": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.30"
+    }
+  ],
+  "26.8.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.8.2"
+    }
+  ],
+  "26.8.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.8.3"
+    }
+  ],
+  "23.11.31XXX": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31XXX"
+    }
+  ],
+  "26.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.8.1"
+    }
+  ],
+  "83.11.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "83.11.4"
+    }
+  ],
+  "27.3.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Protocorinthian",
+      "record": "27.3.1"
+    }
+  ],
+  "27.3.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.2"
+    }
+  ],
+  "27.3.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.3"
+    }
+  ],
+  "27.3.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.4"
+    }
+  ],
+  "27.3.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.5"
+    }
+  ],
+  "27.3.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.6"
+    }
+  ],
+  "27.3.7": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.7"
+    }
+  ],
+  "27.3.8": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.8"
+    }
+  ],
+  "27.3.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.9"
+    }
+  ],
+  "39.1.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "39.1.1"
+    }
+  ],
+  "48.2.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "48.2.2"
+    }
+  ],
+  "60.8.2": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "60.8.2"
+    }
+  ],
+  "50.4.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.11"
+    }
+  ],
+  "50.10.6": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "50.10.6"
+    }
+  ],
+  "50.4.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.10"
+    }
+  ],
+  "50.4.13": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "50.4.13"
+    }
+  ],
+  "23.11.6": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.6"
+    }
+  ],
+  "23.11.7": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.7"
+    }
+  ],
+  "23.11.4": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.4"
+    }
+  ],
+  "23.11.5": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.5"
+    }
+  ],
+  "REDMG:1961.199.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1961.199.3"
+    }
+  ],
+  "23.11.3": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.3"
+    }
+  ],
+  "TEMP.2007. 2.69": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007. 2.69"
+    }
+  ],
+  "23.11.1": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.1"
+    }
+  ],
+  "23.11.8": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.8"
+    }
+  ],
+  "23.11.9": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.9"
+    }
+  ],
+  "26.2.91": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.91"
+    }
+  ],
+  "REDMG:1964.1620": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1620"
+    }
+  ],
+  "TEMP.2003.6.26": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.6.26"
+    }
+  ],
+  "45.6.18": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.18"
+    }
+  ],
+  "45.6.15": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.15"
+    }
+  ],
+  "45.6.14": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.14"
+    }
+  ],
+  "45.6.17": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.17"
+    }
+  ],
+  "45.6.16": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.16"
+    }
+  ],
+  "73.9.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.1"
+    }
+  ],
+  "45.6.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.13"
+    }
+  ],
+  "45.6.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.6.12"
+    }
+  ],
+  "34.8.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.3"
+    }
+  ],
+  "TEMP.2003.6.23": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2003.6.23"
+    }
+  ],
+  "REDMG:1953.25.78": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1953.25.78"
+    }
+  ],
+  "REDMG:1953.25.76": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.76"
+    }
+  ],
+  "REDMG:1953.25.75": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.75"
+    }
+  ],
+  "TEMP.2003.6.22": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "TEMP.2003.6.22"
+    }
+  ],
+  "78.12.20": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.20"
+    }
+  ],
+  "78.12.21": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.21"
+    }
+  ],
+  "78.12.22": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "78.12.22"
+    }
+  ],
+  "REDMG:1951.1714": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1951.1714"
+    }
+  ],
+  "50.4.14": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.14"
+    }
+  ],
+  "TEMP.2007.2.40": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.40"
+    }
+  ],
+  "REDMG:1958.117.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1958.117.1"
+    }
+  ],
+  "52.3.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "52.3.4"
+    }
+  ],
+  "REDMG:1951.1708": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1951.1708"
+    }
+  ],
+  "34.8.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.6"
+    }
+  ],
+  "27.3.10": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "27.3.10"
+    }
+  ],
+  "34.8.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.5"
+    }
+  ],
+  "2003.6.18": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "2003.6.18"
+    }
+  ],
+  "14.9.114BIS": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.114BIS"
+    }
+  ],
+  "34.8.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.4"
+    }
+  ],
+  "56.8.4": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "56.8.4"
+    }
+  ],
+  "47.12.15": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "47.12.15"
+    }
+  ],
+  "53.8.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "53.8.4"
+    }
+  ],
+  "50.4.19": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "50.4.19"
+    },
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "50.4.19"
+    },
+    {
+      "surrogate": "Metapontum",
+      "guid": "442658",
+      "token": "Metapontine",
+      "record": "50.4.19"
+    }
+  ],
+  "50.4.18": [
+    {
+      "surrogate": "Metapontum",
+      "guid": "442658",
+      "token": "Metapontine",
+      "record": "50.4.18"
+    }
+  ],
+  "13.10.18": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.18"
+    }
+  ],
+  "13.10.19": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.19"
+    }
+  ],
+  "REDMG:1951.1718": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1951.1718"
+    },
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1951.1718"
+    }
+  ],
+  "13.10.12": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.12"
+    }
+  ],
+  "13.10.13": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.13"
+    }
+  ],
+  "13.10.10": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.10"
+    }
+  ],
+  "50.4.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.12"
+    }
+  ],
+  "13.10.16": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.16"
+    }
+  ],
+  "13.10.17": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.17"
+    }
+  ],
+  "45.1.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "45.1.1"
+    }
+  ],
+  "26.2.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.4"
+    }
+  ],
+  "34.8.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.2"
+    }
+  ],
+  "34.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.1"
+    }
+  ],
+  "45.6.67": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.67"
+    }
+  ],
+  "34.8.7": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.7"
+    }
+  ],
+  "26.2.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.1"
+    }
+  ],
+  "26.2.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.2.2"
+    }
+  ],
+  "26.2.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.3"
+    }
+  ],
+  "34.8.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.8.9"
+    }
+  ],
+  "34.8.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.8.8"
+    }
+  ],
+  "50.4.16": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.4.16"
+    }
+  ],
+  "45.10.23": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.23"
+    }
+  ],
+  "26.12.14": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.14"
+    }
+  ],
+  "26.12.15": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.15"
+    }
+  ],
+  "26.12.16": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.16"
+    }
+  ],
+  "26.12.17": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.17"
+    }
+  ],
+  "26.12.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.10"
+    }
+  ],
+  "26.12.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.11"
+    }
+  ],
+  "26.12.12": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.12"
+    }
+  ],
+  "26.12.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.13"
+    }
+  ],
+  "26.12.18": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.18"
+    }
+  ],
+  "26.12.19": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "26.12.19"
+    }
+  ],
+  "37.11.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.11.6"
+    }
+  ],
+  "26.2.89": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.89"
+    }
+  ],
+  "26.2.88": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.88"
+    }
+  ],
+  "REDMG:1951.150.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.150.1"
+    }
+  ],
+  "26.7.12": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.7.12"
+    }
+  ],
+  "37.11.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.11.5"
+    }
+  ],
+  "35.5.30-33": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.30-33"
+    }
+  ],
+  "26.2.81": [
+    {
+      "surrogate": "Aeolis",
+      "guid": "550406",
+      "token": "Aeolic",
+      "record": "26.2.81"
+    }
+  ],
+  "26.2.80": [
+    {
+      "surrogate": "Aeolis",
+      "guid": "550406",
+      "token": "Aeolic",
+      "record": "26.2.80"
+    }
+  ],
+  "26.2.83": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "26.2.83"
+    }
+  ],
+  "26.2.82": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "26.2.82"
+    }
+  ],
+  "26.2.85": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.85"
+    }
+  ],
+  "2003.7.77": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2003.7.77"
+    }
+  ],
+  "26.2.87": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.87"
+    }
+  ],
+  "26.2.86": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.86"
+    }
+  ],
+  "14.9.4": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.4"
+    }
+  ],
+  "14.9.5": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.5"
+    }
+  ],
+  "14.9.6": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.6"
+    }
+  ],
+  "14.9.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.1"
+    }
+  ],
+  "14.9.2": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.2"
+    }
+  ],
+  "14.9.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "14.9.3"
+    }
+  ],
+  "REDMG:1964.1700.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1964.1700.1"
+    }
+  ],
+  "REDMG:1951.140.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.140.1"
+    }
+  ],
+  "37.11.8": [
+    {
+      "surrogate": "Alexandria",
+      "guid": "876562",
+      "token": "Alexandrian",
+      "record": "37.11.8"
+    }
+  ],
+  "56.8.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "56.8.1"
+    }
+  ],
+  "TEMP.2003.7.58": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.58"
+    }
+  ],
+  "REDMG:1951.134.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.134.1"
+    }
+  ],
+  "TEMP.2003.7.56": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.56"
+    }
+  ],
+  "TEMP.2003.7.55": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.55"
+    }
+  ],
+  "TEMP.2003.7.54": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.54"
+    }
+  ],
+  "TEMP.2003.7.51": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "TEMP.2003.7.51"
+    }
+  ],
+  "23.11.18": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.18"
+    }
+  ],
+  "23.11.19": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.19"
+    }
+  ],
+  "TEMP.2007.2.34": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.34"
+    }
+  ],
+  "44.4.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "44.4.1"
+    }
+  ],
+  "TEMP.2007.2.32": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.32"
+    }
+  ],
+  "TEMP.2007.2.33": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.33"
+    }
+  ],
+  "TEMP.2007.2.30": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.30"
+    }
+  ],
+  "TEMP.2007.2.31": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.31"
+    }
+  ],
+  "23.11.10": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.10"
+    }
+  ],
+  "23.11.11": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.11"
+    }
+  ],
+  "REDMG:1951.136.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.136.1"
+    }
+  ],
+  "23.11.13": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.13"
+    }
+  ],
+  "23.11.15": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.15"
+    }
+  ],
+  "23.11.16": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "23.11.16"
+    }
+  ],
+  "REDMG:1953.25.36": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1953.25.36"
+    },
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.36"
+    }
+  ],
+  "84.8.2": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "84.8.2"
+    }
+  ],
+  "45.6.69": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.69"
+    }
+  ],
+  "30.11.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "30.11.4"
+    }
+  ],
+  "REDMG:1951.1717": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1951.1717"
+    }
+  ],
+  "26.4.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.4.2"
+    }
+  ],
+  "26.4.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.4.3"
+    }
+  ],
+  "34.2.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.2.3"
+    }
+  ],
+  "34.2.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.2.2"
+    }
+  ],
+  "TEMP.2007.2 29": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2 29"
+    }
+  ],
+  "26.4.4": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.4.4"
+    }
+  ],
+  "26.4.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.4.5"
+    }
+  ],
+  "2004.8.2A": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.2A"
+    }
+  ],
+  "2004.8.2B": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.8.2B"
+    }
+  ],
+  "REDMG:1964.1660": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1660"
+    }
+  ],
+  "REDMG:1964.1687.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1687.1"
+    }
+  ],
+  "REDMG:1964.1628": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1628"
+    }
+  ],
+  "REDMG:1953.25.38": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.38"
+    }
+  ],
+  "22.3.16BIS": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "22.3.16BIS"
+    }
+  ],
+  "REDMG:1953.25.19": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.19"
+    }
+  ],
+  "37.7.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.7.3"
+    }
+  ],
+  "37.7.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "37.7.2"
+    }
+  ],
+  "37.7.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "37.7.1"
+    }
+  ],
+  "91.11.4": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "91.11.4"
+    }
+  ],
+  "91.11.3": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "91.11.3"
+    }
+  ],
+  "91.11.2": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "91.11.2"
+    }
+  ],
+  "37.7.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.7.5"
+    }
+  ],
+  "37.7.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.7.4"
+    }
+  ],
+  "34.10.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "34.10.9"
+    }
+  ],
+  "34.10.8": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.8"
+    }
+  ],
+  "REDMG:1964.1603.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1603.1"
+    }
+  ],
+  "67.6.3": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "67.6.3"
+    }
+  ],
+  "34.10.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.3"
+    }
+  ],
+  "34.10.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.2"
+    }
+  ],
+  "34.10.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.1"
+    }
+  ],
+  "REDMG:1961.150.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1961.150.1"
+    }
+  ],
+  "34.10.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.7"
+    }
+  ],
+  "34.10.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.6"
+    }
+  ],
+  "34.10.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.5"
+    }
+  ],
+  "34.10.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "34.10.4"
+    }
+  ],
+  "REDMG:1953.25.27": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.27"
+    }
+  ],
+  "REDMG:1951.130.1": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1951.130.1"
+    }
+  ],
+  "23.11.31IIII": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31IIII"
+    }
+  ],
+  "REDMG:1998.153.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1998.153.4"
+    }
+  ],
+  "TEMP.2003.7.7": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.7"
+    }
+  ],
+  "REDMG:1964.1691": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1691"
+    }
+  ],
+  "TEMP.2003.7.5": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.5"
+    }
+  ],
+  "TEMP.2003.7.4": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.4"
+    }
+  ],
+  "TEMP.2003.7.8": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.7.8"
+    }
+  ],
+  "REDMG:1951.144.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.144.1"
+    },
+    {
+      "surrogate": "Tarentum",
+      "guid": "442810",
+      "token": "Tarentine",
+      "record": "REDMG:1951.144.1"
+    }
+  ],
+  "49.8.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "49.8.4"
+    }
+  ],
+  "53.8.2": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "53.8.2"
+    }
+  ],
+  "53.8.1": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "53.8.1"
+    }
+  ],
+  "45.6.62-63": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.62-63"
+    }
+  ],
+  "49.1.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "49.1.1"
+    }
+  ],
+  "29.3.39": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "29.3.39"
+    }
+  ],
+  "79.1.17": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "79.1.17"
+    }
+  ],
+  "57.7.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "57.7.9"
+    }
+  ],
+  "REDMG:1951.160.1": [
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "REDMG:1951.160.1"
+    }
+  ],
+  "79.1.12": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "79.1.12"
+    }
+  ],
+  "79.1.11": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "79.1.11"
+    }
+  ],
+  "26.2.84": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.2.84"
+    }
+  ],
+  "34.8.13": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.8.13"
+    }
+  ],
+  "TEMP.2002.9.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2002.9.2"
+    }
+  ],
+  "30.4.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "30.4.2"
+    }
+  ],
+  "REDMG:1953.25.29": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.25.29"
+    }
+  ],
+  "73.9.23": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.23"
+    }
+  ],
+  "51.1.3": [
+    {
+      "surrogate": "Laconia",
+      "guid": "570406",
+      "token": "Laconian",
+      "record": "51.1.3"
+    }
+  ],
+  "TEMP.2003.7.59": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.59"
+    }
+  ],
+  "2005.9.10": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2005.9.10"
+    }
+  ],
+  "TEMP.2006.8.4.81": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.81"
+    }
+  ],
+  "TEMP.2003.7.41": [
+    {
+      "surrogate": "Samos",
+      "guid": "599925",
+      "token": "Samian",
+      "record": "TEMP.2003.7.41"
+    }
+  ],
+  "REDMG:1964.1678": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1678"
+    }
+  ],
+  "114.9.45": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "114.9.45"
+    }
+  ],
+  "REDMG:1964.1154.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1964.1154.1"
+    }
+  ],
+  "45.6.66": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.6.66"
+    }
+  ],
+  "REDMG:1964.1631": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1964.1631"
+    }
+  ],
+  "TEMP.2002.9.27": [
+    {
+      "surrogate": "Argos",
+      "guid": "491527",
+      "token": "Argive",
+      "record": "TEMP.2002.9.27"
+    }
+  ],
+  "34.10.22": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.22"
+    }
+  ],
+  "REDMG:1953.25.67": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.67"
+    }
+  ],
+  "34.10.23": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.23"
+    }
+  ],
+  "REDMG:1958.19.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:1958.19.1"
+    }
+  ],
+  "50.10.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.10.4"
+    }
+  ],
+  "34.10.20": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.20"
+    }
+  ],
+  "54.2.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "54.2.1"
+    }
+  ],
+  "REDMG:2004.95.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:2004.95.1"
+    }
+  ],
+  "28.6.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "28.6.6"
+    }
+  ],
+  "TEMP.2003.6.9": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.6.9"
+    }
+  ],
+  "28.6.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.6.4"
+    }
+  ],
+  "28.6.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.6.5"
+    }
+  ],
+  "28.6.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.6.2"
+    }
+  ],
+  "28.6.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "28.6.3"
+    }
+  ],
+  "2008.7.101": [
+    {
+      "surrogate": "Athens",
+      "guid": "579885",
+      "token": "Athenian",
+      "record": "2008.7.101"
+    }
+  ],
+  "25.6.12": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.12"
+    }
+  ],
+  "25.6.11": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.11"
+    }
+  ],
+  "25.6.10": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "25.6.10"
+    }
+  ],
+  "34.10.27": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.27"
+    }
+  ],
+  "TEMP.2003.7.66": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.66"
+    }
+  ],
+  "REDMG:1964.1657.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1964.1657.1"
+    }
+  ],
+  "34.10.24": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.24"
+    }
+  ],
+  "REDMG:1958.111.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1958.111.1"
+    }
+  ],
+  "REDMG:1935.87.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.8"
+    }
+  ],
+  "35.5.23-26": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.23-26"
+    }
+  ],
+  "TEMP.2003.7.69": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.69"
+    }
+  ],
+  "34.10.25": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "34.10.25"
+    }
+  ],
+  "TEMP.2003.7.65": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.65"
+    }
+  ],
+  "TEMP.2006.8.4.99": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.99"
+    }
+  ],
+  "REDMG:1964.1674": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1674"
+    }
+  ],
+  "TEMP.2007.2.61": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.61"
+    }
+  ],
+  "14.9.120": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "14.9.120"
+    }
+  ],
+  "REDMG:1935.87.31A": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.31A"
+    }
+  ],
+  "TEMP.2006.8.4.91": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.91"
+    }
+  ],
+  "TEMP.2006.8.4.90": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.90"
+    }
+  ],
+  "TEMP.2006.8.4.93": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.93"
+    }
+  ],
+  "TEMP.2006.8.4.92": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.92"
+    }
+  ],
+  "51.4.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.4"
+    }
+  ],
+  "29.11.12": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.11.12"
+    }
+  ],
+  "51.4.6": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.6"
+    }
+  ],
+  "49.8.9": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "49.8.9"
+    }
+  ],
+  "51.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.1"
+    }
+  ],
+  "51.4.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.2"
+    }
+  ],
+  "51.4.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.3"
+    }
+  ],
+  "25.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.9.1"
+    }
+  ],
+  "25.9.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.9.2"
+    }
+  ],
+  "25.9.3": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.9.3"
+    }
+  ],
+  "25.9.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "25.9.4"
+    },
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "25.9.4"
+    }
+  ],
+  "51.4.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "51.4.9"
+    }
+  ],
+  "14.9.110A": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.110A"
+    }
+  ],
+  "TEMP.2003.6.24": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.6.24"
+    }
+  ],
+  "TEMP.2003.6.27": [
+    {
+      "surrogate": "Naucratis",
+      "guid": "727169",
+      "token": "Naucratite",
+      "record": "TEMP.2003.6.27"
+    }
+  ],
+  "14.9.110B": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "14.9.110B"
+    }
+  ],
+  "46.5.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "46.5.1"
+    }
+  ],
+  "52.3.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "52.3.1"
+    }
+  ],
+  "52.3.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "52.3.2"
+    }
+  ],
+  "52.3.3": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "52.3.3"
+    }
+  ],
+  "62.10.1": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "62.10.1"
+    }
+  ],
+  "REDMG:1951.156.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1951.156.1"
+    }
+  ],
+  "23.11.31RR": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31RR"
+    }
+  ],
+  "37.11.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "37.11.3"
+    }
+  ],
+  "37.11.2": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "37.11.2"
+    }
+  ],
+  "37.11.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "37.11.1"
+    }
+  ],
+  "37.11.7": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "37.11.7"
+    }
+  ],
+  "2004.10.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "2004.10.1"
+    }
+  ],
+  "2004.10.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "2004.10.2"
+    }
+  ],
+  "37.11.4": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "37.11.4"
+    }
+  ],
+  "14.9.70": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.70"
+    }
+  ],
+  "14.9.71": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "14.9.71"
+    }
+  ],
+  "TEMP.2007.2.43": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.43"
+    }
+  ],
+  "26.2.59": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "26.2.59"
+    }
+  ],
+  "14.9.74": [
+    {
+      "surrogate": "Chios",
+      "guid": "550496",
+      "token": "Chiot",
+      "record": "14.9.74"
+    }
+  ],
+  "TEMP.2006.8.4.88": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2006.8.4.88"
+    }
+  ],
+  "23.11.31UU": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31UU"
+    }
+  ],
+  "TEMP.2003.7.57": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "TEMP.2003.7.57"
+    }
+  ],
+  "73.9.9A-B": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "73.9.9A-B"
+    }
+  ],
+  "TEMP.2007.2.63": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.63"
+    }
+  ],
+  "74.7.2": [
+    {
+      "surrogate": "Africa",
+      "guid": "775",
+      "token": "North African",
+      "record": "74.7.2"
+    }
+  ],
+  "TEMP.2003.7.67": [
+    {
+      "surrogate": "Ionia",
+      "guid": "543732",
+      "token": "Ionian",
+      "record": "TEMP.2003.7.67"
+    }
+  ],
+  "REDMG:2004.96.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:2004.96.1"
+    }
+  ],
+  "REDMG:1935.87.6": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "REDMG:1935.87.6"
+    }
+  ],
+  "REDMG:1935.87.7": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.7"
+    }
+  ],
+  "REDMG:1953.25.52": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.52"
+    }
+  ],
+  "REDMG:1964.1675.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1675.1"
+    }
+  ],
+  "REDMG:1951.155": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1951.155"
+    }
+  ],
+  "REDMG:1953.25.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.5"
+    }
+  ],
+  "REDMG:1935.87.9": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.9"
+    }
+  ],
+  "13.10.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.1"
+    }
+  ],
+  "13.10.2": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.2"
+    }
+  ],
+  "13.10.3": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.3"
+    }
+  ],
+  "91.11.1": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "91.11.1"
+    }
+  ],
+  "13.10.5": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.5"
+    }
+  ],
+  "13.10.6": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriot",
+      "record": "13.10.6"
+    }
+  ],
+  "13.10.7": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.7"
+    }
+  ],
+  "REDMG:1935.87.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.1"
+    }
+  ],
+  "13.10.9": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "13.10.9"
+    }
+  ],
+  "REDMG:1935.87.3": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.3"
+    }
+  ],
+  "REDMG:1935.87.5": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1935.87.5"
+    }
+  ],
+  "REDMG:1935.87.4": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1935.87.4"
+    }
+  ],
+  "45.4.5": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "45.4.5"
+    },
+    {
+      "surrogate": "Metapontum",
+      "guid": "442658",
+      "token": "Metapontine",
+      "record": "45.4.5"
+    },
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.4.5"
+    }
+  ],
+  "74.7.3": [
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "74.7.3"
+    }
+  ],
+  "TEMP.2007.2.36": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.36"
+    }
+  ],
+  "REDMG:1953.25.49": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.49"
+    }
+  ],
+  "54.8.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "54.8.1"
+    }
+  ],
+  "REDMG:1935.87.18A": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1935.87.18A"
+    }
+  ],
+  "46.9.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "46.9.1"
+    }
+  ],
+  "46.9.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "46.9.2"
+    }
+  ],
+  "REDMG:1953.25.57": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1953.25.57"
+    },
+    {
+      "surrogate": "Sicily",
+      "guid": "462492",
+      "token": "Sicilian",
+      "record": "REDMG:1953.25.57"
+    }
+  ],
+  "REDMG:1953.41.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "REDMG:1953.41.1"
+    }
+  ],
+  "83.4.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "83.4.1"
+    }
+  ],
+  "REDMG:1951.142.1": [
+    {
+      "surrogate": "Apulia",
+      "guid": "442469",
+      "token": "Apulian",
+      "record": "REDMG:1951.142.1"
+    }
+  ],
+  "49.8.8": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "49.8.8"
+    }
+  ],
+  "REDMG:1934.53.4": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "REDMG:1934.53.4"
+    }
+  ],
+  "77.5.1.1-17": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "77.5.1.1-17"
+    }
+  ],
+  "REDMG:2004.97.1": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "REDMG:2004.97.1"
+    }
+  ],
+  "TEMP.2007.2.54": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "TEMP.2007.2.54"
+    }
+  ],
+  "REDMG:1964.1604.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1604.1"
+    }
+  ],
+  "45.10.13": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.13"
+    }
+  ],
+  "45.10.11": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.11"
+    }
+  ],
+  "45.10.10": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "45.10.10"
+    }
+  ],
+  "45.6.72": [
+    {
+      "surrogate": "Lucania",
+      "guid": "442639",
+      "token": "Lucanian",
+      "record": "45.6.72"
+    }
+  ],
+  "REDMG:2003.84.1": [
+    {
+      "surrogate": "Cyprus",
+      "guid": "981516",
+      "token": "Cypriote",
+      "record": "REDMG:2003.84.1"
+    }
+  ],
+  "50.3.2": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.3.2"
+    }
+  ],
+  "50.3.3": [
+    {
+      "surrogate": "Etruria",
+      "guid": "413122",
+      "token": "Etruscan",
+      "record": "50.3.3"
+    }
+  ],
+  "50.3.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "50.3.1"
+    }
+  ],
+  "29.5.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "29.5.1"
+    }
+  ],
+  "29.5.2": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.5.2"
+    }
+  ],
+  "23.11.31RRRR": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31RRRR"
+    }
+  ],
+  "29.5.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "29.5.4"
+    }
+  ],
+  "29.5.5": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "29.5.5"
+    }
+  ],
+  "TEMP.2003.7.53A-B": [
+    {
+      "surrogate": "Megara",
+      "guid": "674250",
+      "token": "Megarian",
+      "record": "TEMP.2003.7.53A-B"
+    }
+  ],
+  "26.12.3": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.3"
+    }
+  ],
+  "26.12.1": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.1"
+    }
+  ],
+  "26.12.6": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.6"
+    }
+  ],
+  "26.12.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "26.12.7"
+    }
+  ],
+  "26.12.4": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.4"
+    }
+  ],
+  "26.12.5": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "26.12.5"
+    }
+  ],
+  "35.5.20-22": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "35.5.20-22"
+    }
+  ],
+  "26.12.8": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "26.12.8"
+    }
+  ],
+  "26.12.9": [
+    {
+      "surrogate": "Euboea",
+      "guid": "540775",
+      "token": "Euboean",
+      "record": "26.12.9"
+    }
+  ],
+  "47.7.2": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.7.2"
+    }
+  ],
+  "2003.3.37": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "2003.3.37"
+    }
+  ],
+  "47.7.1": [
+    {
+      "surrogate": "Attica",
+      "guid": "579888",
+      "token": "Attic",
+      "record": "47.7.1"
+    }
+  ],
+  "39.9.7": [
+    {
+      "surrogate": "Boeotia",
+      "guid": "540689",
+      "token": "Boeotian",
+      "record": "39.9.7"
+    }
+  ],
+  "23.11.31QQQQ": [
+    {
+      "surrogate": "Sparta",
+      "guid": "570685",
+      "token": "Spartan",
+      "record": "23.11.31QQQQ"
+    }
+  ],
+  "91.11.6A-B": [
+    {
+      "surrogate": "Rome",
+      "guid": "423025",
+      "token": "Roman",
+      "record": "91.11.6A-B"
+    }
+  ],
+  "REDMG:1964.1663": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1663"
+    }
+  ],
+  "REDMG:1964.1662": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "REDMG:1964.1662"
+    }
+  ],
+  "22.3.42": [
+    {
+      "surrogate": "Corinth",
+      "guid": "570182",
+      "token": "Corinthian",
+      "record": "22.3.42"
+    }
+  ],
+  "22.3.43": [
+    {
+      "surrogate": "Campania",
+      "guid": "991350",
+      "token": "Campanian",
+      "record": "22.3.43"
+    }
+  ],
+  "22.3.40": [
+    {
+      "surrogate": "Gnathia",
+      "guid": "442573",
+      "token": "Gnathian",
+      "record": "22.3.40"
+    }
+  ],
+  "22.3.41": [
+    {
+      "surrogate": "Daunii",
+      "guid": "442564",
+      "token": "Daunian",
+      "record": "22.3.41"
+    }
+  ]
+}
