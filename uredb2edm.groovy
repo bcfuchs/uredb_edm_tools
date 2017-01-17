@@ -2,6 +2,7 @@
 @GrabConfig(systemClassLoader=true)
 import groovy.sql.Sql;
 import groovy.json.JsonSlurper;
+import groovy.json.JsonOutput;
 
 ure();
 //test();
@@ -9,6 +10,7 @@ ure();
 
 
 def ure() {
+
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
@@ -16,32 +18,43 @@ def ure() {
     def ure_uri = "http://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=";
     // get the edm
 
-
     uredb.uremeta.each {rec ->
-	    def out = [];
+
+	def out = [];
 
 	def accession_number = rec.accession_number;
 	def uri = ure_uri + accession_number;
-	def geo1 = 
-	def type = "pot";
-	//not always a date   
+
+	def place = {
+	    def a = uredb.get_place(accession_number);
+	    if (a != null) {
+		return "http://www.geonames.org/" + a.guid
+	    }
+	    return null;
+	}()
+	
+
+	     def type = "pot"; // ASK AMY!!!
+	//not always a date or place
 	def cho = edm.get_cho([date:rec.date,
 			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
-			       geonames_spatial:geo1,
+			       geonames_spatial:place,
 			       title:rec.short_title,
 			       resource1:'some concept resource url',
 			       resource2:'some concept resource url',
 			       edm_type:type]);
 
 	out << cho;
-	def Images pix = uredb.get_pix(rec.id.toString());
-	pix.pix.each {
-	    out <<  edm.rights([wr_about:it]);
+	def Images images = uredb.get_pix(rec.id.toString());
+
+	images.pix.each {
+	    def url = it.uri_local + "/thumb/" + it.uri
+	    out <<  edm.rights([wr_about:url]);
 
 	}
-	println out
+		println out.join("");
     }
     
 }
@@ -143,7 +156,7 @@ class Edm {
     <dc:title>$title</dc:title>
     <dc:type rdf:resource="${resource1}"/>
     <dc:type rdf:resource="${resource2}"/> 
-    <edm:type>${edm_type</edm:type>
+    <edm:type>${edm_type}</edm:type>
   </edm:ProvidedCHO>
 '''
 
@@ -175,7 +188,7 @@ class Uredb {
     Map cf;
     Map places;
     List  uremeta;
-    Map accnum2media = [:];
+    Map accnum2media;
     List uremeta_media;
     Sql  sql;
 
@@ -184,24 +197,24 @@ class Uredb {
 	  this.cf = cf;
 	  
 	  _load();
-	  _make_media_dict();
+	  //	  _make_media_dict();
 	      
       }
     def _make_media_dict() {
 	    /**
 	 uremeta_media_id: 22
-        media_id: 20609
+         media_id: 20609
 	     */
-	
+
 	uremeta_media.each {
-	    if ( ! accnum2media[it.uremeta_media_id] ) 
-		accnum2media[it.uremeta_media_id] = [];
+
+	    if ( ! this.accnum2media[it.uremeta_media_id] ) 
+		this.accnum2media[it.uremeta_media_id] = [];
 		
 	    def uri = sql.firstRow('select uri from media where id="' + it.media_id+'"')[0];
 	    def uri_local = sql.firstRow('select uri_local from media where id="' + it.media_id+'"')[0];
-	    def url = uri_local + "/" + uri;		    
-	    accnum2media[it.uremeta_media_id] << url;
-		
+	    this.accnum2media[it.uremeta_media_id] << [uri:uri,uri_local:uri_local];
+
 	}
 
     }
@@ -213,34 +226,32 @@ class Uredb {
 	  
 	  // load places
 	  def slurper = new groovy.json.JsonSlurper();
-	  print cf.places.file
-	  places = slurper.parse(new File(cf.places.file));    
+	  places = slurper.parse(new File(cf.places.file));
+	  	  // load id 2 pix
+	  
+	  this.accnum2media = slurper.parse(new File(cf.id2media.file));    
 
       }
     def get_place(accnum) {
 	if (places[accnum]){
-	    return places[accnum]
+	    return places[accnum][0]
 	}
 	return null;
     }
 	    
-    def get_pix(accnum) {
+    def get_pix(id) {
 	Images im;
-	if (accnum2media[accnum]) {
-	    t =  accnum2media[accnum];
-	    if (t.size > 0) {
-		im = new Images(thumb:t[0],pix:t,hasPic:true);
-	    }
-	    else {
-		im = new Images(hasPic:false);
-
-	    }
+	println id
+	if (this.accnum2media[id]) {
+	    
+	    def t =  this.accnum2media[id];
+	    im = new Images(thumb:t[0],pix:t,hasPic:true);
 	    
 
 	}
 	else {
 
-	    	im = new Images(hasPic:false);
+	    im = new Images(hasPic:false);
 	}
 	return im;
     }
