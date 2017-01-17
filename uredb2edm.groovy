@@ -15,23 +15,33 @@ def ure() {
     def edm = new Edm();
     def ure_uri = "http://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=";
     // get the edm
+
+
     uredb.uremeta.each {rec ->
-       
+	    def out = [];
 
 	def accession_number = rec.accession_number;
 	def uri = ure_uri + accession_number;
-	//	println uredb.accnum2media[rec.id];
-
+	def geo1 = 
+	def type = "pot";
 	//not always a date   
 	def cho = edm.get_cho([date:rec.date,
 			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
-			       geonames_spatial:'geo1',
+			       geonames_spatial:geo1,
 			       title:rec.short_title,
-			       resource1:'resource1',
-			       resource2:'resource2']);
-	println cho;
+			       resource1:'some concept resource url',
+			       resource2:'some concept resource url',
+			       edm_type:type]);
+
+	out << cho;
+	def Images pix = uredb.get_pix(rec.id.toString());
+	pix.pix.each {
+	    out <<  edm.rights([wr_about:it]);
+
+	}
+	println out
     }
     
 }
@@ -60,7 +70,7 @@ def test() {
 		     ];
     // need to get this from csv file in uredb_rdf_tools
     
-    out << edm.place([uri:'http://www.geonames.org/390903',location:'Greece']);
+    //    out << edm.place([uri:place_uri,location:place]);
     
     concepts.each {
 	
@@ -133,7 +143,7 @@ class Edm {
     <dc:title>$title</dc:title>
     <dc:type rdf:resource="${resource1}"/>
     <dc:type rdf:resource="${resource2}"/> 
-<edm:type>IMAGE</edm:type>
+    <edm:type>${edm_type</edm:type>
   </edm:ProvidedCHO>
 '''
 
@@ -154,7 +164,13 @@ return '''
 
     }
 }
+class Images {
+    def String thumb;
+    def List pix;
+    def boolean hasPic;
 
+
+}
 class Uredb {
     Map cf;
     Map places;
@@ -201,5 +217,31 @@ class Uredb {
 	  places = slurper.parse(new File(cf.places.file));    
 
       }
+    def get_place(accnum) {
+	if (places[accnum]){
+	    return places[accnum]
+	}
+	return null;
+    }
+	    
+    def get_pix(accnum) {
+	Images im;
+	if (accnum2media[accnum]) {
+	    t =  accnum2media[accnum];
+	    if (t.size > 0) {
+		im = new Images(thumb:t[0],pix:t,hasPic:true);
+	    }
+	    else {
+		im = new Images(hasPic:false);
 
+	    }
+	    
+
+	}
+	else {
+
+	    	im = new Images(hasPic:false);
+	}
+	return im;
+    }
 }
