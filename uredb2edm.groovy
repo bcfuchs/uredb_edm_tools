@@ -4,8 +4,15 @@ import groovy.sql.Sql;
 import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
 
-ure();
-//test();
+def type = args[0];
+switch(type) {
+case "ure":
+    ure();
+case "test":
+    test()
+}
+
+
 
 
 
@@ -28,9 +35,9 @@ def ure() {
 	def place = {
 	    def a = uredb.get_place(accession_number);
 	    if (a != null) {
-		return "http://www.geonames.org/" + a.guid
+		return [uri:"http://www.geonames.org/" + a.guid,name:a.surrogate]
 	    }
-	    return null;
+	    return null
 	}()
 	
 
@@ -40,7 +47,7 @@ def ure() {
 			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
-			       geonames_spatial:place,
+			       geonames_spatial:{ if (place != null) { return place.uri} else return ""}(),
 			       title:rec.short_title,
 			       resource1:'some concept resource url',
 			       resource2:'some concept resource url',
@@ -54,7 +61,32 @@ def ure() {
 	    out <<  edm.rights([wr_about:url]);
 
 	}
-		println out.join("");
+
+	if (place != null)
+	   	    out << edm.place([uri:place.uri,location:place.name]);
+	def has_views = [];
+	images.pix.each {
+	    def url = it.uri_local + "/sm/" + it.uri;
+	    has_views << edm.has_view([has_view:url]);
+	}
+	def object_url = ure_uri + accession_number;
+	println object_url
+	def thumb = {
+	    if (images.thumb)
+		return images.thumb;
+	    return ""
+
+		    
+
+	}
+	//TODO  might not be a thumb
+	out << edm.ore_aggregation([about:object_url,
+				   resource_id:object_url,
+				   has_views:has_views.join(""),
+				   is_shown_at:object_url,
+				   is_shown_by:thumb]);
+	out = edm.prefix()+out.join("")+'</rdf:RDF>';
+	println out
     }
     
 }
@@ -65,7 +97,7 @@ def test() {
     def edm = new Edm();
     def out = [];
     def cho = edm.get_cho([date:'date',about:'about',description:'description',identifier:"id",geonames_spatial:'geo1',
-			   title:'title',resource1:'resource1',resource2:'resource2']);
+			   title:'title',resource1:'resource1',resource2:'resource2',edm_type:"IMAGE"]);
     out << cho;
     def web_resources = ['http://www.mimo-db.eu/media/UEDIN/VIDEO/0032195v.mpg',
 			 'http://www.mimo-db.eu/media/UEDIN/AUDIO/0032195s.mp3',
@@ -113,10 +145,33 @@ class Edm {
   </edm:Place>
 
 ''';
-	return _doTemplate(text,data);
+
 	    
     }
-	
+    def has_view(data) {
+	def text = ''' <edm:hasView rdf:resource="$has_view"/>
+'''
+	return _doTemplate(text,data);
+
+
+    }
+    def ore_aggregation(data) {
+	def text = '''
+
+<ore:Aggregation rdf:about="$about">
+  <edm:aggregatedCHO rdf:resource="$resource_id"/>
+  <edm:dataProvider>Collections Trust</edm:dataProvider>
+   $has_views
+  <edm:isShownAt rdf:resource="$is_shown_at"/> 
+  <edm:isShownBy rdf:resource="$is_shown_by"/> 
+  <edm:object rdf:resource="$is_shown_by"/>
+  <edm:provider>Ure Museum of Classical Archaeology</edm:provider> 
+  <edm:rights rdf:resource="''' + this.license + '''"/>
+</ore:Aggregation> </rdf:RDF>
+
+'''
+	    return _doTemplate(text,data);
+    }
     def skos_concept(data) {
 	def text = '''
  <skos:Concept rdf:about="${uri}">
@@ -179,6 +234,8 @@ return '''
 }
 class Images {
     def String thumb;
+    def String small;
+    def String large;
     def List pix;
     def boolean hasPic;
 
@@ -232,6 +289,7 @@ class Uredb {
 	  this.accnum2media = slurper.parse(new File(cf.id2media.file));    
 
       }
+
     def get_place(accnum) {
 	if (places[accnum]){
 	    return places[accnum][0]
@@ -245,7 +303,10 @@ class Uredb {
 	if (this.accnum2media[id]) {
 	    
 	    def t =  this.accnum2media[id];
-	    im = new Images(thumb:t[0],pix:t,hasPic:true);
+	    def thumb = t[0].uri_local + "/thumb/"+ t[0].uri;
+	    def small  = t[0].uri_local + "/small/"+ t[0].uri;
+	    def large = t[0].uri_local + "/large/"+ t[0].uri;
+	    im = new Images(thumb:thumb,large:large,pix:t,hasPic:true);
 	    
 
 	}
