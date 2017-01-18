@@ -24,29 +24,37 @@ def ure() {
     def edm = new Edm();
     def ure_uri = "http://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=";
     // get the edm
-
+    /**
+       missing
+       edm:TimeSpan
+       dcterms:temporal 
+       dc:subject 
+     */
+    // go through each record, get parts
     uredb.uremeta.each {rec ->
 
 	def out = [];
 
-	def accession_number = rec.accession_number;
-	def uri = ure_uri + accession_number;
+	def accnum = rec.accession_number;
+	def uri = ure_uri + accnum;
 
 	def place = {
-	    def a = uredb.get_place(accession_number);
+	    def a = uredb.get_place(accnum);
 	    if (a != null) {
-		return [uri:"http://www.geonames.org/" + a.guid,name:a.surrogate]
+		return [uri:"http://www.geonames.org/" + a.guid,
+			name:a.surrogate]
 	    }
 	    return null
 	}()
 	
 
-	     def type = "pot"; // ASK AMY!!!
+	     def type = "pot"; // ASK AMY!!! -- which metadata determine this??
+	
 	//not always a date or place
 	def cho = edm.get_cho([date:rec.date,
 			       about:uri,
 			       description:rec.description,
-			       identifier:rec.accession_number,
+			       identifier:rec.accnum,
 			       geonames_spatial:{ if (place != null) { return place.uri} else return ""}(),
 			       title:rec.short_title,
 			       resource1:'some concept resource url',
@@ -54,32 +62,33 @@ def ure() {
 			       edm_type:type]);
 
 	out << cho;
+
 	def Images images = uredb.get_pix(rec.id.toString());
 
 	images.pix.each {
-	    def url = it.uri_local + "/thumb/" + it.uri
+	    def url = it.uri_local + "/sm/" + it.uri
 	    out <<  edm.rights([wr_about:url]);
 
 	}
-
+	
+	// place
 	if (place != null)
-	   	    out << edm.place([uri:place.uri,location:place.name]);
+	   	out << edm.place([uri:place.uri,location:place.name]);
+	// views
 	def has_views = [];
 	images.pix.each {
-	    def url = it.uri_local + "/sm/" + it.uri;
-	    has_views << edm.has_view([has_view:url]);
+	    has_views << edm.has_view([has_view:it.uri_local + "/sm/" + it.uri]);
 	}
-	def object_url = ure_uri + accession_number;
+	
+	def object_url = ure_uri + accnum;
 	println object_url
 	def thumb = {
 	    if (images.thumb)
 		return images.thumb;
 	    return ""
-
 		    
-
 	}
-	//TODO  might not be a thumb
+	//TODO  might not have images....
 	out << edm.ore_aggregation([about:object_url,
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
