@@ -10,14 +10,16 @@ case "ure":
     ure();
 case "test":
     test()
-}
+
+	}
 
 
 
 
 
 def ure() {
-def err = { m->System.err.println(m)}
+
+    def err = { m->System.err.println(m)}
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
@@ -285,6 +287,63 @@ class Uredb {
 	  //	  _make_media_dict();
 	      
       }
+
+
+    // parse date and re-format
+    def String date_correct(String date) {
+	/**
+	    500-450  500-450 BCE
+	    1700-1750 1700-1750 CE
+	    6 c     600-500 BCE
+	    14th c 1400-1300 BCE
+	    6 c or later   600-? BCE
+
+
+	*/
+
+    def  check;
+    check = (date=~/(\d+)-(\d+)/)
+    if (check) {
+	def date1,date2
+	date1 = check[0][1]
+	date2 = check[0][2]
+	return  (date1 > date2)? date + " BCE": date + " CE"
+	   
+    }
+
+    // 14th c. 
+    check =  (date =~/(\d+)(\D+)\sc/);
+    if (check) {
+	def date1,date2, new_date1;
+	date1 = check[0][1];
+	date2   = date1.toInteger() - 1  ;
+	new_date1 = date1 + "00";
+	return new_date1 + "-" +date2 + "00"
+    }
+    // 6 c. or later
+    check =  (date =~ /(\d+)\D+or later/);
+    if (check) {
+
+	def date1,date2, new_date1;
+	date1 = check[0][1];
+	new_date1 = date1 + "00";
+	return new_date1 + "-?"
+
+      }
+    
+    // 6 c
+    check =   (date =~/(\d+)\sc/);
+    if (check) {
+       	def date1,date2, new_date1;
+	date1 = check[0][1];
+	date2   = date1.toInteger() - 1  ;
+	new_date1 = date1 + "00";
+	return new_date1 + "-" +date2 + "00"
+	
+    }
+	
+
+    }
     def _make_media_dict() {
 	    /**
 	 uremeta_media_id: 22
@@ -317,7 +376,20 @@ class Uredb {
 	  this.accnum2media = slurper.parse(new File(cf.id2media.file));    
 
       }
+    // parse the date and correct format
+    def date_correct(String date) {
+	/**
+	   500-450    500-450 BCE
+	   1700-1750  1700-1750 CE
+	   6 c        600-500 BCE
+	   14th c     1400-1300 BCE
+	   6 c or later   600-? BCE
 
+
+	 */
+
+
+    }
     def get_place(accnum) {
 	if (places[accnum]){
 	    return places[accnum][0]
