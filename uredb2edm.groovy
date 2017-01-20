@@ -44,10 +44,10 @@ def ure() {
     uredb.uremeta.each {rec ->
 
 	def out = [];
-
+	def date = uredb.date_correct(rec.date);
+	println rec.date + " : " + date;
 	def accnum = rec.accession_number;
 	def uri = ure_uri + accnum;
-	err("hi");
 	def place = {
 	    def a = uredb.get_place(accnum);
 	    if (a != null) {
@@ -98,7 +98,7 @@ def ure() {
 	}
 	
 	def object_url = ure_uri + accnum;
-	println object_url
+
 	def thumb = {
 	    if (images.thumb)
 		return images.thumb;
@@ -112,7 +112,7 @@ def ure() {
 				   is_shown_at:object_url,
 				   is_shown_by:thumb]);
 	out = edm.prefix()+out.join("")+'</rdf:RDF>';
-	println out
+	//	println out
     }
     
 }
@@ -208,7 +208,7 @@ class Edm {
 	return _doTemplate(text,data);
 
     }
-    err(rec.shape);
+
     def resource(data){
 	def text = '''<dc:type rdf:resource="${resource}"/>''';
 	return _doTemplate(text,data);
@@ -302,11 +302,37 @@ class Uredb {
 	*/
 
     def  check;
+
+    //     5-6 c. AD : 5-6 c. AD CE
+    check = (date=~/(\d+)-(\d+) c\. AD/)
+    if (check) {
+	def date1,date2
+	date1 = check[0][1] + "00"
+	date2 = check[0][2] + "00"
+	return date1 + "-" + date2 + " CE";
+	   
+    }
+    // 16-15 c. 
+    check = (date=~/(\d+)-(\d+) c/)
+    if (check) {
+	def date1,date2
+	date1 = check[0][1] + "00"
+	date2 = check[0][2] + "00"
+	return date1 + "-" + date2 + " BCE";
+	   
+    }
+
+    // 500-400
     check = (date=~/(\d+)-(\d+)/)
     if (check) {
 	def date1,date2
 	date1 = check[0][1]
 	date2 = check[0][2]
+	if (date1.toInteger() < 20) {
+	    date1 += "00"
+	    date2 += "00"
+
+	}
 	return  (date1 > date2)? date + " BCE": date + " CE"
 	   
     }
@@ -318,8 +344,9 @@ class Uredb {
 	date1 = check[0][1];
 	date2   = date1.toInteger() - 1  ;
 	new_date1 = date1 + "00";
-	return new_date1 + "-" +date2 + "00"
+	return new_date1 + "-" +date2 + "00 BCE"
     }
+    
     // 6 c. or later
     check =  (date =~ /(\d+)\D+or later/);
     if (check) {
@@ -338,12 +365,20 @@ class Uredb {
 	date1 = check[0][1];
 	date2   = date1.toInteger() - 1  ;
 	new_date1 = date1 + "00";
-	return new_date1 + "-" +date2 + "00"
+	return new_date1 + "-" +date2 + "00 BCE"
 	
     }
-	
 
+    // 1939-45
+    if (date == " " )
+	date = null
+    if (date != null && date != "" ) {
+
+    date  += " BCE"
     }
+    return date
+
+	}
     def _make_media_dict() {
 	    /**
 	 uremeta_media_id: 22
@@ -376,20 +411,9 @@ class Uredb {
 	  this.accnum2media = slurper.parse(new File(cf.id2media.file));    
 
       }
-    // parse the date and correct format
-    def date_correct(String date) {
-	/**
-	   500-450    500-450 BCE
-	   1700-1750  1700-1750 CE
-	   6 c        600-500 BCE
-	   14th c     1400-1300 BCE
-	   6 c or later   600-? BCE
 
 
-	 */
-
-
-    }
+    
     def get_place(accnum) {
 	if (places[accnum]){
 	    return places[accnum][0]
@@ -399,7 +423,7 @@ class Uredb {
 	    
     def get_pix(id) {
 	Images im;
-	println id
+
 	if (this.accnum2media[id]) {
 	    
 	    def t =  this.accnum2media[id];
