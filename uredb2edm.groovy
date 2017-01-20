@@ -17,13 +17,21 @@ case "test":
 
 
 def ure() {
-
+def err = { m->System.err.println(m)}
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
     def edm = new Edm();
-    def ure_uri = "http://uremuseum.org/cgi-bin/ure/uredb.cgi?rec=";
+    def ure_uri = "http://uremuseum.org/record/";
     // get the edm
+    /**
+       edm concept 
+       "http://www.eionet.europa.eu/gemet/concept/1266"
+
+       "http://www.eionet.europa.eu/gemet/concept/4260",
+       "http://www.eionet.europa.eu/gemet/concept/1266"
+
+    */
     /**
        missing
        edm:TimeSpan
@@ -37,7 +45,7 @@ def ure() {
 
 	def accnum = rec.accession_number;
 	def uri = ure_uri + accnum;
-
+	err("hi");
 	def place = {
 	    def a = uredb.get_place(accnum);
 	    if (a != null) {
@@ -45,20 +53,27 @@ def ure() {
 			name:a.surrogate]
 	    }
 	    return null
-	}()
+	}();
 	
+	def resources = {
+	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
+	    // switch based on field - get from config
+	    if (true) {
 
-	     def type = "pot"; // ASK AMY!!! -- which metadata determine this??
+		return edm.resource([resource:url]);
+	    }
+
+	}();
+	def type = "pot"; // ASK AMY!!! -- which metadata determine this??
 	
 	//not always a date or place
 	def cho = edm.get_cho([date:rec.date,
 			       about:uri,
 			       description:rec.description,
-			       identifier:rec.accnum,
+			       identifier:rec.accession_number,
 			       geonames_spatial:{ if (place != null) { return place.uri} else return ""}(),
 			       title:rec.short_title,
-			       resource1:'some concept resource url',
-			       resource2:'some concept resource url',
+			       resources:resources,
 			       edm_type:type]);
 
 	out << cho;
@@ -191,7 +206,12 @@ class Edm {
 	return _doTemplate(text,data);
 
     }
-	
+    err(rec.shape);
+    def resource(data){
+	def text = '''<dc:type rdf:resource="${resource}"/>''';
+	return _doTemplate(text,data);
+
+    }
    def rights(data) {
 	def text = '''
    <edm:WebResource rdf:about="${wr_about}">
@@ -218,8 +238,7 @@ class Edm {
     </dc:identifier>
     <dcterms:spatial rdf:resource="${geonames_spatial}"/>
     <dc:title>$title</dc:title>
-    <dc:type rdf:resource="${resource1}"/>
-    <dc:type rdf:resource="${resource2}"/> 
+$resources
     <edm:type>${edm_type}</edm:type>
   </edm:ProvidedCHO>
 '''
