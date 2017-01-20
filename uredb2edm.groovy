@@ -321,7 +321,7 @@ class Uredb {
 	return date1 + "-" + date2 + " BCE";
 	   
     }
-
+    // 1939-45
     // 500-400
     check = (date=~/(\d+)-(\d+)/)
     if (check) {
@@ -333,7 +333,12 @@ class Uredb {
 	    date2 += "00"
 
 	}
-	return  (date1 > date2)? date + " BCE": date + " CE"
+	else {
+	    date2 += "00"
+
+
+	}
+	return  (date1.toInteger() > date2.toInteger())? date + " BCE": date + " CE"
 	   
     }
 
@@ -369,7 +374,10 @@ class Uredb {
 	
     }
 
-    // 1939-45
+    
+
+
+    
     if (date == " " )
 	date = null
     if (date != null && date != "" ) {
