@@ -45,7 +45,7 @@ def ure() {
 
 	def out = [];
 	def date = uredb.date_correct(rec.date);
-	println rec.date + " : " + date;
+	//	println rec.date + " : " + date;
 	def accnum = rec.accession_number;
 	def uri = ure_uri + accnum;
 	def place = {
@@ -112,7 +112,12 @@ def ure() {
 				   is_shown_at:object_url,
 				   is_shown_by:thumb]);
 	out = edm.prefix()+out.join("")+'</rdf:RDF>';
-	//	println out
+	def printer = {->
+		       print sprintf( '%1$s\t %2$s\t %3$s\t %4$s\t', [rec.accession_number, rec.date, date,rec.description])
+		       print "\n";
+	};
+	//	printer();
+	println out
     }
     
 }
@@ -297,14 +302,14 @@ class Uredb {
 	    6 c     600-500 BCE
 	    14th c 1400-1300 BCE
 	    6 c or later   600-? BCE
-
+	    
 
 	*/
 
     def  check;
 
     //     5-6 c. AD : 5-6 c. AD CE
-    check = (date=~/(\d+)-(\d+) c\. AD/)
+    check = (date=~/(?i)(\d+)-(\d+) c\. AD/)
     if (check) {
 	def date1,date2
 	date1 = check[0][1] + "00"
@@ -313,7 +318,7 @@ class Uredb {
 	   
     }
     // 16-15 c. 
-    check = (date=~/(\d+)-(\d+) c/)
+    check = (date=~/(?i)(\d+)-(\d+) c/)
     if (check) {
 	def date1,date2
 	date1 = check[0][1] + "00"
@@ -321,29 +326,34 @@ class Uredb {
 	return date1 + "-" + date2 + " BCE";
 	   
     }
-    // 1939-45
+
     // 500-400
+    // 1939-45
+    // 5-600
     check = (date=~/(\d+)-(\d+)/)
     if (check) {
 	def date1,date2
 	date1 = check[0][1]
 	date2 = check[0][2]
+	// 5-600
 	if (date1.toInteger() < 20) {
 	    date1 += "00"
-	    date2 += "00"
+
 
 	}
+	
 	else {
-	    date2 += "00"
-
-
+	    if (date1.size() > date2.size()) 
+		date2 += "00"
+	    date = date1+"-"+date2
+	    
 	}
 	return  (date1.toInteger() > date2.toInteger())? date + " BCE": date + " CE"
 	   
     }
 
     // 14th c. 
-    check =  (date =~/(\d+)(\D+)\sc/);
+    check =  (date =~/(?i)(\d+)(\D+)\sc/);
     if (check) {
 	def date1,date2, new_date1;
 	date1 = check[0][1];
@@ -353,7 +363,7 @@ class Uredb {
     }
     
     // 6 c. or later
-    check =  (date =~ /(\d+)\D+or later/);
+    check =  (date =~ /(?i)(\d+)\D+or later/);
     if (check) {
 
 	def date1,date2, new_date1;
@@ -364,7 +374,7 @@ class Uredb {
       }
     
     // 6 c
-    check =   (date =~/(\d+)\sc/);
+    check =   (date =~/(?i)(\d+)\sc/);
     if (check) {
        	def date1,date2, new_date1;
 	date1 = check[0][1];
