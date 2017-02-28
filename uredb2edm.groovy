@@ -198,7 +198,7 @@ class Edm {
   <edm:object rdf:resource="$is_shown_by"/>
   <edm:provider>Ure Museum of Classical Archaeology</edm:provider> 
   <edm:rights rdf:resource="''' + this.license + '''"/>
-</ore:Aggregation> </rdf:RDF>
+</ore:Aggregation> 
 
 '''
 	    return _doTemplate(text,data);
