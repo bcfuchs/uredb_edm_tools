@@ -23,8 +23,14 @@ def ure() {
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
+    def reccount = 0;
     def edm = new Edm();
     def ure_uri = "http://uremuseum.org/record/";
+    def print_count = {
+	reccount++;
+	if (reccount  % 50 == 0)
+	    System.err.println "" + reccount + " records"
+    }
     // get the edm
     /**
        edm concept 
@@ -43,6 +49,7 @@ def ure() {
     // go through each record, get parts
     uredb.uremeta.each {rec ->
 
+	print_count();
 	def out = [];
 	def date = uredb.date_correct(rec.date);
 	//	println rec.date + " : " + date;
@@ -73,7 +80,7 @@ def ure() {
 			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
-			       geonames_spatial:{ if (place != null) { return place.uri} else return ""}(),
+			       geonames_spatial:{ if (place != null) { return place.uri} else return null}(),
 			       title:rec.short_title,
 			       resources:resources,
 			       edm_type:type]);
@@ -231,7 +238,15 @@ class Edm {
     
     def get_cho(binding){
 	// multiple rdf resources...
-	// need separate method to get these. 
+	// need separate method to get these.
+	binding['geo_inset'] = {
+
+		   if (binding.geonames_spatial == null)
+		       return "";
+		   def geo1 = '''    <dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
+		   return	_doTemplate(geo1,[geonames_spatial:binding['geonames_spatial']]);
+	}
+
 	def text = '''
   <edm:ProvidedCHO  rdf:about="$about">
     <dc:date>
@@ -243,7 +258,8 @@ class Edm {
     <dc:identifier>
       ${identifier}
     </dc:identifier>
-    <dcterms:spatial rdf:resource="${geonames_spatial}"/>
+    ${geo_inset}
+
     <dc:title>$title</dc:title>
 $resources
     <edm:type>${edm_type}</edm:type>
