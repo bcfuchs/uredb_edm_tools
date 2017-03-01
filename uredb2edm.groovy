@@ -196,66 +196,36 @@ class Edm {
     def gin = [:]
 	
     def place(data) {
-	def text = '''
-  <edm:Place rdf:about="${uri}">
-    <skos:prefLabel xml:lang="en">
-      ${location}
-    </skos:prefLabel>
-  </edm:Place>
-
-''';
-	return _doTemplate(text,data);
-
-	    
+	return _doTemplate(this.templates.place,data);	    
     }
+	
     def has_view(data) {
-	def text = ''' <edm:hasView rdf:resource="$has_view"/>
-'''
+	def text = ''' <edm:hasView rdf:resource="$has_view"/>'''
 	return _doTemplate(text,data);
-
-
     }
+    
     def ore_aggregation(data) {
 	data.license = this.license
 	return _doTemplate(this.templates.ore_aggregation,data);
     }
 
     def skos_concept(data) {
-	def text = '''
- <skos:Concept rdf:about="${uri}">
-    <skos:prefLabel xml:lang="en">${label}</skos:prefLabel>
-  </skos:Concept>
-'''
-	    def  out;
-	try {
-	    out = _doTemplate(this.templates.skos_concept,data);
-	}
-	catch(e) {
-	    System.err.println e;
-	}
-	return out
+	    return _doTemplate(this.templates.skos_concept,data);	
     }
 
     def resource(data){
 	def text = '''<dc:type rdf:resource="${resource}"/>''';
 	return _doTemplate(text,data);
-
     }
+    
    def rights(data) {
-	def text = '''
-   <edm:WebResource rdf:about="${wr_about}">
-      <edm:rights rdf:resource="'''+license+'''"/>
-  </edm:WebResource>
-        '''
-	return _doTemplate(text,data);
+       data.license = this.license;
+       return _doTemplate(this.templates.rights,data);
 
     }
     
     def get_cho(binding){
 	// multiple rdf resources...
-
-
-
         //  no spatial el if no spatial data
 	binding['geo_inset'] = {
 
@@ -264,32 +234,13 @@ class Edm {
 		   def t = '''    <dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
 		   return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
 	}
-
-	def text = '''
-  <edm:ProvidedCHO  rdf:about="$about">
-    <dc:date>
-    ${date}
-    </dc:date>
-    <dc:description>
-      ${description}
-    </dc:description>
-    <dc:identifier>
-      ${identifier}
-    </dc:identifier>
-    ${geo_inset}
-
-    <dc:title>$title</dc:title>
-     ${resources}
-    <edm:type>${edm_type}</edm:type>
-  </edm:ProvidedCHO>
-'''
 	    
-	    return _doTemplate(this.templates.cho,binding);
-	    //    return _doTemplate(text,binding);
+	return _doTemplate(this.templates.cho,binding);	    
 	
-	    }
+    }
 
     def _doTemplate(text,binding){
+	
 	if (! this.gin[text]) {
 	    this.gin[text] = engine.createTemplate(text)		
 	}
