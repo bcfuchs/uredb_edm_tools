@@ -33,7 +33,8 @@ def ure() {
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);    
-    
+
+    // load templates from config.groovy into edm
     def edm = new Edm(templates:get_templates(cf.templates));
 
     def ure_uri = "http://uremuseum.org/record/";
@@ -43,14 +44,14 @@ def ure() {
 	    return {
 		reccount++;
 		if (reccount  % reccount_max == 0)
-		    System.err.println "" + reccount + " records"
-			}
+		    System.err.println "" + reccount + " records";
+	    }
     }()
+	 
     // get the edm
     /**
        edm concept 
        "http://www.eionet.europa.eu/gemet/concept/1266"
-
        "http://www.eionet.europa.eu/gemet/concept/4260",
        "http://www.eionet.europa.eu/gemet/concept/1266"
 
@@ -61,17 +62,22 @@ def ure() {
        dcterms:temporal 
        dc:subject 
      */
-      println edm.prefix();
-    // go through each record, get parts
+	 // rdf prefix with namespaces
+	 println edm.prefix();
+    // go through each record, get parts, print as xml
+    
+    uredb.uremeta.each {rec ->
+	    
+	    print_count(); // progress
 
-     uredb.uremeta.each {rec ->
+	def out = []; // string array containing parts to print
 
-	print_count();
-	def out = [];
+	// fix the date
 	def date = uredb.date_correct(rec.date);
-	//	println rec.date + " : " + date;
 	def accnum = rec.accession_number;
 	def uri = ure_uri + accnum;
+
+	// get the placename from pelagios data
 	def place = {
 	    def a = uredb.get_place(accnum);
 	    if (a != null) {
@@ -82,11 +88,11 @@ def ure() {
 	}();
 	
 	def resources = {
+	    
 	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
 	    // switch based on field - get from config
-	    
+	    // TODO!!! -- ask Amy
 	    if (true) {
-
 		return edm.resource([resource:url]);
 	    }
 
@@ -105,6 +111,7 @@ def ure() {
 
 	out << cho;
 
+	// get images from db
 	def Images images = uredb.get_pix(rec.id.toString());
 
 	images.pix.each {
