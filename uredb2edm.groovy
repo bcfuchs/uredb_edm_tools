@@ -185,7 +185,7 @@ def test() {
 
 
 /** 
- * static template methods for creating edm xml
+ *  template methods for creating edm xml
  */
 class Edm {
 
@@ -210,7 +210,7 @@ class Edm {
     }
 
     def skos_concept(data) {
-	    return _doTemplate(this.templates.skos_concept,data);	
+	return _doTemplate(this.templates.skos_concept,data);	
     }
 
     def resource(data){
@@ -228,11 +228,10 @@ class Edm {
 	// multiple rdf resources...
         //  no spatial el if no spatial data
 	binding['geo_inset'] = {
-
-		   if (binding.geonames_spatial == null)
-		       return "";
-		   def t = '''    <dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
-		   return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
+	    if (binding.geonames_spatial == null)
+		return "";
+	    def t = '''<dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
+	    return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
 	}
 	    
 	return _doTemplate(this.templates.cho,binding);	    
