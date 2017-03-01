@@ -6,13 +6,8 @@ import groovy.json.JsonOutput;
 
 def type = args[0];
 
-
-
-
-    
-
 switch(type) {
-case "ure":
+  case "ure":
     ure();
 case "test":
     test()
@@ -22,18 +17,24 @@ case "test":
 
 
 
+def get_templates(t) {
+    def out = [:]
+    t.each {k,v ->
+	    out[k] = new File(v).getText();
 
+	    }
+    return out;
+
+}
 def ure() {
 
     def err = { m->System.err.println(m)}
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
-    def uredb = new Uredb(cf);
+    def uredb = new Uredb(cf);    
     
-    def templates = [:]
-    templates['ore_aggregation'] = new File(cf.templates.ore_aggregation).getText();
+    def edm = new Edm(templates:get_templates(cf.templates));
 
-    def edm = new Edm(templates:templates);
     def ure_uri = "http://uremuseum.org/record/";
     def print_count = {
 	    def reccount = 0;
@@ -87,9 +88,9 @@ def ure() {
 
 	}();
 	def type = "pot"; // ASK AMY!!! -- which metadata determine this??
-	
+		
 	//not always a date or place
-	def cho = edm.get_cho([date:rec.date,
+	def cho = edm.get_cho([date:date,
 			       about:uri,
 			       description:rec.description,
 			       identifier:rec.accession_number,
@@ -210,31 +211,17 @@ class Edm {
 
     }
     def ore_aggregation(data) {
-
-	def text = '''
-
-<ore:Aggregation rdf:about="$about">
-  <edm:aggregatedCHO rdf:resource="$resource_id"/>
-  <edm:dataProvider>Collections Trust</edm:dataProvider>
-   $has_views
-  <edm:isShownAt rdf:resource="$is_shown_at"/> 
-  <edm:isShownBy rdf:resource="$is_shown_by"/> 
-  <edm:object rdf:resource="$is_shown_by"/>
-  <edm:provider>Ure Museum of Classical Archaeology</edm:provider> 
-  <edm:rights rdf:resource="''' + this.license + '''"/>
-</ore:Aggregation> 
-
-'''
-	    return _doTemplate(this.templates.ore_aggregation,data);
+	data.license = this.license
+	return _doTemplate(this.templates.ore_aggregation,data);
     }
+
     def skos_concept(data) {
 	def text = '''
  <skos:Concept rdf:about="${uri}">
     <skos:prefLabel xml:lang="en">${label}</skos:prefLabel>
   </skos:Concept>
-
 '''
-	return _doTemplate(text,data);
+	return _doTemplate(this.templates.skos_concept,data);
 
     }
 
@@ -281,11 +268,12 @@ class Edm {
     ${geo_inset}
 
     <dc:title>$title</dc:title>
-$resources
+     ${resources}
     <edm:type>${edm_type}</edm:type>
   </edm:ProvidedCHO>
 '''
-
+	    
+	    //	    return _doTemplate(this.templates.cho,binding;)
 	    return _doTemplate(text,binding);
 
 	    }
