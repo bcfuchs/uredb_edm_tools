@@ -5,6 +5,12 @@ import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
 
 def type = args[0];
+
+
+
+
+    
+
 switch(type) {
 case "ure":
     ure();
@@ -23,14 +29,21 @@ def ure() {
     def configFile = "config.groovy";
     def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
     def uredb = new Uredb(cf);
-    def reccount = 0;
-    def edm = new Edm();
+    
+    def templates = [:]
+    templates['ore_aggregation'] = new File(cf.templates.ore_aggregation).getText();
+
+    def edm = new Edm(templates:templates);
     def ure_uri = "http://uremuseum.org/record/";
     def print_count = {
-	reccount++;
-	if (reccount  % 50 == 0)
-	    System.err.println "" + reccount + " records"
-    }
+	    def reccount = 0;
+	    def reccount_max = 50
+	    return {
+		reccount++;
+		if (reccount  % reccount_max == 0)
+		    System.err.println "" + reccount + " records"
+			}
+    }()
     // get the edm
     /**
        edm concept 
@@ -170,10 +183,13 @@ def test() {
  * static template methods for creating edm xml
  */
 class Edm {
+
     //    def engine = new groovy.text.XmlTemplateEngine();
+    Map templates = [:]
     def engine = new groovy.text.GStringTemplateEngine();
     def license = "http://creativecommons.org/licenses/by-nc-sa/3.0/";
-    
+
+	
     def place(data) {
 	def text = '''
   <edm:Place rdf:about="${uri}">
@@ -194,6 +210,7 @@ class Edm {
 
     }
     def ore_aggregation(data) {
+
 	def text = '''
 
 <ore:Aggregation rdf:about="$about">
@@ -208,7 +225,7 @@ class Edm {
 </ore:Aggregation> 
 
 '''
-	    return _doTemplate(text,data);
+	    return _doTemplate(this.templates.ore_aggregation,data);
     }
     def skos_concept(data) {
 	def text = '''
