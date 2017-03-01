@@ -124,10 +124,9 @@ def ure() {
 	
 	def object_url = ure_uri + accnum;
 
-	def thumb = {
-	    if (images.thumb)
-		return images.thumb;
-	    return ""
+	def large = {
+	    if (images.pix[0])
+		return images.pix[0].uri_local + "/sm/" + it.uri
 		    
 	}
 	//TODO  might not have images....
@@ -135,7 +134,7 @@ def ure() {
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
-				   is_shown_by:thumb]);
+				   is_shown_by:large]);
 
 	def printer = {->
 		       print sprintf( '%1$s\t %2$s\t %3$s\t %4$s\t', [rec.accession_number, rec.date, date,rec.description])
