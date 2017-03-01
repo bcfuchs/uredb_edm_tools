@@ -124,17 +124,17 @@ def ure() {
 	
 	def object_url = ure_uri + accnum;
 
-	def large = {
-	    if (images.pix[0])
-		return images.pix[0].uri_local + "/sm/" + it.uri
+	def isShownBy = {
+	    if (images.pix && images.pix[0])
+		return images.pix[0].uri_local + "/sm/" + images.pix[0].uri
 		    
-	}
+		    }()
 	//TODO  might not have images....
 	out << edm.ore_aggregation([about:object_url,
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
-				   is_shown_by:large]);
+				   is_shown_by:isShownBy]);
 
 	def printer = {->
 		       print sprintf( '%1$s\t %2$s\t %3$s\t %4$s\t', [rec.accession_number, rec.date, date,rec.description])
