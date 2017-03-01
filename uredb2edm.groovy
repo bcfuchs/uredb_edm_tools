@@ -238,13 +238,16 @@ class Edm {
     
     def get_cho(binding){
 	// multiple rdf resources...
-	// need separate method to get these.
+
+
+
+        //  no spatial el if no spatial data
 	binding['geo_inset'] = {
 
 		   if (binding.geonames_spatial == null)
 		       return "";
-		   def geo1 = '''    <dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
-		   return	_doTemplate(geo1,[geonames_spatial:binding['geonames_spatial']]);
+		   def t = '''    <dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
+		   return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
 	}
 
 	def text = '''
