@@ -9,6 +9,7 @@ def type = args[0];
 switch(type) {
   case "ure":
     ure();
+    break;
 case "test":
     test()
 
@@ -60,8 +61,10 @@ def ure() {
        dcterms:temporal 
        dc:subject 
      */
+      println edm.prefix();
     // go through each record, get parts
-    uredb.uremeta.each {rec ->
+
+     uredb.uremeta.each {rec ->
 
 	print_count();
 	def out = [];
@@ -81,6 +84,7 @@ def ure() {
 	def resources = {
 	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
 	    // switch based on field - get from config
+	    
 	    if (true) {
 
 		return edm.resource([resource:url]);
@@ -132,15 +136,16 @@ def ure() {
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
 				   is_shown_by:thumb]);
-	out = edm.prefix()+out.join("")+'</rdf:RDF>';
+
 	def printer = {->
 		       print sprintf( '%1$s\t %2$s\t %3$s\t %4$s\t', [rec.accession_number, rec.date, date,rec.description])
 		       print "\n";
 	};
 	//	printer();
-	println out
+	println out.join("\n");
     }
-    
+
+	println '</rdf:RDF>'
 }
        
        
@@ -189,7 +194,7 @@ class Edm {
     Map templates = [:]
     def engine = new groovy.text.GStringTemplateEngine();
     def license = "http://creativecommons.org/licenses/by-nc-sa/3.0/";
-
+    def gin = [:]
 	
     def place(data) {
 	def text = '''
@@ -200,6 +205,7 @@ class Edm {
   </edm:Place>
 
 ''';
+	return _doTemplate(text,data);
 
 	    
     }
@@ -221,8 +227,14 @@ class Edm {
     <skos:prefLabel xml:lang="en">${label}</skos:prefLabel>
   </skos:Concept>
 '''
-	return _doTemplate(this.templates.skos_concept,data);
-
+	    def  out;
+	try {
+	    out = _doTemplate(this.templates.skos_concept,data);
+	}
+	catch(e) {
+	    System.err.println e;
+	}
+	return out
     }
 
     def resource(data){
@@ -273,15 +285,17 @@ class Edm {
   </edm:ProvidedCHO>
 '''
 	    
-	    //	    return _doTemplate(this.templates.cho,binding;)
-	    return _doTemplate(text,binding);
-
+	    return _doTemplate(this.templates.cho,binding);
+	    //    return _doTemplate(text,binding);
+	
 	    }
 
     def _doTemplate(text,binding){
+	if (! this.gin[text]) {
+	    this.gin[text] = engine.createTemplate(text)		
+	}
+	return this.gin[text].make(binding);
 
-	def template = engine.createTemplate(text).make(binding);
-	return template;
     }
     def prefix() {
 return '''
