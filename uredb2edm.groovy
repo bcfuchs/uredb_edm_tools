@@ -15,9 +15,6 @@ case "test":
 
 	}
 
-
-
-
 def get_templates(t) {
     def out = [:]
     t.each {k,v ->
@@ -27,6 +24,7 @@ def get_templates(t) {
     return out;
 
 }
+
 def ure() {
 
     def err = { m->System.err.println(m)}
@@ -92,8 +90,10 @@ def ure() {
 	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
 	    // switch based on field - get from config
 	    // TODO!!! -- ask Amy
-	    if (true) {
+	    if (rec.artist != "" && rec.artist !=null &&  rec.artist != " " ) {
+		System.err.println rec.artist
 		return edm.resource([resource:url]);
+
 	    }
 
 	}();
