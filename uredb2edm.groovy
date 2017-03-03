@@ -97,9 +97,10 @@ def ure() {
 		return edm.resource([resource:url]);
 
 	    }
-
+	    return ""
 	}();
-	def type = "pot"; // ASK AMY!!! -- which metadata determine this??
+	
+	def type = "IMAGE"; // ASK AMY!!! -- which metadata determine this??
 		
 	//not always a date or place
 	def cho = edm.get_cho([date:date,
