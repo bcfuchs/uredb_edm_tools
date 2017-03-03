@@ -65,7 +65,7 @@ def ure() {
     // go through each record, get parts, print as xml
     
     uredb.uremeta.each {rec ->
-	    
+	    def shouldPrint = true; // print if true -- set to false if no images.
 	    print_count(); // progress
 
 	def out = []; // string array containing parts to print
@@ -131,27 +131,29 @@ def ure() {
 	images.pix.each {
 	    has_views << edm.has_view([has_view:it.uri_local + "/sm/" + it.uri]);
 	}
-	
-	def object_url = ure_uri + accnum;
+
+	if (!images.pix || !images.pix[0].uri_local)
+	    shouldPrint = false;
+
+	    
+
 
 	def isShownBy = {
 	    if (images.pix && images.pix[0])
 		return images.pix[0].uri_local + "/sm/" + images.pix[0].uri
-		    
+	    return ""	    
 		    }()
-	//TODO  might not have images....
+	def object_url = isShownBy
+			 
+			 //TODO  might not have images....
 	out << edm.ore_aggregation([about:object_url,
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
 				   is_shown_by:isShownBy]);
 
-	def printer = {->
-		       print sprintf( '%1$s\t %2$s\t %3$s\t %4$s\t', [rec.accession_number, rec.date, date,rec.description])
-		       print "\n";
-	};
-	//	printer();
-	println out.join("\n");
+	if (shouldPrint)
+	    println out.join("\n");
     }
 
 	println '</rdf:RDF>'
