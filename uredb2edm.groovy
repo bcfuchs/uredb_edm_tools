@@ -90,8 +90,10 @@ def ure() {
 	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
 	    // switch based on field - get from config
 	    // TODO!!! -- ask Amy
-	    if (rec.artist != "" && rec.artist !=null &&  rec.artist != " " ) {
-		System.err.println rec.artist
+	    //if (rec.artist != "" && rec.artist !=null &&  rec.artist != " " ) {
+
+	    if (rec.material == "Terracotta" ) {
+		System.err.println ">>" + rec.material + " " + rec.artist
 		return edm.resource([resource:url]);
 
 	    }
