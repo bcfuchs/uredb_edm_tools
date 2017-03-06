@@ -25,7 +25,19 @@ def get_templates(t) {
 
 }
 
+// return true if record matches a filter
+def record_filters(rec) {
+
+    if (rec.accession_number =~ /REDMG/) 
+	return true
+     
+	   
+    return false;
+
+
+}
 def ure() {
+
 
     def err = { m->System.err.println(m)}
     def configFile = "config.groovy";
@@ -67,7 +79,12 @@ def ure() {
     uredb.uremeta.each {rec ->
 	    def shouldPrint = true; // print if true -- set to false if no images.
 	    print_count(); // progress
+	    // skip rec  if it matches a filter
+	    
+	    if (record_filters(rec)) {
+		shouldPrint = false
 
+	    }
 	def out = []; // string array containing parts to print
 
 	// fix the date
@@ -131,11 +148,9 @@ def ure() {
 	images.pix.each {
 	    has_views << edm.has_view([has_view:it.uri_local + "/sm/" + it.uri]);
 	}
-
 	if (!images.pix || !images.pix[0].uri_local)
 	    shouldPrint = false;
-
-	    
+   
 
 
 	def isShownBy = {
@@ -151,7 +166,7 @@ def ure() {
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
 				   is_shown_by:isShownBy]);
-
+	out << '<!-- end record -->'
 	if (shouldPrint)
 	    println out.join("\n");
     }
