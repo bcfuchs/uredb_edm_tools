@@ -109,7 +109,7 @@ def ure() {
 	    // TODO!!! -- ask Amy
 	    //if (rec.artist != "" && rec.artist !=null &&  rec.artist != " " ) {
 
-	    if (rec.material == "Terracotta" ) {
+	    if (rec.material =~ /Terracotta/ ) {
 		System.err.println ">>" + rec.material + " " + rec.artist
 		return edm.resource([resource:url]);
 
