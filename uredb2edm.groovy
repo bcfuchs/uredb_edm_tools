@@ -101,19 +101,25 @@ def ure() {
 	    }
 	    return null
 	}();
-	
+	def resource_urls = [
+	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
+	]
 	def resources = {
 	    
-	    def url = "http://www.eionet.europa.eu/gemet/concept/1266"
-	    // switch based on field - get from config
-	    // TODO!!! -- ask Amy
-	    //if (rec.artist != "" && rec.artist !=null &&  rec.artist != " " ) {
+	 
+	    
 
 	    if (rec.material =~ /Terracotta/ ) {
 		System.err.println ">>" + rec.material + " " + rec.artist
-		return edm.resource([resource:url]);
+		return edm.resource([resource:resource_urls['ceramics']]);
 
 	    }
+	    if (rec.material =~ /Coarse/ ) {
+		System.err.println "       >>" + rec.material + " " + rec.artist
+		return edm.resource([resource:resource_urls['ceramics']]);
+
+	    }
+	    
 	    return ""
 	}();
 	

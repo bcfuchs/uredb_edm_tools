@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:oai="http://www.openarchives.org/OAI/2.0/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <edm:ProvidedCHO rdf:about="http://uremuseum.org/record/11.10.10">
+    <dc:date>525-500 BCE</dc:date>
+    <dc:description>Quatrefoil, no hatching. On mouth, one broad band between two narrow. Bottom flattened.</dc:description>
+    <dc:identifier>11.10.10</dc:identifier>
+    <dc:title>Corinthian aryballos</dc:title>
+    <dc:type rdf:resource="http://www.eionet.europa.eu/gemet/concept/1266"/>
+    <edm:type>IMAGE</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0088.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0090.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0185.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0186.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0232.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2004.34a/sm/2004.34.0005.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2005.05/sm/2005.05.0045.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:Place rdf:about="http://www.geonames.org/570182">
+    <skos:prefLabel xml:lang="en">
+      Corinth
+    </skos:prefLabel>
+  </edm:Place>
+  <ore:Aggregation rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg">
+    <edm:aggregatedCHO rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg"/>
+    <edm:dataProvider>Collections Trust</edm:dataProvider>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0088.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0090.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0185.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0186.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.92e/sm/2003.92.0232.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2004.34a/sm/2004.34.0005.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2005.05/sm/2005.05.0045.jpg"/>
+    <edm:isShownAt rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg"/>
+    <edm:isShownBy rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg"/>
+    <edm:object rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0003.jpg"/>
+    <edm:provider>Ure Museum of Classical Archaeology</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </ore:Aggregation>
+  <!-- end record -->
+  <edm:ProvidedCHO rdf:about="http://uremuseum.org/record/11.10.11">
+    <dc:date>550 BCE</dc:date>
+    <dc:description>Quatrefoil, with hatching and wavy patterns intermediate.  Black on greenish ground.  Three broad circles on mouth, two on side of mouth.  Oblique stroke at back of body.</dc:description>
+    <dc:identifier>11.10.11</dc:identifier>
+    <dc:title>Corinthian mc - lc i aryballos</dc:title>
+    <dc:type rdf:resource="http://www.eionet.europa.eu/gemet/concept/1266"/>
+    <edm:type>IMAGE</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0089.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0091.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2005.05/sm/2005.05.0042.jpg">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:Place rdf:about="http://www.geonames.org/570182">
+    <skos:prefLabel xml:lang="en">
+      Corinth
+    </skos:prefLabel>
+  </edm:Place>
+  <ore:Aggregation rdf:about="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg">
+    <edm:aggregatedCHO rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg"/>
+    <edm:dataProvider>Collections Trust</edm:dataProvider>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0089.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0091.jpg"/>
+    <edm:hasView rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2005.05/sm/2005.05.0042.jpg"/>
+    <edm:isShownAt rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg"/>
+    <edm:isShownBy rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg"/>
+    <edm:object rdf:resource="http://uredb.reading.ac.uk/ure/pixdir/2003.05/sm/2003.05.0005.jpg"/>
+    <edm:provider>Ure Museum of Classical Archaeology</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </ore:Aggregation>
+</rdf:RDF>
