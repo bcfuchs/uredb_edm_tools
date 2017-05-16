@@ -1,0 +1,293 @@
+shape
+NULL
+ 
+Alabastron
+Alabastron; bombylios
+Amphora
+Amphora lid
+Amphoriskos
+Amulet
+Antefix
+Arrowhead
+Aryballic lekythos
+Aryballos
+Askos
+Askos: guttus
+Astragalos
+Aulos
+Ball aryballos
+Barbitos
+Barrel vase
+Basket-shaped vase
+Bead
+Bead net
+Beaked oinochoe
+Beetle
+Bell
+Bell krater
+Bird kylix
+Bolsal
+Bombylios
+Bombylios; bottle
+Booklet
+Bottle
+Bowl
+Bowl pyxis
+Bowl: cup
+Bowl; one-handler
+Box
+Box coffin
+Bracelet
+Brazier handle
+Button
+Calyx krater
+Camel figure
+Cast
+Ceramic face with handle
+Ceramic fragment
+Chalice
+Chous
+Chytra; juglet
+Circular
+Coffin
+Coffin mask
+Coin
+Coin: didrachm
+Coin: Hemidrachm
+Coin: quarter-obol
+Column krater
+Comb
+Conical cup
+Conical cup; saltcellar
+Conical cup; tumbler
+Conical oinochoe
+Cross
+Cup
+Cup-skyphos
+Cup; Handleless bowl
+Cup; one-handler
+Dagger
+Dagger; dirk
+Deep footless cup
+Deep skyphos
+Dice
+Dinos
+Dish
+Dish; bowl.
+Disk
+Droop cup
+Droop cup; kylix
+Duck askos
+Epichysis
+Eye cup
+Face mug
+Feeder
+Feeder with lid
+Female figure
+Fibula
+Figurine
+Fish plate
+Flake-tool
+Flask
+Foot aryballos
+Foot lekythos
+Fossil
+Fragment
+Fresco
+Funerary Cone
+Gem
+Gem  cast
+Gem cast
+Globular pyxis with lid
+Guttus
+Hair pin
+Handle
+Hawk
+Head
+Horn
+Hydria
+Ionian Cup
+Jar
+Jar in cup
+Jug
+Juglet
+Kalathos
+Kalathos cup
+Kantharos
+Karkhesion
+Kithara
+Knife
+Kohl pot
+Kothon
+Kotyle
+Krater
+Krater fragment
+Kylix
+Kylix; Ionian cup
+Lacrymaterion
+Ladle
+Lagynos
+Lamp
+Lebes gamikos
+Lekane
+Lekanis
+Lekanis lid
+Lekanis with lid
+Lekythos
+Lid
+Little amphora
+Little Master cup
+Loomweight
+Lozenge
+Lydion
+Lyre
+Mask
+Mastoid cup
+Medusa antefix
+Mesomphalos phiale
+Microblade
+Microlith tool
+Miniature amphora
+Miniature aryballos
+Miniature basket vase
+Miniature bell krater
+Miniature bowl
+Miniature calyx krater
+Miniature juglet
+Miniature kalathos
+Miniature kalathos cup
+Miniature krater
+Miniature lekythos
+Miniature mug
+Miniature neck amphora
+Miniature oinochoe
+Miniature pyxis
+Miniature round-mouthed oinochoe
+Miniature saltcellar
+Miniature shield
+Miniature skyphos
+Miniature two-handled mug
+Mirror
+Mirror case
+Mirror handle
+Model
+Model boat
+Mortar
+Mosaic
+Mug
+Mug lid
+Mummy
+Nail
+Neck amphora
+Necklace
+Nolan amphora
+Oil lamp
+Oinochoe
+Oinochoe handle
+Oinochoe lid
+Olpe (Jug)
+One-handler with lid
+Ornament
+Ostrich shell
+Ovoid aryballos
+Pair of sandals
+Palette
+Palmette
+Panathenaic amphora
+Pappas figurine
+Papyrus stalks
+Pebble
+Pelike
+Pendant
+Pendant vase
+Perhaps a ball aryballos
+Perhaps Alabastron
+Perhaps Amphora; Perhaps hydria; Perhaps jug
+Perhaps aryballos
+Perhaps coin
+Perhaps cup
+Perhaps dish
+Perhaps jug
+Perhaps kalathos
+Perhaps lid
+Perhaps oinochoe
+Perhaps skyphos
+Perhaps stamnos
+Phiale
+Phormiskos; rattle
+Photographic print
+Pin
+Pinch pot
+Pipe
+Pipe segment
+Pithos
+Plaque
+Plate
+Plemochoe
+Pointed amphora
+Pointed jar
+Pointed pyxis
+Postcard
+Protome
+Psephoi
+Pseudopanathenaic amphora
+Pyxis
+Pyxis lid
+Pyxis with lid
+Pyxis; handleless bowl
+Razor blade
+Rectangular
+Rhyton
+Ring
+Ring aryballos
+Ring stand
+Saltcellar
+Saucer
+Scale aryballos
+Scarab
+Sceptre
+Scraper
+Scraping tool
+Shabti
+Sheet
+Shell
+Siana cup
+Skyphos
+Slab
+Spindle whorl; bead
+Spout fragment
+Squat conical cup; saltcellar
+Squat lekythos
+Squeeze
+Stamnos
+Stamnos amphora
+Stamnos-pyxis
+Stamnos-pyxis lid
+Statue
+Statuette
+Stele
+Stemless cup
+Stemmed cup
+Stemmed dish
+Stemmed dish; cup; kothon
+Stirrup jar
+Stone
+Stopper
+Strigil
+Tanged dagger
+Tankard
+Textile
+Tile
+Tombstone
+Tool
+Tragic mask
+Trefoil-lip oinochoe
+Tripod bowl
+Trowl
+Tweezers
+Uraeus
+Vase
+Vase, perhaps lid
+Vessel
+Volute krater
+Winged scarab

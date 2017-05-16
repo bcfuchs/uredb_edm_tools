@@ -1,0 +1,75 @@
+material
+NULL
+ 
+Alabaster
+Alloy
+Bone
+Breccia(different minerals united by a cement)
+Bronze
+Bronze Billon (Alloy)
+Bronze; copper
+Card
+Carnelian
+Ceramic
+Copper
+Cupronickel; brass
+Faience
+Faience; shell; terracotta
+Flint
+Glass
+Glass; cork; newspaper; textile; animal
+Gold plate
+Grain
+Iron
+Iron; lead
+Ivory
+Latex
+Lead
+Leather
+Lime shell
+Limestone
+Linen
+Linen and wool
+Marble
+Metal
+Mother-of-pearl
+Paper
+Papyrus
+Paste
+Perhaps Copper
+Perhaps Glass
+Perhaps Granite
+Perhaps Ivory
+Perhaps Marble
+Perhaps Plaster
+Perhaps schist
+Perhaps Silver
+Perhaps Terracotta
+Perhaps terratotta
+Photo
+Plant
+Plaster
+Plywood
+Sandstone
+Serpentine
+Shell
+shell and Ivory or bone
+Shell; faience (beads)
+Silver
+Silver Billon (alloy)
+Silver; bronze; wood; ivory; bone
+Slate
+Soapstone
+Steatite
+Stone
+stone and mortar
+Stone or bone
+Terracotta
+Terracotta and stone
+Terracotta Unglazed
+Terracotta; marble; plaster.
+Terracotta; stone; plaster
+Various
+Wood
+Wood; glass; photographic paper
+Wool
