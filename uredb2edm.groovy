@@ -93,8 +93,8 @@ def ure() {
 	def uri = ure_uri + accnum;
 
 	// fix description
-	def description = uredb.description_correct(rec.description);
-	
+	def description = uredb.string_correct(rec.description);
+
 	
 	// get the placename from pelagios data
 	def place = {
@@ -135,7 +135,7 @@ def ure() {
 			       description:description,
 			       identifier:rec.accession_number,
 			       geonames_spatial:{ if (place != null) { return place.uri} else return null}(),
-			       title:rec.short_title,
+			       title:uredb.string_correct(rec.short_title),
 			       resources:resources,
 			       edm_type:type]);
 
@@ -318,9 +318,12 @@ class Uredb {
       }
 
     // various fixes for description typos
-    def String description_correct(String desc) {
+    def String string_correct(String desc) {
+	def out = desc;
+	if (desc != null) 
+	    out = desc.replaceAll("\\\\", "")
 
-	return	desc.replaceAll("\\\\", "")
+	return	out;
 
 
     }
