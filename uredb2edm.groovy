@@ -10,7 +10,7 @@ switch(type) {
   case "ure":
     ure();
     break;
-case "test":
+  case "test":
     test()
 
 	}
@@ -92,6 +92,10 @@ def ure() {
 	def accnum = rec.accession_number;
 	def uri = ure_uri + accnum;
 
+	// fix description
+	def description = uredb.description_correct(rec.description);
+	
+	
 	// get the placename from pelagios data
 	def place = {
 	    def a = uredb.get_place(accnum);
@@ -128,7 +132,7 @@ def ure() {
 	//not always a date or place
 	def cho = edm.get_cho([date:date,
 			       about:uri,
-			       description:rec.description,
+			       description:description,
 			       identifier:rec.accession_number,
 			       geonames_spatial:{ if (place != null) { return place.uri} else return null}(),
 			       title:rec.short_title,
@@ -313,6 +317,13 @@ class Uredb {
 	      
       }
 
+    // various fixes for description typos
+    def String description_correct(String desc) {
+
+	return	desc.replaceAll("\\\\", "")
+
+
+    }
 
     // parse date and re-format
     def String date_correct(String date) {
