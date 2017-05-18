@@ -5,10 +5,20 @@ import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
 
 def type = args[0];
+def contactFilename;
+
+if (args.size() > 1) {
+    contactFilename = args[1];
+}
+else {
+    contactFilename = "tmp/contacts.txt";
+}
+
+def cFile = new File(contactFilename).newOutputStream();
 
 switch(type) {
   case "ure":
-    ure();
+    ure(cFile);
     break;
   case "test":
     test()
@@ -36,7 +46,8 @@ def record_filters(rec) {
 
 
 }
-def ure() {
+
+def ure(cFile) {
 
 
     def err = { m->System.err.println(m)}
@@ -153,7 +164,7 @@ def ure() {
 	// place
 	if (place != null)
 	   	out << edm.place([uri:place.uri,location:place.name]);
-	// views
+	// views 
 	def has_views = [];
 	images.pix.each {
 	    has_views << edm.has_view([has_view:it.uri_local + "/sm/" + it.uri]);
@@ -168,6 +179,7 @@ def ure() {
 		return images.pix[0].uri_local + "/sm/" + images.pix[0].uri
 	    return ""	    
 		    }()
+			 
 	def object_url = isShownBy
 			 
 			 //TODO  might not have images....
@@ -176,12 +188,14 @@ def ure() {
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
 				   is_shown_by:isShownBy]);
-	out << '<!-- end record -->'
+	out << '<!-- end record -->';
+	cFile <<  accnum + "\t" + isShownBy + "\n"; 	    
 	if (shouldPrint)
 	    println out.join("\n");
     }
 
 	println '</rdf:RDF>'
+	    cFile.close();
 }
        
        
@@ -475,7 +489,7 @@ class Uredb {
 	    
     def get_pix(id) {
 	Images im;
-
+	
 	if (this.accnum2media[id]) {
 	    
 	    def t =  this.accnum2media[id];
