@@ -7,7 +7,6 @@ import groovy.util.XmlParser;
 
 /**
 Create an html widget for selecting profile thumbnails for each ure item
-
  */
 
 def js = '''
