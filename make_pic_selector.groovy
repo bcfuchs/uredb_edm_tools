@@ -75,18 +75,7 @@ def html(divs,simple) {
 <head>
 
 <script src="//code.jquery.com/jquery-1.11.3.js"></script>
-<script>
-! function(){
-  \\$(document).ready(function(){
-\\$('picsel').each(function(k,v) {
-
-
-console.log(k);
-})
-
-})
-}()
-</script>
+<script src="/pix.js"></script>>
 <style>
 body {
 color: white;
