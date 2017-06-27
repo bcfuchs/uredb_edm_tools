@@ -60,6 +60,10 @@ id2media.each {
     divs.push(template(it.key,it.value,id2accnum[it.key][1],id2accnum[it.key][2],temp1));
 		
 };
+
+print JsonOutput.prettyPrint(toJson(divs))
+System.exit(0);
+
 def divs2 = divs[0..100]
 def out = html(divs2,simple);
 

@@ -5,20 +5,30 @@
     var builder = (function (){
 
 	var config = {
-	    seljson:  "data/sel.json", 
+	    seljson:  "data/choices.json",
 	    templateSel : "#form-template",
 	    itemSel: ".item",
 	    innerSel: ".innerItem"
 
-	}
-	function build_grid(){
-	    // get template
+	};
+
+
+
+         function build_grid(data){
+	     
+	     // get group template
 	    var t = $(config.templateSel).clone().attr("id","");
 	    this.item = $(t).find(config.itemSel).remove()[0];
 	    // get innerItem
 	    this.inner = $(this.item).find(config.innerSel).remove()[0];
-	    for (var i  = 0;i < 10; i++) 
-		this.add_inner("df"+i,"/img/test.png",true);
+	     for (var i =0,z = data.length;i < z; i++) {
+		 var id = data[i]['id'];
+//		 $(this.item).clone().attr("id",id);
+		 console.log(data[i]);
+	     }
+
+	     for (var i  = 0;i < 10; i++) 
+		add_inner("df"+i,"/img/test.png",true);
 
 	    console.log(this.item);
 	}
@@ -44,7 +54,12 @@
 		   
 	})();
 		   $(document).ready(function(){
-		       builder.build_grid();
+		       
+		       $.getJSON(builder.config.seljson,builder.build_grid);
+
+	   
+       
+
 		   });
 }();
     
