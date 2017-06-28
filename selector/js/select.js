@@ -9,6 +9,7 @@
 	    templateSel : "#form-template",
 	    frameSel: "#choice-frame",
 	    radioSel: ".thumb-select",
+	    thumb_titleSel: ".thumb-title",	    
 	    itemSel: ".item",
 	    innerSel: ".innerItem"
 
@@ -84,6 +85,7 @@
 	    
 	    //	    console.log(inner);
 	    $(inner).find(config.radioSel).attr("id",id);
+	    $(inner).find(config.thumb_titleSSel).attr("id",id);
 	    $(inner).find(config.radioSel).attr("name",group_id);
 	    if (checked === true) {
 		$(inner).find(config.radioSel).attr("checked",true);
@@ -91,11 +93,15 @@
 	    return inner
 
 	}
-	
-	return {
+	function init() {
 
+	    $.getJSON(config.seljson,build_grid);
+	}
+	return {
+	    init: init,
 	    build_grid:build_grid,
 	    get_inner:get_inner,
+	    set_listener:set_listener,
 	    config:config
 	}
 		
@@ -103,7 +109,7 @@
 	})();
 		   $(document).ready(function(){
 		       
-		       $.getJSON(builder.config.seljson,builder.build_grid);
+		       builder.init();
 
 	   
        
