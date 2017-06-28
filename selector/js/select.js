@@ -3,7 +3,7 @@
     selection builder/controller
 */
     var builder = (function (){
-
+	var choices = {};;
 	var config = {
 	    seljson:  "data/choices.json",
 	    templateSel : "#form-template",
@@ -11,8 +11,8 @@
 	    radioSel: ".thumb-select",
 	    thumb_titleSel: ".thumb-title",	    
 	    itemSel: ".item",
-	    innerSel: ".innerItem"
-
+	    innerSel: ".innerItem",
+	    localStoreName : "thumb_select"
 	};
 
 
@@ -39,7 +39,7 @@
 		 $(item).find(".title").html(title);
 
 		 $(item).find("a.item-link").attr('href',link)
-		 $(item).find("a.item-link").html(title);
+		 $(item).find("a.item-link").html(id);
 
 		 //		 console.log(item[0]);
 		 var items= [];
@@ -63,19 +63,43 @@
 			 }
 		     }
 		 }
-//		 console.log(item[0]);
-//		 console.log(data[i]);
+
 		 $(config.frameSel).append(item[0])
 	 }
 	     set_listener();
 	 }
-	
+	function readLocal() {
+	    var name = config.localStoreName;
+	    if (localStorage.getItem(name)) {
+		choices = JSON.parse(localStorage.getItem(name));
+		
+	    }
+
+	    
+
+	}
+	function save2local(resource_id,accnum) {
+	    console.log("changed thumb for " + accnum + " to " + resource_id);
+	    console.log(" 2 changed thumb for " + resource_id + " to " + accnum);
+	    var name = config.localStoreName;
+	    readLocal();
+	    console.log(choices);
+	    choices[accnum] = resource_id
+	    localStorage.setItem(name, JSON.stringify(choices));
+	}
+	function save_change(resource_id, accnum) {
+
+	    save2local(resource_id,accnum);
+	    // 
+	    var postUrl = "/"
+	    // $.post(postUrl,"hi");
+	}
 	function set_listener(){
 	    var f = function() {
 
-		var m = $(this).attr("id");
-		var name = $(this).attr("name");
-		console.log("changed thumb for " + name + " to " + m);
+		var resource_id = $(this).attr("id");
+		var accnum = $(this).attr("name");
+		save_change(resource_id,accnum);
 	    }
 	    $(config.radioSel).change(f);
 
