@@ -74,7 +74,8 @@
 	    var f = function() {
 
 		var m = $(this).attr("id");
-		console.log("changed " + m);
+		var name = $(this).attr("name");
+		console.log("changed thumb for " + name + " to " + m);
 	    }
 	    $(config.radioSel).change(f);
 
