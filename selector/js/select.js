@@ -5,14 +5,16 @@
     var builder = (function (){
 	var choices = {};;
 	var config = {
-	    seljson:  "data/choices.json",
+	    seljson:  "data/choices.json", // where to get the data.
 	    templateSel : "#form-template",
 	    frameSel: "#choice-frame",
 	    radioSel: ".thumb-select",
 	    thumb_titleSel: ".thumb-title",	    
 	    itemSel: ".item",
 	    innerSel: ".innerItem",
-	    localStoreName : "thumb_select"
+	    localStoreName : "thumb_select",
+	    endpoint : "" // where to post the data. 
+	    
 	};
 
 
