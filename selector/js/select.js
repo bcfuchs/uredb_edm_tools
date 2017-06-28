@@ -30,6 +30,7 @@
 	     for (var i =0,z = 10;i < z; i++) {
 		 
 		 var id = data[i]['id'];
+		 var group_id = id;
 		 var title = data[i]['title'];
 		 var link= data[i]['link'];
 		 var raw_items = data[i]['items'];
@@ -49,14 +50,14 @@
 		 if (items.length > 0) {
 		     for (var j  = 0,q = items.length;j < q; j++)  {
 			 var checked = false;
-			 var item_id = items[j]['id']
-			 var item_url = items[j]['link']
+			 var inner_id = items[j]['id']
+			 var inner_url = items[j]['link']
 			
 			 if (j === 0)
 			     checked = true;
-			 var inner = get_inner(item_id,item_url,checked,this_inner);
+			 var inner = get_inner(inner_id,inner_url,checked,this_inner,group_id);
 			 
-			 if ( !(item_url.match(/null/)) ) {
+			 if ( !(inner_url.match(/null/)) ) {
 			     $(item).append(inner);
 			 }
 		     }
@@ -65,15 +66,25 @@
 //		 console.log(data[i]);
 		 $(config.frameSel).append(item[0])
 	 }
-
+	     set_listener();
 	 }
 	
+	function set_listener(){
+	    var f = function() {
 
-	function get_inner(id,src,checked,this_inner) {
+		var m = $(this).attr("id");
+		console.log("changed " + m);
+	    }
+	    $(config.radioSel).change(f);
+
+	}
+	function get_inner(id,src,checked,this_inner,group_id) {
 	    var inner = $(this_inner).clone().attr("id",id);
 	    $(inner).find("img").attr("src",src).attr("alt",src);
-
-//	    console.log(inner);
+	    
+	    //	    console.log(inner);
+	    $(inner).find(config.radioSel).attr("id",id);
+	    $(inner).find(config.radioSel).attr("name",group_id);
 	    if (checked === true) {
 		$(inner).find(config.radioSel).attr("checked",true);
 	    }
