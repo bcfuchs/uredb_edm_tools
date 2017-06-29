@@ -4,6 +4,7 @@
     <script src="js/select.js?v=2"></script>
     <!--   select an item from a bag in a series of bags, save choices, and send-->
     <style>
+
       body {
       color: white;
       background: black;
@@ -11,6 +12,11 @@
       #wrapper {
       width: 1000px;
       margin: auto;
+      }
+      span.title {
+
+      font-size: 25px;
+      padding-right: 20px;
       }
       .item {
 
@@ -25,6 +31,20 @@
       float: left;
       padding: 10px;
       margin-right: 15px;
+      }
+      .underscore {
+      text-decoration: underline;
+      color: aqua;
+
+      }
+      span.paginate-link {
+      padding-right: 10px;
+      cursor: pointer;
+      }
+      a.item-link {
+
+      color: aqua;
+
       }
       .innerItem.selected {
       border: 2px solid white;
@@ -45,8 +65,10 @@
 	
 	<div class="item">
 	  <div class="meta">
-	    <h3 class="title"></h3>
+	    <span class="title"></span>
 	    <a class="item-link"></a>
+
+	       
 	  </div>
 	  <div class="innerItem">
 	    <img></br>

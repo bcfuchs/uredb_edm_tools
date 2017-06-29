@@ -4,6 +4,7 @@
 */
     var builder = (function (){
 	var choices = {};
+	var isInit = true;
 	var cursor = 0; // where we are
 	var total = 0;
 	var this_data;
@@ -81,25 +82,38 @@
 		 $(config.frameSel).append(item[0])
 	 }
 	     set_listener();
-	     paginate();
+	     if (isInit === true)
+	     {
+		 paginate();
+	     }
 	     highlight();
+	     isInit  = false;
 	 }
 	
 	function paginate() {
 
 	    for (var i = 0; i < total;) {
-		i = i + config.itemsPerPage;
+
 		var thisPage = i+1;
 		var nextPage = thisPage + config.itemsPerPage
 		var link = $('<span class="paginate-link" data-start="'+i+'">'+ thisPage + "-" + nextPage + '</span>');
+		// set the underscore
+		if (i === 0 )
+		    $(link).addClass("underscore");
 		$(config.linkdivSel).append(link);
+		i = i + config.itemsPerPage;
 	    }
 
 	    // set the click
 	    var f = function() {
 		var itemNumber = $(this).data('start');
+		$(config.paginateLink).removeClass("underscore");
+		// underscore clicked link
+		$(this).addClass("underscore");
+
 		go_to_page(itemNumber);
 	    }
+
 	     $(config.paginateLink).click(f);
 
 
@@ -169,7 +183,7 @@
 	function go_to_page(itemNumber) {
 	    // wipe the data
 	    $(config.frameSel).html("");
-	    $(config.linkdivSel).html("");
+//	    $(config.linkdivSel).html("");
 	    // set the cursor
 	    cursor = itemNumber;
 	    
