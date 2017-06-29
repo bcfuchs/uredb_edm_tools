@@ -15,6 +15,7 @@
 	    thumb_titleSel: ".thumb-title",	    
 	    itemSel: ".item",
 	    paginateLink: ".paginate-link",
+	    linkdivSel: "#page-links",
 	    itemsPerPage: 100, // items to display per page
 	    innerSel: ".innerItem",
 	    localStoreName : "thumb_select",
@@ -27,6 +28,7 @@
          function build_grid(data){
 	     // set data;
 	     this_data = data;
+	     console.log("data size :" + this_data.length);
 	     // set total
 	     total = data.length;
 	     // get group template
@@ -37,8 +39,8 @@
 	     // get innerItem
 	     
 	     var this_inner = $(this_item).find(config.innerSel).remove()[0];
-
-	     for (var i = cursor,z = config.itemsPerPage;i < z; i++) {
+	     var f_cursor = cursor;
+	     for (var i = f_cursor,z = config.itemsPerPage+ f_cursor;i < z; i++) {
 		 
 		 var id = data[i]['id'];
 		 var group_id = id;
@@ -53,12 +55,14 @@
 
 
 		 var items= [];
+		 // get rid of nulls
 		 for (var j  = 0,q = raw_items.length;j < q; j++)  {
 		     if (!(raw_items[j]['link'].match(/null/))) {
 			 items.push(raw_items[j])
 		     }
 		 }
-		 if (items.length > 0) {
+		 // only do ones where there's a choice.
+		 if (items.length > 1) {
 		     for (var j  = 0,q = items.length;j < q; j++)  {
 			 var checked = false;
 			 var inner_id = items[j]['id']
@@ -80,6 +84,7 @@
 	     paginate();
 	     highlight();
 	 }
+	
 	function paginate() {
 
 	    for (var i = 0; i < total;) {
@@ -87,7 +92,7 @@
 		var thisPage = i+1;
 		var nextPage = thisPage + config.itemsPerPage
 		var link = $('<span class="paginate-link" data-start="'+i+'">'+ thisPage + "-" + nextPage + '</span>');
-
+		$(config.linkdivSel).append(link);
 	    }
 
 	    // set the click
@@ -164,11 +169,12 @@
 	function go_to_page(itemNumber) {
 	    // wipe the data
 	    $(config.frameSel).html("");
+	    $(config.linkdivSel).html("");
 	    // set the cursor
-		cursor = itemNumber
+	    cursor = itemNumber;
+	    
 	    // re-use data. 
-	    build_grid(data)
-
+	    build_grid(this_data)
 
 	}
 	function init() {
