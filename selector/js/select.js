@@ -127,9 +127,11 @@
 	}
 	function set_listener(){
 	    var f = function() {
-
+		$(this).parent().parent().find(".selected").removeClass("selected");
+		console.log( $(this).parent().parent().find(".selected")[0]);
 		var resource_id = $(this).attr("id");
 		var accnum = $(this).attr("name");
+		$(this).parent().addClass("selected");
 		save_change(resource_id,accnum);
 	    }
 	    $(config.radioSel).change(f);
@@ -153,7 +155,7 @@
 	    console.log("highlight");
 	    var a = $(".thumb-select:checked");
 	    $(a).each(function(k,v) {
-		$(v).parent().css("border","1px solid blue");
+		$(v).parent().addClass("selected");;
 
 	    })
 	    
