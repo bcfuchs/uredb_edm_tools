@@ -30,8 +30,14 @@
 	     // set data;
 	     this_data = data;
 	     console.log("data size :" + this_data.length);
+
 	     // set total
 	     total = data.length;
+
+
+	     // get the local data
+
+	     readLocal();
 	     // get group template
 
 	     var t = $(config.templateSel).clone().attr("id","");
@@ -45,6 +51,7 @@
 		 
 		 var id = data[i]['id'];
 		 var group_id = id;
+		 var selected_thumb;
 		 var title = data[i]['title'];
 		 var link= data[i]['link'];
 		 var raw_items = data[i]['items'];
@@ -61,16 +68,34 @@
 		     if (!(raw_items[j]['link'].match(/null/))) {
 			 items.push(raw_items[j])
 		     }
+
 		 }
+		 // get the selected id if there is one
+		 if (id in choices) {
+		     selected_thumb = choices[id]
+		 }
+		 
 		 // only do ones where there's a choice.
 		 if (items.length > 1) {
 		     for (var j  = 0,q = items.length;j < q; j++)  {
 			 var checked = false;
 			 var inner_id = items[j]['id']
 			 var inner_url = items[j]['link']
-			
-			 if (j === 0)
-			     checked = true;
+			 // if no item has been selected by hand yet, check first one
+			 if ( typeof selected_thumb  === 'undefined') {
+			     if (j === 0)
+				 checked = true;
+			 }
+			 // if an item has been selected, check that
+			 else {
+			     if (inner_id === selected_thumb) {
+
+				 checked = true;
+			     }
+
+			 }
+
+
 			 var inner = get_inner(inner_id,inner_url,checked,this_inner,group_id);
 			 
 			 if ( !(inner_url.match(/null/)) ) {
