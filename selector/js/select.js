@@ -38,6 +38,9 @@
 	     // get the local data
 
 	     readLocal();
+	     // set the save linke
+	     $("#save2file").click(save2file);
+	     
 	     // get group template
 
 	     var t = $(config.templateSel).clone().attr("id","");
@@ -114,7 +117,13 @@
 	     highlight();
 	     isInit  = false;
 	 }
-	
+	function save2file() {
+	    
+	    var c = JSON.stringify(choices);
+	    var blob = new Blob([c], {type: "text/plain;charset=utf-8"});
+	    saveAs(blob, "europeana_choices.txt");
+
+	}
 	function paginate() {
 
 	    for (var i = 0; i < total;) {
