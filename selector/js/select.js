@@ -38,8 +38,7 @@
 	     // get the local data
 
 	     readLocal();
-	     // set the save linke
-	     $("#save2file").click(save2file);
+
 	     
 	     // get group template
 
@@ -54,7 +53,7 @@
 		 
 		 var id = data[i]['id'];
 		 var group_id = id;
-		 var selected_thumb;
+		 var selected_thumb = null;
 		 var title = data[i]['title'];
 		 var link= data[i]['link'];
 		 var raw_items = data[i]['items'];
@@ -85,9 +84,10 @@
 			 var inner_id = items[j]['id']
 			 var inner_url = items[j]['link']
 			 // if no item has been selected by hand yet, check first one
-			 if ( typeof selected_thumb  === 'undefined') {
-			     if (j === 0)
+			 if ( selected_thumb  === null) {
+			     if (j === 0) {
 				 checked = true;
+			     }
 			 }
 			 // if an item has been selected, check that
 			 else {
@@ -112,6 +112,8 @@
 	     set_listener();
 	     if (isInit === true)
 	     {
+		 // set the save linke
+	     $("#save2file").click(save2file);
 		 paginate();
 	     }
 	     highlight();
