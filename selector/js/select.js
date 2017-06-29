@@ -113,7 +113,12 @@
 	     if (isInit === true)
 	     {
 		 // set the save linke
-	     $("#save2file").click(save2file);
+		 $("#save2file").click(save2file);
+		 $("#guide-toggle").click(
+		     function(){
+			 $("#instructions").slideToggle();
+
+		     });
 		 paginate();
 	     }
 	     highlight();

@@ -59,3 +59,23 @@
       -moz-border-radius: 10px 10px 10px 10px;
       -webkit-border-radius: 10px 10px 10px 10px;
       }
+      #instructions {
+
+	  display:none;
+	  padding: 10px;
+	  border: 2px solid white;
+      border-radius: 10px 10px 10px 10px;
+      -moz-border-radius: 10px 10px 10px 10px;
+      -webkit-border-radius: 10px 10px 10px 10px;
+
+      }
+
+      #guide-toggle {
+	  cursor: pointer;
+
+      }
+      #guide-toggle:hover {
+
+	  color: aqua;
+      }
+      
