@@ -3,7 +3,10 @@
     selection builder/controller
 */
     var builder = (function (){
-	var choices = {};;
+	var choices = {};
+	var cursor = 0; // where we are
+	var total = 0;
+	var this_data;
 	var config = {
 	    seljson:  "data/choices.json", // where to get the data.
 	    templateSel : "#form-template",
@@ -11,6 +14,8 @@
 	    radioSel: ".thumb-select",
 	    thumb_titleSel: ".thumb-title",	    
 	    itemSel: ".item",
+	    paginateLink: ".paginate-link",
+	    itemsPerPage: 100, // items to display per page
 	    innerSel: ".innerItem",
 	    localStoreName : "thumb_select",
 	    endpoint : "" // where to post the data. 
@@ -20,7 +25,10 @@
 
 
          function build_grid(data){
-
+	     // set data;
+	     this_data = data;
+	     // set total
+	     total = data.length;
 	     // get group template
 
 	     var t = $(config.templateSel).clone().attr("id","");
@@ -30,7 +38,7 @@
 	     
 	     var this_inner = $(this_item).find(config.innerSel).remove()[0];
 
-	     for (var i =0,z = 10;i < z; i++) {
+	     for (var i = cursor,z = config.itemsPerPage;i < z; i++) {
 		 
 		 var id = data[i]['id'];
 		 var group_id = id;
@@ -43,7 +51,7 @@
 		 $(item).find("a.item-link").attr('href',link)
 		 $(item).find("a.item-link").html(id);
 
-		 //		 console.log(item[0]);
+
 		 var items= [];
 		 for (var j  = 0,q = raw_items.length;j < q; j++)  {
 		     if (!(raw_items[j]['link'].match(/null/))) {
@@ -69,7 +77,28 @@
 		 $(config.frameSel).append(item[0])
 	 }
 	     set_listener();
+	     paginate();
+	     highlight();
 	 }
+	function paginate() {
+
+	    for (var i = 0; i < total;) {
+		i = i + config.itemsPerPage;
+		var thisPage = i+1;
+		var nextPage = thisPage + config.itemsPerPage
+		var link = $('<span class="paginate-link" data-start="'+i+'">'+ thisPage + "-" + nextPage + '</span>');
+
+	    }
+
+	    // set the click
+	    var f = function() {
+		var itemNumber = $(this).data('start');
+		go_to_page(itemNumber);
+	    }
+	     $(config.paginateLink).click(f);
+
+
+	}
 	function readLocal() {
 	    var name = config.localStoreName;
 	    if (localStorage.getItem(name)) {
@@ -85,7 +114,7 @@
 	    console.log(" 2 changed thumb for " + resource_id + " to " + accnum);
 	    var name = config.localStoreName;
 	    readLocal();
-	    console.log(choices);
+
 	    choices[accnum] = resource_id
 	    localStorage.setItem(name, JSON.stringify(choices));
 	}
@@ -120,6 +149,26 @@
 	    return inner
 
 	}
+	function  highlight(){
+	    console.log("highlight");
+	    var a = $(".thumb-select:checked");
+	    $(a).each(function(k,v) {
+		$(v).parent().css("border","1px solid blue");
+
+	    })
+	    
+	}
+	
+	function go_to_page(itemNumber) {
+	    // wipe the data
+	    $(config.frameSel).html("");
+	    // set the cursor
+		cursor = itemNumber
+	    // re-use data. 
+	    build_grid(data)
+
+
+	}
 	function init() {
 
 	    $.getJSON(config.seljson,build_grid);
@@ -128,20 +177,20 @@
 	    init: init,
 	    build_grid:build_grid,
 	    get_inner:get_inner,
+	    highlight:highlight,
 	    set_listener:set_listener,
 	    config:config
 	}
 		
 		   
 	})();
-		   $(document).ready(function(){
-		       
-		       builder.init();
+    $(document).ready(function(){
+	
+	builder.init();
 
-	   
-       
 
-		   });
+	
+    });
 }();
     
 
