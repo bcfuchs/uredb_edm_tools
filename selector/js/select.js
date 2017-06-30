@@ -11,7 +11,7 @@
 	var config = {
 	    syncFromRemoteOnInit: true, // sync server to localstorage on start up
 	    //	    seljson:  "data/choices.json", // where to get the data.
-	    seljson:  "data/sel.json", // where to get the data.
+	    seljson:  "data/choices.json", // where to get the data.
 	    get_endpoint: "/api/selected_thumb", // endpoint to load choices when sync on init is true
 	    endpoint: "/api/selected_thumb",  // endpoint to send json from a choice to
 	    templateSel : "#form-template",
@@ -23,8 +23,7 @@
 	    linkdivSel: "#page-links",
 	    itemsPerPage: 100, // items to display per page
 	    innerSel: ".innerItem",
-	    localStoreName : "thumb_select",
-	    endpoint : "" // where to post the data. 
+	    localStoreName : "thumb_select"
 	    
 	};
 
@@ -275,13 +274,13 @@
 	}
 	function init() {
 	    if (config.syncFromRemoteOnInit === true) {
-		$get.JSON(config.get_endpoint,function(data) {
+		$.getJSON(config.get_endpoint,function(data) {
 		    // load choices first
 		    choices = data;
 		    save2local_bulk(data);
 		    //  build
 		    $.getJSON(config.seljson,build_grid);
-		}
+		})
 	    }
 	    else {
 		$.getJSON(config.seljson,build_grid);
