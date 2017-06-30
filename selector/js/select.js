@@ -10,6 +10,7 @@
 	var this_data;
 	var config = {
 	    seljson:  "data/choices.json", // where to get the data.
+	    endpoint: "/api/selected_thumb",  // endpoint to send json to
 	    templateSel : "#form-template",
 	    frameSel: "#choice-frame",
 	    radioSel: ".thumb-select",
@@ -112,7 +113,7 @@
 	     set_listener();
 	     if (isInit === true)
 	     {
-		 // set the save linke
+		 // set the save link
 		 $("#save2file").click(save2file);
 		 $("#guide-toggle").click(
 		     function(){
@@ -177,6 +178,32 @@
 
 	    choices[accnum] = resource_id
 	    localStorage.setItem(name, JSON.stringify(choices));
+	    // TODO option in config. 
+	    //	    save2remote();
+	    // Only report current change to remote.
+	    save1change2remote(resource_id,accnum);
+	}
+	
+	function save1change2remote(inner_id,item_id) {
+	    $.ajax({
+		contentType : "application/json; charset=utf-8",
+		url : config.endpoint,
+		dataType : "json",
+		type : "POST",
+		data : JSON.stringify({item:item_id,choice:inner_id})
+	    });
+    
+
+	}
+	function save2remote() {
+	    $.ajax({
+		contentType : "application/json; charset=utf-8",
+		url : config.endpoint,
+		dataType : "json",
+		type : "POST",
+		data : JSON.stringify(choices)
+	    });
+
 	}
 	function save_change(resource_id, accnum) {
 
