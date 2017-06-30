@@ -9,8 +9,11 @@
 	var total = 0;
 	var this_data;
 	var config = {
-	    seljson:  "data/choices.json", // where to get the data.
-	    endpoint: "/api/selected_thumb",  // endpoint to send json to
+	    syncFromRemoteOnInit: true, // sync server to localstorage on start up
+	    //	    seljson:  "data/choices.json", // where to get the data.
+	    seljson:  "data/sel.json", // where to get the data.
+	    get_endpoint: "/api/selected_thumb", // endpoint to load choices when sync on init is true
+	    endpoint: "/api/selected_thumb",  // endpoint to send json from a choice to
 	    templateSel : "#form-template",
 	    frameSel: "#choice-frame",
 	    radioSel: ".thumb-select",
@@ -170,6 +173,17 @@
 	    
 
 	}
+
+	function readremote() {
+
+
+	    
+
+	}
+	function save2local_bulk(data) {
+	    var name = config.localStoreName;
+	    localStorage.setItem(name,JSON.stringify(choices));
+	}
 	function save2local(resource_id,accnum) {
 	    console.log("changed thumb for " + accnum + " to " + resource_id);
 	    console.log(" 2 changed thumb for " + resource_id + " to " + accnum);
@@ -260,9 +274,19 @@
 
 	}
 	function init() {
-
-	    $.getJSON(config.seljson,build_grid);
-	}
+	    if (config.syncFromRemoteOnInit === true) {
+		$get.JSON(config.get_endpoint,function(data) {
+		    // load choices first
+		    choices = data;
+		    save2local_bulk(data);
+		    //  build
+		    $.getJSON(config.seljson,build_grid);
+		}
+	    }
+	    else {
+		$.getJSON(config.seljson,build_grid);
+	    }
+	    }
 	return {
 	    init: init,
 	    build_grid:build_grid,
