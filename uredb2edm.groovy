@@ -3,10 +3,12 @@
 import groovy.sql.Sql;
 import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
-
+import groovy.transform.Field
+    
 def type = args[0];
 def contactFilename;
-
+def choices_file = "selector/data/eu_choices_latest.json";
+def choices;
 if (args.size() > 1) {
     contactFilename = args[1];
 }
@@ -16,9 +18,15 @@ else {
 
 def cFile = new File(contactFilename).newOutputStream();
 
+choices = ( new groovy.json.JsonSlurper()).parse(new File(choices_file));
+@Field  no_title = new File("no_title.txt");
+@Field record_uri = "http://beta.uremuseum.org/record/";
+
+
+
 switch(type) {
   case "ure":
-    ure(cFile);
+      ure(cFile,choices);
     break;
   case "test":
     test()
@@ -38,6 +46,10 @@ def get_templates(t) {
 // return true if record matches a filter
 def record_filters(rec) {
 
+    if (rec.short_title =~ /^\s*$/) {
+	no_title << '<a href="'+record_uri + rec.accession_number + '">' + rec.accession_number+ "</a>\n";
+	return true
+	    }
     if (rec.accession_number =~ /REDMG/) 
 	return true
      
@@ -47,7 +59,7 @@ def record_filters(rec) {
 
 }
 
-def ure(cFile) {
+def ure(cFile,choices) {
 
 
     def err = { m->System.err.println(m)}
@@ -175,9 +187,29 @@ def ure(cFile) {
 
 
 	def isShownBy = {
-	    if (images.pix && images.pix[0])
-		return images.pix[0].uri_local + "/sm/" + images.pix[0].uri
-	    return ""	    
+	    // TODO -- now defined by choices.json
+	    if (images.pix && images.pix[0]) {
+
+
+	       def pre_url = images.pix[0].uri_local;
+	       def post_url = images.pix[0].uri;
+	       if (choices[accnum]) {
+
+		   // get the image
+		  images.pix.each {
+		      if ( it.uri == choices[accnum]) {
+			  pre_url = it.uri_local;
+			  post_url = it.uri;
+			  System.err.println "================>"+post_url;
+		      }
+		      
+		   }
+	       }
+	       return images.pix[0].uri_local + "/sm/" + images.pix[0].uri
+	    }
+	    else {
+		return ""
+	    }
 		    }()
 			 
 	def object_url = isShownBy
@@ -320,6 +352,7 @@ class Uredb {
     List  uremeta;
     Map accnum2media;
     List uremeta_media;
+    Map choices;
     Sql  sql;
 
     
