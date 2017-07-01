@@ -22,8 +22,6 @@ choices = ( new groovy.json.JsonSlurper()).parse(new File(choices_file));
 @Field  no_title = new File("no_title.txt");
 @Field record_uri = "http://beta.uremuseum.org/record/";
 
-
-
 switch(type) {
   case "ure":
       ure(cFile,choices);
