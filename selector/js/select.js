@@ -183,18 +183,20 @@
 	    var name = config.localStoreName;
 	    localStorage.setItem(name,JSON.stringify(choices));
 	}
-	function save2local(resource_id,accnum) {
-	    console.log("changed thumb for " + accnum + " to " + resource_id);
-	    console.log(" 2 changed thumb for " + resource_id + " to " + accnum);
+	// 
+	
+	function save2local(selected_id,group_id) {
+	    console.log("changed thumb for " + group_id + " to " + selected_id);
+	    console.log(" 2 changed thumb for " + selected_id + " to " + group_id);
 	    var name = config.localStoreName;
 	    readLocal();
 
-	    choices[accnum] = resource_id
+	    choices[group_id] = selected_id
 	    localStorage.setItem(name, JSON.stringify(choices));
 	    // TODO option in config. 
 	    //	    save2remote();
 	    // Only report current change to remote.
-	    save1change2remote(resource_id,accnum);
+	    save1change2remote(selected_id,group_id);
 	}
 	
 	function save1change2remote(inner_id,item_id) {
@@ -218,9 +220,10 @@
 	    });
 
 	}
-	function save_change(resource_id, accnum) {
+	
+	function save_change(selected_id, group_id) {
 
-	    save2local(resource_id,accnum);
+	    save2local(selected_id,group_id);
 	    // 
 	    var postUrl = "/"
 	    // $.post(postUrl,"hi");
@@ -229,10 +232,10 @@
 	    var f = function() {
 		$(this).parent().parent().find(".selected").removeClass("selected");
 		console.log( $(this).parent().parent().find(".selected")[0]);
-		var resource_id = $(this).attr("id");
-		var accnum = $(this).attr("name");
+		var selected_id = $(this).attr("id");
+		var group_id = $(this).attr("name");
 		$(this).parent().addClass("selected");
-		save_change(resource_id,accnum);
+		save_change(selected_id,group_id);
 	    }
 	    $(config.radioSel).change(f);
 
@@ -262,19 +265,19 @@
 	}
 	
 	function go_to_page(itemNumber) {
-	    // wipe the data
+	    // wipe the html 
 	    $(config.frameSel).html("");
-//	    $(config.linkdivSel).html("");
 	    // set the cursor
 	    cursor = itemNumber;
 	    
-	    // re-use data. 
+	    // re-use data . 
 	    build_grid(this_data)
 
 	}
 	function init() {
 	    if (config.syncFromRemoteOnInit === true) {
 		$.getJSON(config.get_endpoint,function(data) {
+
 		    // load choices first
 		    choices = data;
 		    save2local_bulk(data);
@@ -289,6 +292,18 @@
 	return {
 	    init: init,
 	    build_grid:build_grid,
+	    paginate: paginate,
+	    save2file:save2file,
+	    readLocal: readLocal,
+	    readRemote: readremote,
+	    save2local: save2local,
+	    save2local_bulk: save2local_bulk,
+	    save1change2remote: save1change2remote,
+	    save2remote: save2remote,
+	    save_change: save_change,
+	    set_listener: set_listener,
+	    get_inner: get_inner,
+	    go_to_page: go_to_page,
 	    get_inner:get_inner,
 	    highlight:highlight,
 	    set_listener:set_listener,
