@@ -18,6 +18,8 @@
 	    frameSel: "#choice-frame",
 	    radioSel: ".thumb-select",
 	    thumb_titleSel: ".thumb-title",	    
+	    save2file_sel: "#save2file",
+	    
 	    itemSel: ".item",
 	    paginateLink: ".paginate-link",
 	    linkdivSel: "#page-links",
@@ -116,12 +118,7 @@
 	     if (isInit === true)
 	     {
 		 // set the save link
-		 $("#save2file").click(save2file);
-		 $("#guide-toggle").click(
-		     function(){
-			 $("#instructions").slideToggle();
-
-		     });
+		 $(config.sev2file_sel).click(save2file);
 		 paginate();
 	     }
 	     highlight();
@@ -315,6 +312,12 @@
     $(document).ready(function(){
 	
 	builder.init();
+
+	$("#guide-toggle").click(
+	    function(){
+		$("#instructions").slideToggle();
+		
+	    });
 
 
 	
