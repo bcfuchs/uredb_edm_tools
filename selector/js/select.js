@@ -2,12 +2,12 @@
 /** 
     selection builder/controller
 */
-    var builder = (function (){
+    var chooser = (function (){
 	var choices = {};
 	var isInit = true;
-	var cursor = 0; // where we are
+	var cursor = 0; // where we are in pagination.
 	var total = 0;
-	var this_data;
+	var this_data;  // current data
 	var config = {
 	    syncFromRemoteOnInit: true, // sync server to localstorage on start up
 	    //	    seljson:  "data/choices.json", // where to get the data.
@@ -19,7 +19,7 @@
 	    radioSel: ".thumb-select",
 	    thumb_titleSel: ".thumb-title",	    
 	    save2file_sel: "#save2file",
-	    
+	    selectedClass: "selected",
 	    itemSel: ".item",
 	    paginateLink: ".paginate-link",
 	    linkdivSel: "#page-links",
@@ -251,11 +251,12 @@
 	    return inner
 
 	}
+	// add css selector to parent of  the checked radio button
 	function  highlight(){
-	    console.log("highlight");
-	    var a = $(".thumb-select:checked");
+
+	    var a = $(config.radioSel+":checked");
 	    $(a).each(function(k,v) {
-		$(v).parent().addClass("selected");;
+		$(v).parent().addClass(config.selectedClass);;
 
 	    })
 	    
@@ -288,6 +289,7 @@
 	    }
 	return {
 	    init: init,
+	    build: init,
 	    build_grid:build_grid,
 	    paginate: paginate,
 	    save2file:save2file,
@@ -311,7 +313,7 @@
 	})();
     $(document).ready(function(){
 	
-	builder.init();
+	chooser.build();
 
 	$("#guide-toggle").click(
 	    function(){
