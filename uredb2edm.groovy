@@ -76,6 +76,8 @@ def get_templates(t) {
     return out;
 
 }
+
+
 // return true if record matches a filter
 def record_filters(rec) {
 
