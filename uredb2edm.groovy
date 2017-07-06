@@ -6,8 +6,13 @@ import groovy.json.JsonOutput;
 import groovy.transform.Field;
 
 @Field cf;
+@Field db;
+
+// get config
 def configFile = "config.groovy";
 cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+db = new ConfigSlurper('dev').parse(new File(cf.db.configfile).toURL());
+cf.db = db.db;
 
 
 def type = args[0];
@@ -21,19 +26,25 @@ else {
     contactFilename = cf.data.contacts_file
 }
 
+
 def cFile = new File(contactFilename).newOutputStream();
+
 choices = ( new groovy.json.JsonSlurper()).parse(new File(cf.data.choices_file));
-@Field  no_title = new File(cf.logs.no_titles_file);
-@Field record_uri = cf.urls.record_uri;
-@Field processed = new File(cf.logs.processed_file);
+@Field  no_title;
+@Field record_uri;
+@Field processed;
+
+no_title = new File(cf.log.no_titles_file);
+record_uri = cf.urls.record_uri;
+processed = new File(cf.log.processed_file);
 
 def wipe(files) {
 
     files.each { file->
-    if (file.exists()){
-	RandomAccessFile raf = new RandomAccessFile(processed, "rw");
-	raf.setLength(0);
-    }
+	    if (file.exists()){
+		RandomAccessFile raf = new RandomAccessFile(processed, "rw");
+		raf.setLength(0);
+	    }
     }
     
 }
