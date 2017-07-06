@@ -19,18 +19,18 @@ places {
 
     file = "data/ure_places.json"
 
-}
-
+	}
 data {
     choices_file = "selector/data/eu_choices_latest.json"    		
-    contacts_file = "tmp/contacts.txt"
+    contacts_file = "log/contacts.txt"
 	}
 
 log {
 
     no_titles_file = "log/no_titles.txt"
-	processed_file = "log/processed.txt"
+     processed_file = "log/processed.txt"
 	
 
 }
+
 id2media.file = "data/id2media.json"

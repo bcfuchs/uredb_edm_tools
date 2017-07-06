@@ -5,20 +5,25 @@ import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
 import groovy.transform.Field;
 
-@Field cf;
-@Field db;
+@Field cf; //config
+@Field  no_title; // log file for records without title
+@Field record_uri;  // db uri;
+@Field processed;  // log file for acc nums
 
-// get config
-def configFile = "config.groovy";
-cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
-db = new ConfigSlurper('dev').parse(new File(cf.db.configfile).toURL());
-cf.db = db.db;
-
-
-def type = args[0];
 def contactFilename;
 def choices;
 
+// get config
+
+def configFile = "config.groovy";
+cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+def db = new ConfigSlurper('dev').parse(new File(cf.db.configfile).toURL());
+cf.db = db.db;
+
+// test or for real?
+def type = args[0];
+
+//  thumbnail log
 if (args.size() > 1) {
     contactFilename = args[1];
 }
@@ -26,13 +31,10 @@ else {
     contactFilename = cf.data.contacts_file
 }
 
-
 def cFile = new File(contactFilename).newOutputStream();
 
 choices = ( new groovy.json.JsonSlurper()).parse(new File(cf.data.choices_file));
-@Field  no_title;
-@Field record_uri;
-@Field processed;
+
 
 no_title = new File(cf.log.no_titles_file);
 record_uri = cf.urls.record_uri;
@@ -59,9 +61,9 @@ switch(type) {
       ure(cFile,choices);
     break;
   case "test":
-    test()
-
-	}
+      test();
+      
+}
 
 processed <<'""]';
 
@@ -74,7 +76,6 @@ def get_templates(t) {
     return out;
 
 }
-
 // return true if record matches a filter
 def record_filters(rec) {
 
@@ -97,10 +98,8 @@ def ure(cFile,choices) {
     def err = { m->System.err.println(m)}
 
     def uredb = new Uredb(cf);    
-
     // load templates from config.groovy into edm
     def edm = new Edm(templates:get_templates(cf.templates));
-
     def ure_uri = cf.urls.record_uri;
     def print_count = {
 	    def reccount = 0;
