@@ -90,7 +90,7 @@ def ure(cFile,choices) {
     // load templates from config.groovy into edm
     def edm = new Edm(templates:get_templates(cf.templates));
 
-    def ure_uri = "http://uremuseum.org/record/";
+    def ure_uri = cf.urls.record_uri;
     def print_count = {
 	    def reccount = 0;
 	    def reccount_max = 50
@@ -155,13 +155,12 @@ def ure(cFile,choices) {
 	def resources = {
 	    
 	 
-	    
-
 	    if (rec.material =~ /Terracotta/ ) {
 		System.err.println ">>" + rec.material + " " + rec.artist
 		return edm.resource([resource:resource_urls['ceramics']]);
 
 	    }
+	    
 	    if (rec.material =~ /Coarse/ ) {
 		System.err.println "       >>" + rec.material + " " + rec.artist
 		return edm.resource([resource:resource_urls['ceramics']]);
@@ -174,6 +173,7 @@ def ure(cFile,choices) {
 	def type = "IMAGE"; // ASK AMY!!! -- which metadata determine this??
 		
 	//not always a date or place
+
 	def cho = edm.get_cho([date:date,
 			       about:uri,
 			       description:description,
@@ -330,7 +330,9 @@ class Edm {
     
     def get_cho(binding){
 	// multiple rdf resources...
-        //  no spatial el if no spatial data
+
+	//  no spatial el if no spatial data
+
 	binding['geo_inset'] = {
 	    if (binding.geonames_spatial == null)
 		return "";
