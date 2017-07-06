@@ -3,24 +3,45 @@
 import groovy.sql.Sql;
 import groovy.json.JsonSlurper;
 import groovy.json.JsonOutput;
-import groovy.transform.Field
-    
+import groovy.transform.Field;
+
+@Field cf;
+def configFile = "config.groovy";
+cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+
+
 def type = args[0];
 def contactFilename;
-def choices_file = "selector/data/eu_choices_latest.json";
 def choices;
+
 if (args.size() > 1) {
     contactFilename = args[1];
 }
 else {
-    contactFilename = "tmp/contacts.txt";
+    contactFilename = cf.data.contacts_file
 }
 
 def cFile = new File(contactFilename).newOutputStream();
+choices = ( new groovy.json.JsonSlurper()).parse(new File(cf.data.choices_file));
+@Field  no_title = new File(cf.logs.no_titles_file);
+@Field record_uri = cf.urls.record_uri;
+@Field processed = new File(cf.logs.processed_file);
 
-choices = ( new groovy.json.JsonSlurper()).parse(new File(choices_file));
-@Field  no_title = new File("no_title.txt");
-@Field record_uri = "http://uremuseum.org/record/";
+def wipe(files) {
+
+    files.each { file->
+    if (file.exists()){
+	RandomAccessFile raf = new RandomAccessFile(processed, "rw");
+	raf.setLength(0);
+    }
+    }
+    
+}
+
+
+wipe([no_title,processed]);
+
+processed << "[";
 
 switch(type) {
   case "ure":
@@ -30,6 +51,8 @@ switch(type) {
     test()
 
 	}
+
+processed <<'""]';
 
 def get_templates(t) {
     def out = [:]
@@ -61,8 +84,7 @@ def ure(cFile,choices) {
 
 
     def err = { m->System.err.println(m)}
-    def configFile = "config.groovy";
-    def cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
+
     def uredb = new Uredb(cf);    
 
     // load templates from config.groovy into edm
@@ -111,6 +133,7 @@ def ure(cFile,choices) {
 	// fix the date
 	def date = uredb.date_correct(rec.date);
 	def accnum = rec.accession_number;
+	processed << '"' + accnum + '",\n '
 	def uri = ure_uri + accnum;
 
 	// fix description
