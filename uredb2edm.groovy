@@ -147,7 +147,7 @@ def ure(cFile,choices) {
 	def accnum = rec.accession_number;
 	processed << '"' + accnum + '",\n '
 	def uri = ure_uri + accnum;
-
+	
 	// fix description
 	def description = uredb.string_correct(rec.description);
 
@@ -248,7 +248,7 @@ def ure(cFile,choices) {
 	def object_url = isShownBy
 			 
 			 //TODO  might not have images....
-	out << edm.ore_aggregation([about:object_url,
+			 out << edm.ore_aggregation([about:uri,
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
 				   is_shown_at:object_url,
