@@ -156,7 +156,7 @@ def ure(cFile,choices) {
 	def place = {
 	    def a = uredb.get_place(accnum);
 	    if (a != null) {
-		return [uri:"http://www.geonames.org/" + a.guid,
+		return [uri:"http://pleiades.stoa.org/places/" + a.guid,
 			name:a.surrogate]
 	    }
 	    return null
