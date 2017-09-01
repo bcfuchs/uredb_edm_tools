@@ -218,19 +218,27 @@ def ure(cFile,choices,p2g) {
 			       edm_type:type]);
 
 	out << cho;
+	// place
+
+	if (place != null)
+	   	out << edm.place([uri:place.uri,location:place.name]);
 
 	// get images from db
 	def Images images = uredb.get_pix(rec.id.toString());
 
+	// image rights
 	images.pix.each {
-	    def url = it.uri_local + "/sm/" + it.uri
+
+	    url = it.uri_local + "/xlarge/" + it.uri
 	    out <<  edm.rights([wr_about:url]);
 
 	}
-	
-	// place
-	if (place != null)
-	   	out << edm.place([uri:place.uri,location:place.name]);
+	// thumbnail rights
+	if (images.pix &&  images.pix[0]) {
+		def url = images.pix[0].uri_local + "/sm/" + images.pix[0].uri;
+		out <<  edm.rights([wr_about:url]);	
+	    }
+
 	// views 
 	def has_views = [];
 	images.pix.each {
