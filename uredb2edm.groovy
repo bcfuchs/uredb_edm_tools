@@ -20,6 +20,20 @@ cf = new ConfigSlurper('dev').parse(new File(configFile).toURL());
 def db = new ConfigSlurper('dev').parse(new File(cf.db.configfile).toURL());
 cf.db = db.db;
 
+// pg2geo
+def p2g =  {
+    def out = [:]
+    new File(cf.places.p2g).splitEachLine(",") {fields ->
+	out[fields[0]] = fields[1] 
+
+
+	    }
+    return out;
+}()
+    
+
+
+
 // test or for real?
 def type = args[0];
 
@@ -58,7 +72,7 @@ processed << "[";
 
 switch(type) {
   case "ure":
-      ure(cFile,choices);
+      ure(cFile,choices,p2g);
     break;
   case "test":
       test();
@@ -94,7 +108,7 @@ def record_filters(rec) {
 
 }
 
-def ure(cFile,choices) {
+def ure(cFile,choices,p2g) {
 
 
     def err = { m->System.err.println(m)}
@@ -155,7 +169,16 @@ def ure(cFile,choices) {
 	// get the placename from pelagios data
 	def place = {
 	    def a = uredb.get_place(accnum);
+	    
 	    if (a != null) {
+		def geonames; 
+		if (p2g["http://pleiades.stoa.org/places/" + a.guid]) {
+		    geonames = p2g["http://pleiades.stoa.org/places/" + a.guid]
+			//			System.err.println "geo2 " + geonames;
+		}
+		else {
+		    System.err.println "NONONON NONONONO geo2 " + a.surrogate + "\t" + "http://pleiades.stoa.org/places/" + a.guid
+		}
 		return [uri:"http://pleiades.stoa.org/places/" + a.guid,
 			name:a.surrogate]
 	    }
@@ -168,7 +191,7 @@ def ure(cFile,choices) {
 	    
 	 
 	    if (rec.material =~ /Terracotta/ ) {
-		System.err.println ">>" + rec.material + " " + rec.artist
+		//		System.err.println ">>" + rec.material + " " + rec.artist
 		return edm.resource([resource:resource_urls['ceramics']]);
 
 	    }
@@ -185,7 +208,6 @@ def ure(cFile,choices) {
 	def type = "IMAGE"; // ASK AMY!!! -- which metadata determine this??
 		
 	//not always a date or place
-
 	def cho = edm.get_cho([date:date,
 			       about:uri,
 			       description:description,
@@ -233,7 +255,7 @@ def ure(cFile,choices) {
 		      if ( it.uri == choices[accnum]) {
 			  pre_url = it.uri_local;
 			  post_url = it.uri;
-			  System.err.println "================>"+post_url;
+			  //			  System.err.println "================>"+post_url;
 		      }
 		      
 		   }
@@ -350,8 +372,8 @@ class Edm {
 		return "";
 	    def t = '''<dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
 	    return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
-	}
-	    
+	}()
+
 	return _doTemplate(this.templates.cho,binding);	    
 	
     }

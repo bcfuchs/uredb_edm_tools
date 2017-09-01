@@ -18,7 +18,8 @@ templates {
 places {
 
     file = "data/ure_places.json"
-
+    p2g = "data/pleiades-plus.csv"	
+	
 	}
 data {
     choices_file = "selector/data/eu_choices_latest.json"    		
