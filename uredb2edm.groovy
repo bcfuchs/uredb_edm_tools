@@ -234,7 +234,7 @@ def ure(cFile,choices,p2g) {
 	// views 
 	def has_views = [];
 	images.pix.each {
-	    has_views << edm.has_view([has_view:it.uri_local + "/sm/" + it.uri]);
+	    has_views << edm.has_view([has_view:it.uri_local + "/xlarge/" + it.uri]);
 	}
 	if (!images.pix || !images.pix[0].uri_local)
 	    shouldPrint = false;
