@@ -172,15 +172,18 @@ def ure(cFile,choices,p2g) {
 
 	    if (a != null) {
 		def place_out = []
-		def geonames; 
+
 
 		// make 2 entries if there is a geoname
 		if (p2g["http://pleiades.stoa.org/places/" + a.guid]) {
-		    geonames = p2g["http://pleiades.stoa.org/places/" + a.guid]
+
+		    def geonames = p2g["http://pleiades.stoa.org/places/" + a.guid]
 			place_out << [uri:geonames,name:a.surrogate]
 			
 			}	       
-		
+		else {
+		    System.err.println "NO geo " + accnum;
+		}
 		
 		place_out << [uri:"http://pleiades.stoa.org/places/" + a.guid,
 			name:a.surrogate]
@@ -288,7 +291,7 @@ def ure(cFile,choices,p2g) {
 			 out << edm.ore_aggregation([about:uri,
 				   resource_id:object_url,
 				   has_views:has_views.join(""),
-				   is_shown_at:object_url,
+				   is_shown_at:uri,
 				   is_shown_by:isShownBy]);
 	out << '<!-- end record -->';
 	cFile <<  accnum + "\t" + isShownBy + "\n"; 	    
