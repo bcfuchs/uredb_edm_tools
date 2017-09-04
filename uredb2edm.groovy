@@ -169,20 +169,24 @@ def ure(cFile,choices,p2g) {
 	// get the placename from pelagios data
 	def place = {
 	    def a = uredb.get_place(accnum);
-	    
+
 	    if (a != null) {
+		def place_out = []
 		def geonames; 
+
+		// make 2 entries if there is a geoname
 		if (p2g["http://pleiades.stoa.org/places/" + a.guid]) {
 		    geonames = p2g["http://pleiades.stoa.org/places/" + a.guid]
-			//			System.err.println "geo2 " + geonames;
-		}
-		else {
-		    System.err.println "NONONON NONONONO geo2 " + a.surrogate + "\t" + "http://pleiades.stoa.org/places/" + a.guid
-		}
-		return [uri:"http://pleiades.stoa.org/places/" + a.guid,
+			place_out << [uri:geonames,name:a.surrogate]
+			
+			}	       
+		
+		
+		place_out << [uri:"http://pleiades.stoa.org/places/" + a.guid,
 			name:a.surrogate]
+		    return place_out;
 	    }
-	    return null
+	    return null;
 	}();
 	def resource_urls = [
 	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
@@ -191,7 +195,7 @@ def ure(cFile,choices,p2g) {
 	    
 	 
 	    if (rec.material =~ /Terracotta/ ) {
-		//		System.err.println ">>" + rec.material + " " + rec.artist
+
 		return edm.resource([resource:resource_urls['ceramics']]);
 
 	    }
@@ -212,17 +216,20 @@ def ure(cFile,choices,p2g) {
 			       about:uri,
 			       description:description,
 			       identifier:rec.accession_number,
-			       geonames_spatial:{ if (place != null) { return place.uri} else return null}(),
+			       geonames_spatial: place,
 			       title:uredb.string_correct(rec.short_title),
 			       resources:resources,
 			       edm_type:type]);
 
 	out << cho;
 	// place
-
-	if (place != null)
-	   	out << edm.place([uri:place.uri,location:place.name]);
-
+	
+	
+	if (place != null) {
+	    for (int i = 0; i < place.size; i++) {
+		out << edm.place([uri:place[i].uri,location:place[i].name]);
+	    }
+	}
 	// get images from db
 	def Images images = uredb.get_pix(rec.id.toString());
 
@@ -342,6 +349,7 @@ class Edm {
     def gin = [:]
 	
     def place(data) {
+
 	return _doTemplate(this.templates.place,data);	    
     }
 	
@@ -372,14 +380,25 @@ class Edm {
     
     def get_cho(binding){
 	// multiple rdf resources...
-
+	
 	//  no spatial el if no spatial data
 
+	
 	binding['geo_inset'] = {
+
+	    // return "" if no geo info
 	    if (binding.geonames_spatial == null)
 		return "";
-	    def t = '''<dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
-	    return	_doTemplate(t,[geonames_spatial:binding['geonames_spatial']]);
+
+	    def out = []
+
+	    binding.geonames_spatial.each { d->
+		    def t = '''<dcterms:spatial rdf:resource="${geonames_spatial}"/>'''
+		    out << _doTemplate(t,[geonames_spatial:d.uri]);
+		    }
+
+	    
+	    return out.join("\n")
 	}()
 
 	return _doTemplate(this.templates.cho,binding);	    
