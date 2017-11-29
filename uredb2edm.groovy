@@ -1,4 +1,4 @@
-@Grab('mysql:mysql-connector-java:5.1.6')
+@Grab('mysql:mysql-connector-java:5.1.44')
 @GrabConfig(systemClassLoader=true)
 import groovy.sql.Sql;
 import groovy.json.JsonSlurper;
@@ -12,7 +12,8 @@ import groovy.transform.Field;
 
 def contactFilename;
 def choices;
-
+def errlog = { m-> System.err.println(m) }
+    
 // get config
 
 def configFile = "config.groovy";
@@ -23,6 +24,8 @@ cf.db = db.db;
 // pg2geo
 def p2g =  {
     def out = [:]
+    // load the file
+    
     new File(cf.places.p2g).splitEachLine(",") {fields ->
 	out[fields[0]] = fields[1] 
 
@@ -192,20 +195,22 @@ def ure(cFile,choices,p2g) {
 	    return null;
 	}();
 	def resource_urls = [
-	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
+			     //	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
+			     'ceramic ware (visual works)':"http://vocab.getty.edu/aat/300386879"
 	]
 	def resources = {
 	    
 	 
 	    if (rec.material =~ /Terracotta/ ) {
-
-		return edm.resource([resource:resource_urls['ceramics']]);
+		def name = 'ceramic ware (visual works)';
+		return edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
 	    if (rec.material =~ /Coarse/ ) {
+		def name = 'ceramic ware (visual works)';
 		System.err.println "       >>" + rec.material + " " + rec.artist
-		return edm.resource([resource:resource_urls['ceramics']]);
+		return edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
@@ -371,7 +376,7 @@ class Edm {
     }
 
     def resource(data){
-	def text = '''<dc:type rdf:resource="${resource}"/>''';
+	def text = '''<dc:type rdf:resource="${resource}">${name}</dc:type>''';
 	return _doTemplate(text,data);
     }
     
