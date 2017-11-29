@@ -294,7 +294,7 @@ def ure(cFile,choices,p2g) {
 			 
 			 //TODO  might not have images....
 			 out << edm.ore_aggregation([about:uri,
-				   resource_id:object_url,
+				   resource_id:uri,
 				   has_views:has_views.join(""),
 				   is_shown_at:uri,
 				   is_shown_by:isShownBy]);
