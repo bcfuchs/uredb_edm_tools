@@ -164,7 +164,7 @@ def ure(cFile,choices,p2g) {
 	def accnum = rec.accession_number;
 	processed << '"' + accnum + '",\n '
 	def uri = ure_uri + accnum;
-	
+	def identifier = '#' +accnum;
 	// fix description
 	def description = uredb.string_correct(rec.description);
 
@@ -221,9 +221,10 @@ def ure(cFile,choices,p2g) {
 		
 	//not always a date or place
 	def cho = edm.get_cho([date:date,
-			       about:uri,
+			       about:identifier,
 			       description:description,
-			       identifier:rec.accession_number,
+			       identifier:identifier,
+			       //			       identifier:rec.accession_number,
 			       geonames_spatial: place,
 			       title:uredb.string_correct(rec.short_title),
 			       resources:resources,
@@ -294,7 +295,7 @@ def ure(cFile,choices,p2g) {
 			 
 			 //TODO  might not have images....
 			 out << edm.ore_aggregation([about:uri,
-				   resource_id:uri,
+				   resource_id:identifier,
 				   has_views:has_views.join(""),
 				   is_shown_at:uri,
 				   is_shown_by:isShownBy]);
