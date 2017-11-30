@@ -298,11 +298,17 @@ def ure(cFile,choices,p2g) {
 				   has_views:has_views.join(""),
 				   is_shown_at:uri,
 				   is_shown_by:isShownBy]);
+
 	out << '<!-- end record -->';
 	cFile <<  accnum + "\t" + isShownBy + "\n"; 	    
-	if (shouldPrint)
+	if (shouldPrint) {
+	    println '<record>';
+
 	    println out.join("\n");
-    }
+	 
+	    println '</record>';		
+	}
+	}
 
 	println '</rdf:RDF>'
 	    cFile.close();
