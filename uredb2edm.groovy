@@ -383,7 +383,7 @@ class Edm {
     }
 
     def resource(data){
-	def text = '''<dc:type rdf:resource="${resource}">${name}</dc:type>''';
+	def text = '''<dc:type rdf:resource="${resource}"/>''';
 	return _doTemplate(text,data);
     }
     
