@@ -244,9 +244,13 @@ def ure(cFile,choices,p2g) {
 
 	// image rights
 	images.pix.each {
+	    
+	    if (! (it.uri_local =~ /null/)) {
+		
 
-	    url = it.uri_local + "/xlarge/" + it.uri
-	    out <<  edm.rights([wr_about:url]);
+		url = it.uri_local + "/xlarge/" + it.uri
+	        out <<  edm.rights([wr_about:url]);
+	    }
 
 	}
 	// thumbnail rights
@@ -258,8 +262,10 @@ def ure(cFile,choices,p2g) {
 	// views 
 	def has_views = [];
 	images.pix.each {
-	    has_views << edm.has_view([has_view:it.uri_local + "/xlarge/" + it.uri]);
-	}
+	    if (!(it.uri_local =~ /null/)) {
+		has_views << edm.has_view([has_view:it.uri_local + "/xlarge/" + it.uri]);
+	    }
+	    }
 	if (!images.pix || !images.pix[0].uri_local)
 	    shouldPrint = false;
    
@@ -628,9 +634,19 @@ class Uredb {
 	    
     def get_pix(id) {
 	Images im;
-	
+	def hasPix = false;
 	if (this.accnum2media[id]) {
-	    
+	    def t =  this.accnum2media[id];
+	    if (!(t[0].uri_local =~ /null/)) {
+		hasPix = true;
+	    }
+	    else {
+
+	    }
+	}
+	
+	if (hasPix) {
+
 	    def t =  this.accnum2media[id];
 	    def thumb = t[0].uri_local + "/thumb/"+ t[0].uri;
 	    def small  = t[0].uri_local + "/small/"+ t[0].uri;
