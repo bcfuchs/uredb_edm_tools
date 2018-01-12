@@ -222,6 +222,11 @@ def ure(cFile,choices,p2g) {
 	//not always a date or place
 	def cho = edm.get_cho([date:date,
 			       about:identifier,
+			       // Shape--- dc:type
+			       //Material Terracotta  dcterms:medium
+			       // Condition dc:description
+			       // Provenance  dcterms provenance
+			       // Period dcterms:temporal 
 			       description:description,
 			       identifier:identifier,
 			       //			       identifier:rec.accession_number,
