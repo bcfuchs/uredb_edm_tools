@@ -168,7 +168,9 @@ def ure(cFile,choices,p2g) {
 	// fix description
 	def description = uredb.string_correct(rec.description);
 	def provenance = rec.provenience;
-	
+	def period = rec.period;
+	def shape = rec.shape;
+	def material = rec.material;
 	// get the placename from pelagios data
 	def place = {
 	    def a = uredb.get_place(accnum);
@@ -223,12 +225,21 @@ def ure(cFile,choices,p2g) {
 	def cho = edm.get_cho([date:date,
 			       about:identifier,
 			       // Shape--- dc:type
+
+			       shape:shape,
+			       
 			       //Material Terracotta  dcterms:medium
+			       material:material,
+
 			       // Condition dc:description
+
 			       // Provenance  dcterms provenance
 			       provenance:provenance, 
+
 			       // Period dcterms:temporal
-			       
+
+			       period:period,
+
 			       description:description,
 			       identifier:identifier,
 			       //			       identifier:rec.accession_number,
