@@ -166,6 +166,7 @@ def ure(cFile,choices,p2g) {
 	def uri = ure_uri + accnum;
 	def identifier = '#' +accnum;
 	// fix description
+	System.err.println rec.condition_object
 	def description = uredb.string_correct(rec.description);
 	def provenance = rec.provenience;
 	def period = rec.period;
