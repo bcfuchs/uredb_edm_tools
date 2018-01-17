@@ -1,1 +1,1 @@
-sh run.sh | sed 's/<!-- end record -->//g' |  xmllint --format - | xsltproc re2.xslt - 
+sh run.sh | sed 's/<!-- end record -->//g' |  xmllint --format - | xsltproc remove_empty.xslt - 
