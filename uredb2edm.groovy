@@ -498,9 +498,23 @@ class Uredb {
     // various fixes for description typos
     def String string_correct(String desc) {
 	def out = desc;
-	if (desc != null) 
-	    out = desc.replaceAll("\\\\", "")
 
+	if (desc =~ /Commodus with laurel as sole/) {
+	    
+	    desc = desc.replace("\\n"," ")
+		System.err.println(desc)
+
+	}
+
+	if (desc != null) {
+	    try {
+		desc = desc.replace("\\n"," ")
+		    }
+	    catch(e){
+		err(e);
+	    }
+	out = desc.replaceAll("\\\\", "")
+	    }
 	return	out;
 
 
