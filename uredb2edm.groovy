@@ -207,11 +207,18 @@ def ure(cFile,choices,p2g) {
 			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358",
 			     'Herakles Painter':"http://vocab.getty.edu/ulan/500062463",
 			     'F. B. Group':"http://vocab.getty.edu/ulan/500063985",
-			     'Sam Wide Group':"http://vocab.getty.edu/ulan/500047046"
+			     'Sam Wide Group':"http://vocab.getty.edu/ulan/500047046",
+			     'Dolphin Group':"http://vocab.getty.edu/ulan/500046690"
 	]
 	def resources = {
 	    
 	    def outres = []
+
+	    if (rec.artist =~ /(?i)Dolphin Group/) {
+		def name = 'Dolphin Group';
+		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
 	    if (rec.artist =~ /(?i)Sam Wide Group/) {
 		def name = 'Sam Wide Group';
 		outres << edm.resource([resource:resource_urls[name],name:name]);
