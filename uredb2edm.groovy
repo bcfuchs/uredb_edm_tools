@@ -199,7 +199,10 @@ def ure(cFile,choices,p2g) {
 	}();
 	def resource_urls = [
 			     //	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
-			     'ceramic ware (visual works)':"http://vocab.getty.edu/aat/300386879"
+			     'ceramic ware (visual works)':"http://vocab.getty.edu/aat/300386879",
+			     'coins':"http://vocab.getty.edu/aat/300037222",
+			     'statues':"http://vocab.getty.edu/aat/300047600",
+			     'aryballoi':"http://vocab.getty.edu/aat/300198885"
 	]
 	def resources = {
 	    
@@ -215,6 +218,23 @@ def ure(cFile,choices,p2g) {
 		System.err.println "       >>" + rec.material + " " + rec.artist
 		return edm.resource([resource:resource_urls[name],name:name]);
 
+	    }
+	    if (rec.shape =~ /(?)coin/) {
+
+		 def name = 'coins'
+		 return edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.shape =~ /(?i)aryballos/) {
+			
+		 def name = 'aryballoi'
+		 return edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    
+	    if (rec.shape == "Statue") {
+		def name = 'statues'
+		return edm.resource([resource:resource_urls[name],name:name]);
 	    }
 	    
 	    return ""
