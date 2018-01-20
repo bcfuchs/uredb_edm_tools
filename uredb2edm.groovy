@@ -206,38 +206,38 @@ def ure(cFile,choices,p2g) {
 	]
 	def resources = {
 	    
-	 
+	    var out = "";
 	    if (rec.material =~ /Terracotta/ ) {
 		def name = 'ceramic ware (visual works)';
-		return edm.resource([resource:resource_urls[name],name:name]);
+		out << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
 	    if (rec.material =~ /Coarse/ ) {
 		def name = 'ceramic ware (visual works)';
-		System.err.println "       >>" + rec.material + " " + rec.artist
-		return edm.resource([resource:resource_urls[name],name:name]);
+
+		out << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    if (rec.shape =~ /(?)coin/) {
 
 		 def name = 'coins'
-		 return edm.resource([resource:resource_urls[name],name:name]);
+		 out <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    if (rec.shape =~ /(?i)aryballos/) {
 			
 		 def name = 'aryballoi'
-		 return edm.resource([resource:resource_urls[name],name:name]);
+		 out << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
 	    if (rec.shape == "Statue") {
 		def name = 'statues'
-		return edm.resource([resource:resource_urls[name],name:name]);
+		out <<  edm.resource([resource:resource_urls[name],name:name]);
 	    }
 	    
-	    return ""
+	    return out.join("\n")
 	}();
 	
 	def type = "IMAGE"; // ASK AMY!!! -- which metadata determine this??
