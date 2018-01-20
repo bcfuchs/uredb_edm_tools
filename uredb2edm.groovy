@@ -229,11 +229,11 @@ def ure(cFile,choices,p2g) {
 		    outres << edm.resource([resource:resource_urls[name],name:name]);
 		}
 		else if (rec.period =~ /(?i)Early Hellenistic/) {
-		    def name = 'Late Hellenistic'
+		    def name = 'Early Hellenistic'
 		    outres << edm.resource([resource:resource_urls[name],name:name]);
 		}
 		else if (rec.period =~ /(?i)High Hellenistic/) {
-		    def name = 'Late Hellenistic'
+		    def name = 'High  Hellenistic'
 		    outres << edm.resource([resource:resource_urls[name],name:name]);
 		}
 		else {
