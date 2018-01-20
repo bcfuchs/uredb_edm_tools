@@ -211,12 +211,38 @@ def ure(cFile,choices,p2g) {
 			     'Dolphin Group':"http://vocab.getty.edu/ulan/500046690",
 			     'Third Intermediate period (Egyptian)':"http://vocab.getty.edu/aat/300020399",
 			     'Late Archaic':"http://vocab.getty.edu/aat/300106995",
-			     'Late Classical':"http://vocab.getty.edu/aat/300020100"
+			     'Late Classical':"http://vocab.getty.edu/aat/300020100",
+			     'Hellenistic':"http://vocab.getty.edu/aat/300020101",
+			     'Early Hellenistic':"http://vocab.getty.edu/aat/300263445",
+			     'High Hellenistic':"http://vocab.getty.edu/aat/300263446",
+			     'Late Hellenistic':"http://vocab.getty.edu/aat/300106998"
 			     ]
 	def resources = {
 	    
 	    def outres = []
 	    /* Periods */
+	   
+ 	    if (rec.period =~ /(?i)Hellenistic/) {
+		if (rec.period =~ /(?i)Late Hellenistic/) {
+
+		    def name = 'Late Hellenistic'
+		    outres << edm.resource([resource:resource_urls[name],name:name]);
+		}
+		else if (rec.period =~ /(?i)Early Hellenistic/) {
+		    def name = 'Late Hellenistic'
+		    outres << edm.resource([resource:resource_urls[name],name:name]);
+		}
+		else if (rec.period =~ /(?i)High Hellenistic/) {
+		    def name = 'Late Hellenistic'
+		    outres << edm.resource([resource:resource_urls[name],name:name]);
+		}
+		else {
+		    def name = 'Hellenistic'
+		    outres << edm.resource([resource:resource_urls[name],name:name]);
+
+		}
+
+	    }
 	    if (rec.period =~ /(?i)Late Classical/) {
 		def name = 'Late Classical'
 		outres << edm.resource([resource:resource_urls[name],name:name]);
