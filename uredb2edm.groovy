@@ -204,7 +204,8 @@ def ure(cFile,choices,p2g) {
 			     'statues':"http://vocab.getty.edu/aat/300047600",
 			     'aryballoi':"http://vocab.getty.edu/aat/300198885",
 			     'Theseus Painter':"http://vocab.getty.edu/ulan/500031574",
-			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358"
+			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358",
+			     'Herakles Painter':"http://vocab.getty.edu/ulan/500062463"
 	]
 	def resources = {
 	    
