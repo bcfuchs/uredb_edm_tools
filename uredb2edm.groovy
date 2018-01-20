@@ -207,6 +207,11 @@ def ure(cFile,choices,p2g) {
 			     'skyphoi':"http://vocab.getty.edu/aat/300265001",
 			     'oinochoai':"http://vocab.getty.edu/aat/300198866",
 			     'lekythoi':"http://vocab.getty.edu/aat/300264937",
+			     'kylikes':"http://vocab.getty.edu/aat/300198842",
+			     'amphorae':"http://vocab.getty.edu/aat/300148696",
+			     'kraters':"http://vocab.getty.edu/aat/300198855",
+			     'pyxides':"http://vocab.getty.edu/aat/300198889",
+			     'lekanai':"http://vocab.getty.edu/aat/300198862",
 			     /* artists */
 			     'Theseus Painter':"http://vocab.getty.edu/ulan/500031574",
 			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358",
@@ -312,25 +317,61 @@ def ure(cFile,choices,p2g) {
 	    }
 	    /* shapes  */
 
-	    if (rec.shape =~ /(?)lekytho/) {
+
+	    if (rec.shape =~ /(?i)lekanis/) {
+
+		 def name = 'lekanai'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+
+	    if (rec.shape =~ /(?i)pyxis/) {
+
+		 def name = 'pyxides'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+
+
+	    if (rec.shape =~ /(?i)krater/) {
+
+		 def name = 'kraters'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+
+	    if (rec.shape =~ /(?i)amphora/) {
+
+		 def name = 'amphorae'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+
+	    if (rec.shape =~ /(?i)kylix/) {
+
+		 def name = 'kylikes'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.shape =~ /(?i)lekytho/) {
 
 		 def name = 'lekythoi'
 		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
-	    if (rec.shape =~ /(?)oinocho/) {
+	    if (rec.shape =~ /(?i)oinocho/) {
 
 		 def name = 'oinochoai'
 		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
-	    if (rec.shape =~ /(?)skyphos/) {
+	    if (rec.shape =~ /(?i)skyphos/) {
 
 		 def name = 'skyphoi'
 		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
-	    if (rec.shape =~ /(?)coin/) {
+	    if (rec.shape =~ /(?i)coin/) {
 
 		 def name = 'coins'
 		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
