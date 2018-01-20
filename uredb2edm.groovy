@@ -208,12 +208,32 @@ def ure(cFile,choices,p2g) {
 			     'Herakles Painter':"http://vocab.getty.edu/ulan/500062463",
 			     'F. B. Group':"http://vocab.getty.edu/ulan/500063985",
 			     'Sam Wide Group':"http://vocab.getty.edu/ulan/500047046",
-			     'Dolphin Group':"http://vocab.getty.edu/ulan/500046690"
-	]
+			     'Dolphin Group':"http://vocab.getty.edu/ulan/500046690",
+			     'Third Intermediate period (Egyptian)':"http://vocab.getty.edu/aat/300020399",
+			     'Late Archaic':"http://vocab.getty.edu/aat/300106995",
+			     'Late Classical':"http://vocab.getty.edu/aat/300020100"
+			     ]
 	def resources = {
 	    
 	    def outres = []
+	    /* Periods */
+	    if (rec.period =~ /(?i)Late Classical/) {
+		def name = 'Late Classical'
+		outres << edm.resource([resource:resource_urls[name],name:name]);
 
+	    }
+	    if (rec.period =~ /(?i)Late Archaic/) {
+		def name = 'Late Archaic'
+		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.period =~ /(?i)3rd Intermediate Period/) {
+		def name = 'Third Intermediate period (Egyptian)';
+		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    
+	    /* Artists */
 	    if (rec.artist =~ /(?i)Dolphin Group/) {
 		def name = 'Dolphin Group';
 		outres << edm.resource([resource:resource_urls[name],name:name]);
