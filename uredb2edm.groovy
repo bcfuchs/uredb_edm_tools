@@ -200,15 +200,21 @@ def ure(cFile,choices,p2g) {
 	def resource_urls = [
 			     //	    'ceramics':"http://www.eionet.europa.eu/gemet/concept/1266"
 			     'ceramic ware (visual works)':"http://vocab.getty.edu/aat/300386879",
+			     /* shapes */
 			     'coins':"http://vocab.getty.edu/aat/300037222",
 			     'statues':"http://vocab.getty.edu/aat/300047600",
 			     'aryballoi':"http://vocab.getty.edu/aat/300198885",
+			     'skyphoi':"http://vocab.getty.edu/aat/300265001",
+			     'oinochoai':"http://vocab.getty.edu/aat/300198866",
+			     'lekythoi':"http://vocab.getty.edu/aat/300264937",
+			     /* artists */
 			     'Theseus Painter':"http://vocab.getty.edu/ulan/500031574",
 			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358",
 			     'Herakles Painter':"http://vocab.getty.edu/ulan/500062463",
 			     'F. B. Group':"http://vocab.getty.edu/ulan/500063985",
 			     'Sam Wide Group':"http://vocab.getty.edu/ulan/500047046",
 			     'Dolphin Group':"http://vocab.getty.edu/ulan/500046690",
+			     /* periods */
 			     'Third Intermediate period (Egyptian)':"http://vocab.getty.edu/aat/300020399",
 			     'Late Archaic':"http://vocab.getty.edu/aat/300106995",
 			     'Late Classical':"http://vocab.getty.edu/aat/300020100",
@@ -243,6 +249,8 @@ def ure(cFile,choices,p2g) {
 		}
 
 	    }
+	    
+	    
 	    if (rec.period =~ /(?i)Late Classical/) {
 		def name = 'Late Classical'
 		outres << edm.resource([resource:resource_urls[name],name:name]);
@@ -300,6 +308,26 @@ def ure(cFile,choices,p2g) {
 		def name = 'ceramic ware (visual works)';
 
 		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    /* shapes  */
+
+	    if (rec.shape =~ /(?)lekytho/) {
+
+		 def name = 'lekythoi'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.shape =~ /(?)oinocho/) {
+
+		 def name = 'oinochoai'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.shape =~ /(?)skyphos/) {
+
+		 def name = 'skyphoi'
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    if (rec.shape =~ /(?)coin/) {
