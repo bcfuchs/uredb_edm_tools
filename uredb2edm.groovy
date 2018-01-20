@@ -202,42 +202,54 @@ def ure(cFile,choices,p2g) {
 			     'ceramic ware (visual works)':"http://vocab.getty.edu/aat/300386879",
 			     'coins':"http://vocab.getty.edu/aat/300037222",
 			     'statues':"http://vocab.getty.edu/aat/300047600",
-			     'aryballoi':"http://vocab.getty.edu/aat/300198885"
+			     'aryballoi':"http://vocab.getty.edu/aat/300198885",
+			     'Theseus Painter':"http://vocab.getty.edu/ulan/500031574",
+			     'Haimon Painter':"http://vocab.getty.edu/ulan/500100358"
 	]
 	def resources = {
 	    
-	    var out = "";
+	    def outres = []
+	    if (rec.artist =~ /(?i)Theseus Painter/) {
+		def name = 'Theseus Painter';
+		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
+	    if (rec.artist =~ /(?i)Haimon Painter/) {
+		def name = 'Haimon Painter';
+		outres << edm.resource([resource:resource_urls[name],name:name]);
+
+	    }
 	    if (rec.material =~ /Terracotta/ ) {
 		def name = 'ceramic ware (visual works)';
-		out << edm.resource([resource:resource_urls[name],name:name]);
+		outres << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
 	    if (rec.material =~ /Coarse/ ) {
 		def name = 'ceramic ware (visual works)';
 
-		out << edm.resource([resource:resource_urls[name],name:name]);
+		outres << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    if (rec.shape =~ /(?)coin/) {
 
 		 def name = 'coins'
-		 out <<  edm.resource([resource:resource_urls[name],name:name]);
+		 outres <<  edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    if (rec.shape =~ /(?i)aryballos/) {
 			
 		 def name = 'aryballoi'
-		 out << edm.resource([resource:resource_urls[name],name:name]);
+		 outres << edm.resource([resource:resource_urls[name],name:name]);
 
 	    }
 	    
 	    if (rec.shape == "Statue") {
 		def name = 'statues'
-		out <<  edm.resource([resource:resource_urls[name],name:name]);
+		outres <<  edm.resource([resource:resource_urls[name],name:name]);
 	    }
 	    
-	    return out.join("\n")
+	    return outres.join("\n")
 	}();
 	
 	def type = "IMAGE"; // ASK AMY!!! -- which metadata determine this??
